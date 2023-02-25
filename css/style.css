@@ -1,0 +1,131 @@
+#page_header {
+  min-height: 10vh;
+  width: 100%;
+  place-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#page_header > .div_1 {
+  grid-template-columns: 1fr 4fr;
+  display: grid;
+}
+#page_header > .div_1 > .Logo {
+  width: 60px;
+  justify-self: start;
+  align-self: center;
+}
+#page_header > .div_1 > .Menu {
+  width: 40px;
+  justify-self: end;
+  align-self: center;
+}
+
+#page_header_bread {
+  margin-bottom: 30px;
+  width: 100%;
+  place-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#page_header_bread .container_div {
+  background-image: url(/images/2.webp);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 40vh;
+  width: 100vw;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#page_header_bread .container_div > .text {
+  font-size: 2em;
+  align-self: center;
+  justify-self: center;
+  text-align: start;
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 15vh;
+  width: 85%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+#page_main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#page_main > .hero_section {
+  display: grid;
+}
+#page_main > .hero_section > .article_1 {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 45px 100px 40px 40px 40px 50px;
+}
+#page_main > .hero_section > .article_1 > a {
+  color: crimson;
+}
+#page_main > .hero_section > .article_1 > #atag {
+  background-color: crimson;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  color: white;
+}
+#page_main > .hero_section > .article_2 {
+  display: grid;
+  grid-template-rows: 40px 40px 120px;
+}
+#page_main > .hero_section > .article_2 > p {
+  margin-left: 30px;
+  justify-self: start;
+  align-self: center;
+}
+#page_main > .hero_section > .article_2 > a {
+  color: white;
+  justify-self: start;
+  align-self: center;
+  background: crimson;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 25px;
+}
+#page_main > .hero_section > .article_2 > h4 {
+  margin-left: 30px;
+  justify-self: start;
+  align-self: center;
+}
+#page_main > .hero_section > .article_3 {
+  grid-template-rows: 200px 35px 35px 250px 35px 35px 75px;
+  display: grid;
+  place-items: center;
+}
+#page_main > .hero_section > .article_3 > img {
+  width: 85vw;
+}
+#page_main > .hero_section > .article_3 > p {
+  text-align: start;
+  justify-self: start;
+  margin-left: 25px;
+}
+#page_main > .hero_section > .article_4 {
+  display: grid;
+  place-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
