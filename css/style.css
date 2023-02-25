@@ -111,7 +111,7 @@ body {
   align-self: center;
 }
 #page_main > .hero_section > .article_3 {
-  grid-template-rows: 200px 35px 35px 250px 35px 35px 75px;
+  grid-template-rows: 200px 35px 35px 250px 35px 35px 45px;
   display: grid;
   place-items: center;
 }
@@ -124,8 +124,32 @@ body {
   margin-left: 25px;
 }
 #page_main > .hero_section > .article_4 {
+  grid-template-rows: 35px 35px 35px 35px 35px 35px 45px;
   display: grid;
   place-items: center;
+}
+#page_main > .hero_section > .article_5 {
+  display: grid;
+  grid-template-rows: 250px 45px 25px 45px;
+}
+#page_main > .hero_section > .article_5 > p {
+  margin-left: 30px;
+  width: 75%;
+  text-align: start;
+}
+#page_main > .hero_section > .article_5 .insta {
+  margin-left: 50px;
+  justify-self: start;
+  align-self: center;
+  width: 20px;
+}
+#page_main > .hero_section > .article_5 > img {
+  align-self: center;
+  justify-self: center;
+  width: 92vw;
+}
+#page_main > .hero_section_two {
+  display: grid;
 }
 
 /*# sourceMappingURL=style.css.map */
