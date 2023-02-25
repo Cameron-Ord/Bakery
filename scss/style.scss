@@ -84,7 +84,7 @@ grid-template-rows: 200px 35px 35px 250px 35px 35px 45px;
     display: grid;
     place-items: center;
     >img{
-width: 85vw;
+width: 280px;
     }
 >p{
 text-align: start;
@@ -104,7 +104,7 @@ place-items: center;
 >.article_5{
     display: grid;
 
-grid-template-rows: 250px 45px 25px 45px;
+grid-template-rows: 250px 45px 25px 65px;
 
 >p{
 margin-left: 30px;
@@ -123,22 +123,57 @@ width: 20px;
 >img{
     align-self: center;
 justify-self: center;
-width: 92vw;
+width: 300px;
 
 }
 }
 }
 >.hero_section_two{
-
+place-items: center;
     display: grid;
+    width: 100%;
 >.two_article_1{
+grid-template-rows: 225px 100px 50px 200px;
+display: grid;
+>img{
 
+justify-self: center;
+width: 310px;
 
+}
+h2{
+align-self: flex-start;
+    width: 76%;
+text-align: center;
+justify-self: center;
+}
+}
+}
+
+>.hero_section_three{
+display: grid;
+
+>.three_article_1{
+display: grid;
+grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px 85px 45px;
+
+>p, h4, a{
+
+justify-self: start;
+align-self: center;
+margin-left: 30px;
 
 }
 
+.insta{
+ 
+    justify-self: start;
+align-self: center;
+width: 20px;
+
+}
 }
 
-
+}
 }
 
