@@ -1,65 +1,65 @@
-#page_header{
+#page_header {
     min-height: 14vh;
-background-color: black;
+    background-color: #8661C1;
     width: 100%;
-place-items: center;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
->.div_1{
-grid-template-columns: 1fr 3fr;
+    place-items: center;
     display: grid;
->.Logo{
-width: 60px;
-justify-self: start;
-align-self: center;
-padding: 10px;
-background-color: orange;
-border-radius: 50%;
-}
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
->.Menu{
-width: 40px;
-justify-self: end;
-align-self: center;
+    >.div_1 {
+        grid-template-columns: 1fr 3fr;
+        display: grid;
+width: 80%;
+        >.Logo {
+            width: 40px;
+            justify-self: start;
+            align-self: center;
+            padding: 10px;
+            background-color: #2E294E;
+            border-radius: 50%;
+        }
 
-}
-}
-}
+        >.Menu {
+            width: 40px;
+            justify-self: end;
+            align-self: center;
 
-#page_header_bread{
-
-margin-bottom: 30px;
-    width: 100%;
-place-items: center;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-
-.container_div{
-display: grid;
-
-
-    >img{
-      background-color: orange;
-        padding-bottom: 30px;
-padding-top: 30px;
-
-width: 100%;
-justify-self: center;
+        }
     }
-
->.text{
-    z-index: 100;
-    position: absolute;
-    color: orange;
-    font-size: 24px;
-    font-weight: bold;
-    left: 50px;
-    top: 325px;
-    text-align: start;
-    justify-self: start;
 }
 
-}
-}
+#page_header_bread {
 
+    margin-bottom: 30px;
+   
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
+    .container_div {
+        display: grid;
+        position: relative;
+
+        >img {
+            background-color: #2E294E;
+            padding-bottom: 30px;
+            padding-top: 30px;
+
+            width: 100%;
+            justify-self: center;
+        }
+
+        >.text {
+            z-index: 100;
+            position: absolute;
+            color: #EFBCD5;
+            font-size: 24px;
+            font-weight: bold;
+            left: 50px;
+            bottom: 50px;
+            text-align: start;
+            justify-self: start;
+        }
+
+    }
+}
