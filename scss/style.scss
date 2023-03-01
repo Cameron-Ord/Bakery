@@ -41,10 +41,11 @@ body {
           
 
             >span{ 
-                padding-top: 50px;
+          
+                padding-top: 25px;
                 width: 90%;
               background-color: #2E294E;
-                grid-template-rows: 150px 255px 55px 100px 125px;
+                grid-template-rows: 250px 210px 65px 65px 125px;
                 place-items: center;
                 text-align: center;
                 display: grid;
@@ -60,12 +61,12 @@ body {
                 >a {
                     width: 90%;
                     color: #EFBCD5;
-                    font-size: 1.3em;
+                    font-size: 1.24em;
                 }
     
                 >p {
     
-                    font-size: 1.5em;
+                    font-size: 1.25em;
                     width: 75%;
                     text-align: center;
                     justify-self: center;
@@ -74,7 +75,7 @@ body {
     
                 >h4 {
     
-                    font-size: 1.5em;
+                    font-size: 1.25em;
                 }
     
                 >#atag {
@@ -87,7 +88,7 @@ body {
                     justify-self: center;
                     align-self: center;
                     color: #EFBCD5;
-                    font-size: 1.6em;
+                    font-size: 1.3em;
     width: 60%;
     
     
@@ -320,39 +321,5 @@ color: #BE97C6;
         }
     }
 
-    >.hero_section_three {
-        display: grid;
 
-        >.three_article_1 {
-            display: grid;
-            grid-template-rows: 80px 45px 45px 45px 45px 45px 45px 45px 85px 45px;
-
-            >p,
-            h4,
-            a {
-
-                justify-self: start;
-                align-self: center;
-                margin-left: 30px;
-
-            }
-
-            #red_text {
-
-                color: red;
-
-            }
-
-            .insta {
-                padding: 10px;
-                background-color: #7D80DA;
-                border-radius: 45%;
-                justify-self: start;
-                align-self: center;
-                width: 20px;
-
-            }
-        }
-
-    }
 }

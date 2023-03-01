@@ -128,10 +128,10 @@ body {
   display: grid;
 }
 #page_main > .hero_section > .article_1 > span {
-  padding-top: 50px;
+  padding-top: 25px;
   width: 90%;
   background-color: #2E294E;
-  grid-template-rows: 150px 255px 55px 100px 125px;
+  grid-template-rows: 250px 210px 65px 65px 125px;
   place-items: center;
   text-align: center;
   display: grid;
@@ -146,16 +146,16 @@ body {
 #page_main > .hero_section > .article_1 > span > a {
   width: 90%;
   color: #EFBCD5;
-  font-size: 1.3em;
+  font-size: 1.24em;
 }
 #page_main > .hero_section > .article_1 > span > p {
-  font-size: 1.5em;
+  font-size: 1.25em;
   width: 75%;
   text-align: center;
   justify-self: center;
 }
 #page_main > .hero_section > .article_1 > span > h4 {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 #page_main > .hero_section > .article_1 > span > #atag {
   background-color: #8661C1;
@@ -167,7 +167,7 @@ body {
   justify-self: center;
   align-self: center;
   color: #EFBCD5;
-  font-size: 1.6em;
+  font-size: 1.3em;
   width: 60%;
 }
 #page_main > .hero_section > .article_2 {
@@ -333,31 +333,6 @@ body {
   justify-self: start;
   margin-bottom: 20px;
   font-size: 2.5em;
-}
-#page_main > .hero_section_three {
-  display: grid;
-}
-#page_main > .hero_section_three > .three_article_1 {
-  display: grid;
-  grid-template-rows: 80px 45px 45px 45px 45px 45px 45px 45px 85px 45px;
-}
-#page_main > .hero_section_three > .three_article_1 > p,
-#page_main > .hero_section_three > .three_article_1 h4,
-#page_main > .hero_section_three > .three_article_1 a {
-  justify-self: start;
-  align-self: center;
-  margin-left: 30px;
-}
-#page_main > .hero_section_three > .three_article_1 #red_text {
-  color: red;
-}
-#page_main > .hero_section_three > .three_article_1 .insta {
-  padding: 10px;
-  background-color: #7D80DA;
-  border-radius: 45%;
-  justify-self: start;
-  align-self: center;
-  width: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
