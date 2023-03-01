@@ -57,16 +57,20 @@
 #footer {
   margin-top: 25px;
   margin-bottom: 25px;
-  min-height: 30vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  place-items: center;
 }
 #footer > span {
+  border-radius: 25px;
+  min-height: 40vh;
+  width: 90%;
   grid-template-columns: 2fr 1fr;
   display: grid;
   background-color: #2E294E;
 }
 #footer > span > div {
+  place-items: center;
   display: grid;
 }
 #footer > span > div > p,
@@ -78,6 +82,7 @@
   margin-left: 30px;
 }
 #footer > span > nav {
+  place-items: center;
   display: grid;
 }
 #footer > span > nav > p,
