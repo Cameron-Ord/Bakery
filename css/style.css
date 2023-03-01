@@ -1,18 +1,22 @@
 #page_header {
-  min-height: 10vh;
+  min-height: 14vh;
+  background-color: black;
   width: 100%;
   place-items: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 #page_header > .div_1 {
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 3fr;
   display: grid;
 }
 #page_header > .div_1 > .Logo {
   width: 60px;
   justify-self: start;
   align-self: center;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 50%;
 }
 #page_header > .div_1 > .Menu {
   width: 40px;
@@ -28,35 +32,51 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 #page_header_bread .container_div {
-  background-image: url(/images/2.webp);
-  background-size: cover;
-  background-position: 50% 50%;
-  height: 40vh;
-  width: 100vw;
-  position: relative;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+}
+#page_header_bread .container_div > img {
+  background-color: orange;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 100%;
+  justify-self: center;
 }
 #page_header_bread .container_div > .text {
-  font-size: 2em;
-  align-self: center;
-  justify-self: center;
-  text-align: start;
   z-index: 100;
   position: absolute;
   color: white;
+  font-size: 24px;
   font-weight: bold;
-  top: 15vh;
-  width: 85%;
+  left: 50px;
+  top: 275px;
+  text-align: start;
+  justify-self: start;
 }
 
+@media only screen and (max-width: 320px) {
+  #page_header_bread .container_div > .text {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    left: 50px;
+    top: 190px;
+    text-align: start;
+    justify-self: start;
+  }
+}
 * {
   margin: 0;
   padding: 0;
 }
 
+p, h1, h3, h2, h4 {
+  color: orange;
+}
+
 body {
-  background-color: whitesmoke;
+  background-color: black;
 }
 
 #page_main {
@@ -69,10 +89,27 @@ body {
 #page_main > .hero_section > .article_1 {
   text-align: center;
   display: grid;
-  grid-template-rows: 45px 100px 40px 40px 40px 50px;
+  grid-template-rows: 200px 170px 60px 60px 110px 40px;
+}
+#page_main > .hero_section > .article_1 > h1 {
+  justify-self: center;
+  text-align: center;
+  font-size: 3em;
+  width: 70%;
+  color: orange;
 }
 #page_main > .hero_section > .article_1 > a {
-  color: crimson;
+  color: red;
+  font-size: 1.3em;
+}
+#page_main > .hero_section > .article_1 > p {
+  font-size: 1.5em;
+  width: 75%;
+  text-align: center;
+  justify-self: center;
+}
+#page_main > .hero_section > .article_1 > h4 {
+  font-size: 1.5em;
 }
 #page_main > .hero_section > .article_1 > #atag {
   background-color: crimson;
@@ -84,6 +121,7 @@ body {
   justify-self: center;
   align-self: center;
   color: white;
+  font-size: 1.6em;
 }
 #page_main > .hero_section > .article_2 {
   display: grid;
@@ -111,12 +149,16 @@ body {
   align-self: center;
 }
 #page_main > .hero_section > .article_3 {
-  grid-template-rows: 200px 35px 35px 250px 35px 35px 45px;
+  grid-template-rows: 200px 45px 45px 250px 45px 45px 45px;
   display: grid;
   place-items: center;
 }
 #page_main > .hero_section > .article_3 > img {
-  width: 280px;
+  width: 90%;
+}
+#page_main > .hero_section > .article_3 > #red_text {
+  color: red;
+  font-size: 1.5em;
 }
 #page_main > .hero_section > .article_3 > p {
   text-align: start;
@@ -124,18 +166,26 @@ body {
   margin-left: 25px;
 }
 #page_main > .hero_section > .article_4 {
-  grid-template-rows: 35px 35px 35px 35px 35px 35px 45px;
+  grid-template-rows: 65px 35px 35px 35px 35px 35px 45px;
   display: grid;
   place-items: center;
 }
+#page_main > .hero_section > .article_4 > #head {
+  font-size: 2.3em;
+}
+#page_main > .hero_section > .article_4 > p {
+  color: red;
+}
 #page_main > .hero_section > .article_5 {
   display: grid;
-  grid-template-rows: 250px 45px 25px 65px;
+  grid-template-rows: 325px 45px 45px 45px;
 }
 #page_main > .hero_section > .article_5 > p {
   margin-left: 30px;
   width: 75%;
   text-align: start;
+  color: red;
+  font-size: 1.1em;
 }
 #page_main > .hero_section > .article_5 .insta {
   margin-left: 50px;
@@ -146,7 +196,8 @@ body {
 #page_main > .hero_section > .article_5 > img {
   align-self: center;
   justify-self: center;
-  width: 300px;
+  width: 100%;
+  height: 80%;
 }
 #page_main > .hero_section_two {
   place-items: center;
@@ -154,30 +205,40 @@ body {
   width: 100%;
 }
 #page_main > .hero_section_two > .two_article_1 {
-  grid-template-rows: 225px 100px 50px 200px;
   display: grid;
 }
 #page_main > .hero_section_two > .two_article_1 > img {
+  object-fit: cover;
   justify-self: center;
-  width: 310px;
+  width: 100%;
+  height: 400px;
 }
 #page_main > .hero_section_two > .two_article_1 h2 {
+  margin-left: 30px;
+  margin-top: 20px;
   align-self: flex-start;
   width: 76%;
-  text-align: center;
-  justify-self: center;
+  text-align: start;
+  justify-self: start;
+  margin-bottom: 20px;
+  font-size: 2.5em;
 }
 #page_main > .hero_section_three {
   display: grid;
 }
 #page_main > .hero_section_three > .three_article_1 {
   display: grid;
-  grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px 85px 45px;
+  grid-template-rows: 80px 45px 45px 45px 45px 45px 45px 45px 85px 45px;
 }
-#page_main > .hero_section_three > .three_article_1 > p, #page_main > .hero_section_three > .three_article_1 h4, #page_main > .hero_section_three > .three_article_1 a {
+#page_main > .hero_section_three > .three_article_1 > p,
+#page_main > .hero_section_three > .three_article_1 h4,
+#page_main > .hero_section_three > .three_article_1 a {
   justify-self: start;
   align-self: center;
   margin-left: 30px;
+}
+#page_main > .hero_section_three > .three_article_1 #red_text {
+  color: red;
 }
 #page_main > .hero_section_three > .three_article_1 .insta {
   justify-self: start;

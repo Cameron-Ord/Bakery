@@ -1,179 +1,248 @@
 @use "header";
 @use "footer";
+@use "smallscreendebug";
 
-*{
-margin: 0;
-padding: 0;
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+p,h1,h3,h2,h4{
+color: orange;
+
+
+}
+body {
+
+    background-color: black;
 
 }
 
-body{
-
-    background-color: whitesmoke;
-}
-
-#page_main{
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-
->.hero_section{
-display: grid;
-
-    >.article_1{
-
-text-align: center;
-display: grid;
-grid-template-rows: 45px 100px 40px 40px 40px 50px;
-
->a{
-
-    color: crimson;
-}
-
->#atag{
-    background-color: crimson;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+#page_main {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    >.hero_section {
+        display: grid;
+
+        >.article_1 {
+
+            text-align: center;
+            display: grid;
+            grid-template-rows: 200px 170px 60px 60px 110px 40px;
+
+>h1{
     justify-self: center;
-    align-self: center;
-    color: white;
-
-
-
-}
-    }
-
-
->.article_2{
-    
-
-    display: grid;
-    grid-template-rows:40px 40px 120px;
-
-    >p{
-margin-left: 30px;
-justify-self: start;
-align-self: center;
-    }
-
-    >a{
-        color: white;
-        justify-self: start;
-        align-self: center;
-        background: crimson;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin-left: 25px;
-    }
-    >h4{
-        margin-left: 30px;
-        justify-self: start;
-        align-self: center;
-    }
+text-align: center;
+font-size: 3em;
+width: 70%;
+color: orange;
 }
 
+            >a {
+color: red;
+             font-size: 1.3em;
+            }
 
+            >p{
 
->.article_3{
-grid-template-rows: 200px 35px 35px 250px 35px 35px 45px;
-    display: grid;
-    place-items: center;
-    >img{
-width: 280px;
-    }
->p{
-text-align: start;
-justify-self: start;
-margin-left: 25px;
-}
-
-
-}
-
->.article_4{
-grid-template-rows: 35px 35px 35px 35px 35px 35px 45px;
-    display: grid;
-place-items: center;
-}
-
->.article_5{
-    display: grid;
-
-grid-template-rows: 250px 45px 25px 65px;
-
->p{
-margin-left: 30px;
+font-size: 1.5em;
 width: 75%;
-text-align: start;
-
-}
-.insta{
-    margin-left: 50px;
-    justify-self: start;
-align-self: center;
-width: 20px;
-
-}
-
->img{
-    align-self: center;
-justify-self: center;
-width: 300px;
-
-}
-}
-}
->.hero_section_two{
-place-items: center;
-    display: grid;
-    width: 100%;
->.two_article_1{
-grid-template-rows: 225px 100px 50px 200px;
-display: grid;
->img{
-
-justify-self: center;
-width: 310px;
-
-}
-h2{
-align-self: flex-start;
-    width: 76%;
 text-align: center;
 justify-self: center;
+
+            }
+
+            >h4{
+
+                font-size: 1.5em;
+            }
+
+            >#atag {
+                background-color: crimson;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                display: grid;
+                justify-self: center;
+                align-self: center;
+                color: white;
+                font-size: 1.6em;
+
+
+
+            }
+        }
+
+
+        >.article_2 {
+
+
+            display: grid;
+            grid-template-rows: 40px 40px 120px;
+
+            >p {
+                margin-left: 30px;
+                justify-self: start;
+                align-self: center;
+            }
+
+            >a {
+                color: white;
+                justify-self: start;
+                align-self: center;
+                background: crimson;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-left: 25px;
+            }
+
+            >h4 {
+          
+                margin-left: 30px;
+                justify-self: start;
+                align-self: center;
+            }
+        }
+
+
+
+        >.article_3 {
+            grid-template-rows: 200px 45px 45px 250px 45px 45px 45px;
+            display: grid;
+            place-items: center;
+
+            >img {
+                width: 90%;;
+            }
+>#red_text{
+
+color: red;
+font-size: 1.5em;
 }
-}
-}
+            >p {
+                text-align: start;
+                justify-self: start;
+                margin-left: 25px;
+            }
 
->.hero_section_three{
-display: grid;
 
->.three_article_1{
-display: grid;
-grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px 85px 45px;
+        }
 
->p, h4, a{
+        >.article_4 {
+            grid-template-rows: 65px 35px 35px 35px 35px 35px 45px;
+            display: grid;
+            place-items: center;
 
-justify-self: start;
-align-self: center;
-margin-left: 30px;
+>#head{
 
-}
-
-.insta{
- 
-    justify-self: start;
-align-self: center;
-width: 20px;
+font-size: 2.3em;
 
 }
-}
+>p{
+
+color: red;
 
 }
-}
 
+
+
+        }
+
+        >.article_5 {
+            display: grid;
+
+            grid-template-rows: 325px 45px 45px 45px;
+
+            >p {
+                margin-left: 30px;
+                width: 75%;
+                text-align: start;
+color: red;
+font-size: 1.1em;
+            }
+
+            .insta {
+                margin-left: 50px;
+                justify-self: start;
+                align-self: center;
+                width: 20px;
+
+            }
+
+            >img {
+                align-self: center;
+                justify-self: center;
+                width: 100%;
+                height: 80%;
+
+            }
+        }
+    }
+
+    >.hero_section_two {
+        place-items: center;
+        display: grid;
+        width: 100%;
+
+        >.two_article_1 {
+         
+            display: grid;
+
+            >img {
+                object-fit: cover;
+                justify-self: center;
+                width: 100%;
+                height: 400px;
+            }
+
+            h2 {
+                margin-left: 30px;
+                margin-top: 20px;
+                align-self: flex-start;
+                width: 76%;
+                text-align: start;
+                justify-self: start;
+                margin-bottom: 20px;
+                font-size: 2.5em;
+            }
+        }
+    }
+
+    >.hero_section_three {
+        display: grid;
+
+        >.three_article_1 {
+            display: grid;
+            grid-template-rows: 80px 45px 45px 45px 45px 45px 45px 45px 85px 45px;
+
+            >p,
+            h4,
+            a {
+
+                justify-self: start;
+                align-self: center;
+                margin-left: 30px;
+
+            }
+            #red_text{
+
+color: red;
+
+            }
+
+            .insta {
+
+                justify-self: start;
+                align-self: center;
+                width: 20px;
+
+            }
+        }
+
+    }
+}
