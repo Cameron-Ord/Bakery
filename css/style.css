@@ -76,6 +76,7 @@ p, h1, h3, h2, h4 {
 }
 
 body {
+  font-family: "Times New Roman", Times, sans-serif;
   background-color: black;
 }
 
@@ -87,9 +88,11 @@ body {
   display: grid;
 }
 #page_main > .hero_section > .article_1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
   text-align: center;
   display: grid;
-  grid-template-rows: 200px 170px 60px 60px 110px 40px;
+  grid-template-rows: 200px 170px 60px 60px 110px;
 }
 #page_main > .hero_section > .article_1 > h1 {
   justify-self: center;
@@ -122,28 +125,45 @@ body {
   align-self: center;
   color: black;
   font-size: 1.6em;
+  border-radius: 25px;
 }
 #page_main > .hero_section > .article_2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  place-items: center;
   display: grid;
-  grid-template-rows: 40px 40px 120px;
 }
-#page_main > .hero_section > .article_2 > p {
+#page_main > .hero_section > .article_2 > span {
+  border-radius: 40px;
+  place-items: center;
+  width: 90%;
+  background-color: orange;
+  display: grid;
+  grid-template-rows: 60px 40px 100px;
+}
+#page_main > .hero_section > .article_2 > span > p {
+  color: black;
   margin-left: 30px;
   justify-self: start;
   align-self: center;
+  font-size: 1.3em;
+  font-weight: 600;
 }
-#page_main > .hero_section > .article_2 > a {
-  color: black;
+#page_main > .hero_section > .article_2 > span > a {
+  color: white;
   justify-self: start;
   align-self: center;
-  background: orange;
+  background: black;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 25px;
+  font-weight: bold;
+  border-radius: 25px;
 }
-#page_main > .hero_section > .article_2 > h4 {
+#page_main > .hero_section > .article_2 > span > h4 {
+  color: black;
   margin-left: 30px;
   justify-self: start;
   align-self: center;
@@ -151,8 +171,8 @@ body {
 #page_main > .hero_section > .article_3 {
   display: grid;
   place-items: center;
-  padding-top: 70px;
-  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 #page_main > .hero_section > .article_3 > span {
   padding-top: 45px;
@@ -180,6 +200,7 @@ body {
   font-size: 1.5em;
 }
 #page_main > .hero_section > .article_3 > span > p {
+  font-size: 1.2em;
   font-weight: 800;
   color: black;
   text-align: start;
@@ -187,26 +208,48 @@ body {
   margin-left: 25px;
 }
 #page_main > .hero_section > .article_4 {
-  margin-top: 50px;
-  grid-template-rows: 65px 35px 35px 35px 35px 35px;
   display: grid;
   place-items: center;
-  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
-#page_main > .hero_section > .article_4 > #head {
+#page_main > .hero_section > .article_4 > span {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background-color: orange;
+  width: 90%;
+  border-radius: 25px;
+  grid-template-rows: 65px 45px 45px 45px 45px 45px;
+  display: grid;
+  place-items: center;
+}
+#page_main > .hero_section > .article_4 > span > p {
+  color: black;
+}
+#page_main > .hero_section > .article_4 > span > #weekends {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#page_main > .hero_section > .article_4 > span > #head {
   font-size: 2.3em;
 }
 #page_main > .hero_section > .article_5 {
   display: grid;
-  grid-template-rows: 325px 45px 45px 45px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
-#page_main > .hero_section > .article_5 > p {
+#page_main > .hero_section > .article_5 > span {
+  grid-template-rows: 1fr 75px;
+  display: grid;
+}
+#page_main > .hero_section > .article_5 > span > p {
   margin-left: 30px;
   width: 75%;
   text-align: start;
   font-size: 1.1em;
 }
-#page_main > .hero_section > .article_5 .insta {
+#page_main > .hero_section > .article_5 > span .insta {
+  margin-top: 20px;
   margin-left: 50px;
   justify-self: start;
   align-self: center;
@@ -215,27 +258,34 @@ body {
   background-color: orange;
   border-radius: 45%;
 }
-#page_main > .hero_section > .article_5 > img {
+#page_main > .hero_section > .article_5 > span > img {
+  background-color: orange;
+  padding-bottom: 25px;
+  padding-top: 25px;
   align-self: center;
   justify-self: center;
   width: 100%;
-  height: 80%;
 }
 #page_main > .hero_section_two {
   place-items: center;
   display: grid;
-  width: 100%;
 }
 #page_main > .hero_section_two > .two_article_1 {
   display: grid;
 }
-#page_main > .hero_section_two > .two_article_1 > img {
+#page_main > .hero_section_two > .two_article_1 > span {
+  display: grid;
+}
+#page_main > .hero_section_two > .two_article_1 > span > img {
+  background-color: orange;
+  padding-top: 25px;
+  padding-bottom: 25px;
   object-fit: cover;
   justify-self: center;
   width: 100%;
   height: 400px;
 }
-#page_main > .hero_section_two > .two_article_1 h2 {
+#page_main > .hero_section_two > .two_article_1 > span h2 {
   margin-left: 30px;
   margin-top: 20px;
   align-self: flex-start;
