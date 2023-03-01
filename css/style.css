@@ -62,42 +62,44 @@
   place-items: center;
 }
 #footer > span {
-  border-radius: 25px;
   min-height: 40vh;
   width: 90%;
   grid-template-columns: 2fr 1fr;
   display: grid;
-  background-color: #2E294E;
 }
 #footer > span > div {
-  place-items: center;
+  border-radius: 25px;
+  width: 90%;
+  background-color: #2E294E;
   display: grid;
 }
 #footer > span > div > p,
 #footer > span > div h4,
 #footer > span > div a {
   color: #BE97C6;
-  justify-self: start;
+  justify-self: center;
   align-self: center;
-  margin-left: 30px;
+  text-align: center;
 }
 #footer > span > nav {
-  place-items: center;
+  background-color: #2E294E;
+  border-radius: 25px;
   display: grid;
 }
 #footer > span > nav > p,
 #footer > span > nav h4,
 #footer > span > nav a {
   color: #2E294E;
-  justify-self: start;
+  justify-self: center;
   align-self: center;
+  text-align: center;
 }
 #footer > span > nav .text {
   color: #EFBCD5;
 }
 #footer > span > nav .insta {
   padding: 10px;
-  background-color: #7D80DA;
+  background-color: #8661c1;
   border-radius: 45%;
   width: 20px;
 }
