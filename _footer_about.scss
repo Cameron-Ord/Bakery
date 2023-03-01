@@ -1,0 +1,35 @@
+#footer{
+    display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px));
+    >span{
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+
+        >p,
+        h4,
+        a {
+
+            justify-self: start;
+            align-self: center;
+            margin-left: 30px;
+
+        }
+
+        .red_text {
+
+            color: red;
+
+        }
+
+        .insta {
+            padding: 10px;
+            background-color: #7D80DA;
+            border-radius: 45%;
+            justify-self: start;
+            align-self: center;
+            width: 20px;
+
+        }
+    }
+
+}
