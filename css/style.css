@@ -57,13 +57,14 @@
 #footer {
   margin-top: 25px;
   margin-bottom: 25px;
-  min-height: 20vh;
+  min-height: 30vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 #footer > span {
   grid-template-columns: 2fr 1fr;
   display: grid;
+  background-color: #2E294E;
 }
 #footer > span > div {
   display: grid;
@@ -71,7 +72,7 @@
 #footer > span > div > p,
 #footer > span > div h4,
 #footer > span > div a {
-  color: #2E294E;
+  color: #BE97C6;
   justify-self: start;
   align-self: center;
   margin-left: 30px;
@@ -201,6 +202,7 @@ body {
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 30px;
   font-weight: bold;
 }
 #page_main > .hero_section > .article_2 > span > h4 {
@@ -272,35 +274,38 @@ body {
   width: 65%;
   height: 75%;
 }
-#page_main > .hero_section_two {
+#page_main > #hero_section_two {
   place-items: center;
   display: grid;
 }
-#page_main > .hero_section_two > .two_article_1 {
+#page_main > #hero_section_two > .two_article_1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
   display: grid;
+  place-items: center;
 }
-#page_main > .hero_section_two > .two_article_1 > span {
+#page_main > #hero_section_two > .two_article_1 > span {
+  width: 80%;
+  border-radius: 25px;
+  grid-template-rows: 500px 300px;
   display: grid;
-}
-#page_main > .hero_section_two > .two_article_1 > span > img {
   background-color: #2E294E;
-  padding-top: 25px;
-  padding-bottom: 25px;
+}
+#page_main > #hero_section_two > .two_article_1 > span > img {
+  border-radius: 25px;
+  align-self: center;
   object-fit: cover;
   justify-self: center;
-  width: 100%;
+  width: 75%;
   height: 400px;
 }
-#page_main > .hero_section_two > .two_article_1 > span h2 {
-  color: #2E294E;
-  margin-left: 30px;
-  margin-top: 20px;
-  align-self: flex-start;
+#page_main > #hero_section_two > .two_article_1 > span h2 {
+  color: #BE97C6;
+  justify-self: center;
+  align-self: center;
   width: 76%;
-  text-align: start;
-  justify-self: start;
-  margin-bottom: 20px;
-  font-size: 2.5em;
+  text-align: center;
+  font-size: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */
