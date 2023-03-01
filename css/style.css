@@ -44,11 +44,11 @@
 #page_header_bread .container_div > .text {
   z-index: 100;
   position: absolute;
-  color: white;
+  color: orange;
   font-size: 24px;
   font-weight: bold;
   left: 50px;
-  top: 275px;
+  top: 325px;
   text-align: start;
   justify-self: start;
 }
@@ -57,11 +57,11 @@
   #page_header_bread .container_div > .text {
     z-index: 100;
     position: absolute;
-    color: white;
+    color: orange;
     font-size: 24px;
     font-weight: bold;
-    left: 50px;
-    top: 190px;
+    left: 25px;
+    top: 250px;
     text-align: start;
     justify-self: start;
   }
@@ -99,7 +99,7 @@ body {
   color: orange;
 }
 #page_main > .hero_section > .article_1 > a {
-  color: red;
+  color: white;
   font-size: 1.3em;
 }
 #page_main > .hero_section > .article_1 > p {
@@ -112,7 +112,7 @@ body {
   font-size: 1.5em;
 }
 #page_main > .hero_section > .article_1 > #atag {
-  background-color: crimson;
+  background-color: orange;
   padding-bottom: 10px;
   padding-top: 10px;
   padding-left: 10px;
@@ -120,7 +120,7 @@ body {
   display: grid;
   justify-self: center;
   align-self: center;
-  color: white;
+  color: black;
   font-size: 1.6em;
 }
 #page_main > .hero_section > .article_2 {
@@ -133,10 +133,10 @@ body {
   align-self: center;
 }
 #page_main > .hero_section > .article_2 > a {
-  color: white;
+  color: black;
   justify-self: start;
   align-self: center;
-  background: crimson;
+  background: orange;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
@@ -149,32 +149,52 @@ body {
   align-self: center;
 }
 #page_main > .hero_section > .article_3 {
-  grid-template-rows: 200px 45px 45px 250px 45px 45px 45px;
+  display: grid;
+  place-items: center;
+  padding-top: 70px;
+  border-radius: 10px;
+}
+#page_main > .hero_section > .article_3 > span {
+  padding-top: 45px;
+  border-radius: 40px;
+  width: 90%;
+  background-color: orange;
+  grid-template-rows: 200px 65px 75px 250px 65px 75px;
   display: grid;
   place-items: center;
 }
-#page_main > .hero_section > .article_3 > img {
-  width: 90%;
+#page_main > .hero_section > .article_3 > span > #image_padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
 }
-#page_main > .hero_section > .article_3 > #red_text {
-  color: red;
+#page_main > .hero_section > .article_3 > span > img {
+  border-radius: 50%;
+  width: 80%;
+}
+#page_main > .hero_section > .article_3 > span > #red_text {
+  font-weight: bold;
+  color: black;
   font-size: 1.5em;
 }
-#page_main > .hero_section > .article_3 > p {
+#page_main > .hero_section > .article_3 > span > p {
+  font-weight: 800;
+  color: black;
   text-align: start;
   justify-self: start;
   margin-left: 25px;
 }
 #page_main > .hero_section > .article_4 {
-  grid-template-rows: 65px 35px 35px 35px 35px 35px 45px;
+  margin-top: 50px;
+  grid-template-rows: 65px 35px 35px 35px 35px 35px;
   display: grid;
   place-items: center;
+  margin-bottom: 50px;
 }
 #page_main > .hero_section > .article_4 > #head {
   font-size: 2.3em;
-}
-#page_main > .hero_section > .article_4 > p {
-  color: red;
 }
 #page_main > .hero_section > .article_5 {
   display: grid;
@@ -184,7 +204,6 @@ body {
   margin-left: 30px;
   width: 75%;
   text-align: start;
-  color: red;
   font-size: 1.1em;
 }
 #page_main > .hero_section > .article_5 .insta {
@@ -192,6 +211,9 @@ body {
   justify-self: start;
   align-self: center;
   width: 20px;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 45%;
 }
 #page_main > .hero_section > .article_5 > img {
   align-self: center;
@@ -241,6 +263,9 @@ body {
   color: red;
 }
 #page_main > .hero_section_three > .three_article_1 .insta {
+  padding: 10px;
+  background-color: orange;
+  border-radius: 45%;
   justify-self: start;
   align-self: center;
   width: 20px;

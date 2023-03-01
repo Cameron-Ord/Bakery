@@ -41,7 +41,7 @@ color: orange;
 }
 
             >a {
-color: red;
+color: white;
              font-size: 1.3em;
             }
 
@@ -60,7 +60,7 @@ justify-self: center;
             }
 
             >#atag {
-                background-color: crimson;
+                background-color: orange;
                 padding-bottom: 10px;
                 padding-top: 10px;
                 padding-left: 10px;
@@ -68,7 +68,7 @@ justify-self: center;
                 display: grid;
                 justify-self: center;
                 align-self: center;
-                color: white;
+                color: black;
                 font-size: 1.6em;
 
 
@@ -90,10 +90,10 @@ justify-self: center;
             }
 
             >a {
-                color: white;
+                color: black;
                 justify-self: start;
                 align-self: center;
-                background: crimson;
+                background: orange;
                 padding-left: 10px;
                 padding-right: 10px;
                 padding-top: 10px;
@@ -112,42 +112,62 @@ justify-self: center;
 
 
         >.article_3 {
-            grid-template-rows: 200px 45px 45px 250px 45px 45px 45px;
+        
             display: grid;
             place-items: center;
 
+padding-top: 70px;
+border-radius: 10px;
+
+>span{
+    padding-top: 45px;
+    border-radius: 40px;
+    width: 90%;
+    background-color: orange;
+    grid-template-rows: 200px 65px 75px 250px 65px 75px;
+    display: grid;
+            place-items: center;
+>#image_padding{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: black;
+}
             >img {
-                width: 90%;;
+                
+                border-radius: 50%;
+                width: 80%;
             }
 >#red_text{
-
-color: red;
+font-weight: bold;
+color: black;
 font-size: 1.5em;
 }
             >p {
+                font-weight: 800;
+                color: black;
                 text-align: start;
                 justify-self: start;
                 margin-left: 25px;
             }
-
+        }
 
         }
 
         >.article_4 {
-            grid-template-rows: 65px 35px 35px 35px 35px 35px 45px;
+            margin-top: 50px;
+            grid-template-rows: 65px 35px 35px 35px 35px 35px;
             display: grid;
             place-items: center;
+            margin-bottom: 50px;
 
 >#head{
 
 font-size: 2.3em;
 
 }
->p{
 
-color: red;
-
-}
 
 
 
@@ -162,7 +182,7 @@ color: red;
                 margin-left: 30px;
                 width: 75%;
                 text-align: start;
-color: red;
+
 font-size: 1.1em;
             }
 
@@ -171,6 +191,9 @@ font-size: 1.1em;
                 justify-self: start;
                 align-self: center;
                 width: 20px;
+                padding: 10px;
+                background-color: orange;
+                border-radius: 45%;
 
             }
 
@@ -236,7 +259,9 @@ color: red;
             }
 
             .insta {
-
+padding: 10px;
+background-color: orange;
+border-radius: 45%;
                 justify-self: start;
                 align-self: center;
                 width: 20px;
