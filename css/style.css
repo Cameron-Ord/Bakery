@@ -285,20 +285,20 @@ body {
   place-items: center;
   display: grid;
 }
-#page_main > #hero_section_two > .two_article_1 {
+#page_main > #hero_section_two > .section_2_article_1 {
   margin-top: 25px;
   margin-bottom: 25px;
   display: grid;
   place-items: center;
 }
-#page_main > #hero_section_two > .two_article_1 > span {
+#page_main > #hero_section_two > .section_2_article_1 > span {
   width: 80%;
   border-radius: 25px;
   grid-template-rows: 500px 300px;
   display: grid;
   background-color: #2E294E;
 }
-#page_main > #hero_section_two > .two_article_1 > span > img {
+#page_main > #hero_section_two > .section_2_article_1 > span > img {
   border-radius: 25px;
   align-self: center;
   object-fit: cover;
@@ -306,13 +306,58 @@ body {
   width: 75%;
   height: 400px;
 }
-#page_main > #hero_section_two > .two_article_1 > span h2 {
+#page_main > #hero_section_two > .section_2_article_1 > span h2 {
   color: #BE97C6;
   justify-self: center;
   align-self: center;
   width: 76%;
   text-align: center;
   font-size: 2em;
+}
+#page_main > #hero_section_two > .section_2_article_2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: grid;
+  place-items: center;
+}
+#page_main > #hero_section_two > .section_2_article_2 > span {
+  place-items: center;
+  display: grid;
+  width: 80%;
+}
+#page_main > #hero_section_two > .section_2_article_2 > span > img {
+  border-radius: 25px;
+  width: 90%;
+  padding: 25px;
+  background-color: #2E294E;
+}
+#page_main > #hero_section_two > .section_2_article_3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: grid;
+  place-items: center;
+}
+#page_main > #hero_section_two > .section_2_article_3 > span {
+  border-radius: 25px;
+  grid-template-rows: 300px 175px 125px;
+  place-items: center;
+  display: grid;
+  width: 80%;
+  background-color: #2E294E;
+  text-align: center;
+}
+#page_main > #hero_section_two > .section_2_article_3 > span > a {
+  border-radius: 25px;
+  background-color: #8661C1;
+  padding: 15px;
+  color: #BE97C6;
+}
+#page_main > #hero_section_two > .section_2_article_3 > span > p {
+  width: 80%;
+}
+#page_main > #hero_section_two > .section_2_article_3 > span > img {
+  align-self: center;
+  width: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */
