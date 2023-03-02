@@ -4,9 +4,10 @@
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-place-items: center;
+    place-items: center;
+
     >span {
-   
+
         min-height: 40vh;
         width: 90%;
         grid-template-columns: 2fr 1fr;
@@ -15,23 +16,24 @@ place-items: center;
 
         >div {
             border-radius: 25px;
-           width: 90%;
-            background-color:#2E294E ;
+            width: 90%;
+            background-color: #2E294E;
             display: grid;
+
             >p,
             h4,
             a {
                 color: #BE97C6;
                 justify-self: center;
                 align-self: center;
-             text-align: center;
-    
+                text-align: center;
+
             }
 
         }
 
         >nav {
-            background-color:#2E294E ;
+            background-color: #2E294E;
             border-radius: 25px;
             display: grid;
 
@@ -39,15 +41,15 @@ place-items: center;
             >p,
             h4,
             a {
-    color: #2E294E;
-    justify-self: center;
-    align-self: center;
- text-align: center;
-               
-    
+                color: #2E294E;
+                justify-self: center;
+                align-self: center;
+                text-align: center;
+
+
             }
 
- 
+
             .text {
 
                 color: #EFBCD5;
