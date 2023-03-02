@@ -314,8 +314,9 @@ background-color:#2E294E ;
     place-items: center;
 
 >span{
+
     border-radius: 25px;
-grid-template-rows: 300px 175px 125px;
+grid-template-rows: 375px 175px 125px;
 place-items: center;
 display: grid;
 width: 80%;
@@ -338,7 +339,8 @@ width: 80%;
 }
 
 >img{
-
+    object-fit: cover;
+border-radius: 25px;
 align-self: center;
     width: 80%;
 }

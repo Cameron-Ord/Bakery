@@ -339,7 +339,7 @@ body {
 }
 #page_main > #hero_section_two > .section_2_article_3 > span {
   border-radius: 25px;
-  grid-template-rows: 300px 175px 125px;
+  grid-template-rows: 375px 175px 125px;
   place-items: center;
   display: grid;
   width: 80%;
@@ -356,6 +356,8 @@ body {
   width: 80%;
 }
 #page_main > #hero_section_two > .section_2_article_3 > span > img {
+  object-fit: cover;
+  border-radius: 25px;
   align-self: center;
   width: 80%;
 }
