@@ -74,4 +74,61 @@
   width: 20px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #8661C1;
+}
+
+#page_main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#page_main > #hero_section {
+  display: grid;
+}
+#page_main > #hero_section > .images_article {
+  place-items: center;
+  display: grid;
+}
+#page_main > #hero_section > .images_article > span {
+  display: grid;
+  place-items: center;
+}
+#page_main > #hero_section > .images_article > span > .image1 {
+  width: 50%;
+}
+#page_main > #hero_section > .images_article > span > .image2 {
+  width: 40%;
+}
+#page_main > #hero_section > .images_article > span > .image3 {
+  width: 40%;
+}
+#page_main > #hero_section > .contact_article {
+  display: grid;
+  place-items: center;
+}
+#page_main > #hero_section > .contact_article > span {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  place-items: center;
+  display: grid;
+  width: 80%;
+  background-color: #2E294E;
+}
+#page_main > #hero_section > .contact_article_locations {
+  display: grid;
+  place-items: center;
+}
+#page_main > #hero_section > .contact_article_locations > span {
+  place-items: center;
+  display: grid;
+  width: 80%;
+  background-color: #2E294E;
+}
+
 /*# sourceMappingURL=contact.css.map */
