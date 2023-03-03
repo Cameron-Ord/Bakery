@@ -10,6 +10,7 @@
   display: grid;
   width: 80%;
   min-height: 100px;
+  align-items: center;
 }
 #page_header > .div_1 > a > .Logo {
   width: 40px;

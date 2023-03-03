@@ -23,6 +23,7 @@ body {
     >#hero_section {
         display: grid;
 >.sweets_article {
+    margin-bottom: 25px;
         width: 100%;
         height: 500px;
 
@@ -30,8 +31,7 @@ body {
         object-fit: cover;
 
         display: grid;
-        margin-top: 25px;
-        margin-bottom: 25px;
+    
         place-items: center;
 
         >span {
@@ -64,6 +64,8 @@ body {
 
 
 >#div{
+
+   align-self: center;
     justify-self: center;
     text-align: center;
 width: 80%;
