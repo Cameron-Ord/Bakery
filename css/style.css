@@ -9,6 +9,8 @@
   grid-template-columns: 1fr 3fr;
   display: grid;
   width: 80%;
+  align-items: center;
+  min-height: 100px;
 }
 #page_header > .div_1 > a > .Logo {
   width: 40px;
@@ -323,12 +325,16 @@ body {
   place-items: center;
   display: grid;
   width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  background-color: #2E294E;
 }
 #page_main > #hero_section_two > .section_2_article_2 > span > img {
+  justify-self: center;
+  object-fit: cover;
   border-radius: 25px;
-  width: 90%;
-  padding: 25px;
-  background-color: #2E294E;
+  width: 80%;
 }
 #page_main > #hero_section_two > .section_2_article_3 {
   margin-top: 25px;
