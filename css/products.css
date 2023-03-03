@@ -181,6 +181,8 @@ body {
   grid-template-rows: 1fr 1fr;
 }
 #page_main > #hero_section > .breads_article > span {
+  color: white;
+  border-radius: 25px;
   grid-template-rows: 200px 50px 25px 50px;
   display: grid;
   background-color: #2E294E;
@@ -201,6 +203,8 @@ body {
   place-items: center;
 }
 #page_main > #hero_section > .breads_article_2 > span {
+  color: white;
+  border-radius: 25px;
   grid-template-rows: 50px 25px 50px 200px;
   display: grid;
   background-color: #2E294E;

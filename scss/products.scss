@@ -139,6 +139,8 @@ margin-bottom: 25px;
 grid-template-rows: 1fr 1fr;
 
             >span {
+                color: white;
+                border-radius: 25px;
                 grid-template-rows: 200px 50px 25px 50px;
                 display: grid;
                 background-color: #2E294E;
@@ -164,6 +166,8 @@ grid-template-rows: 1fr 1fr;
 
 
             >span {
+                color: white;
+                border-radius: 25px;
                 grid-template-rows:50px 25px 50px 200px;
                 display: grid;
                 background-color: #2E294E;
