@@ -121,27 +121,31 @@ grid-template-rows: 45px 25px 25px 25px 25px 25px;
 
 
         >#div {
-
+margin-top: 25px;
+margin-bottom: 25px;
             align-self: center;
             justify-self: center;
             text-align: center;
             width: 80%;
         }
 
-        >.breads_article_2 {
+       
+
+        >.breads_article {
             display: grid;
-            margin-top: 25px;
+          
             margin-bottom: 25px;
             place-items: center;
-
+grid-template-rows: 1fr 1fr;
 
             >span {
+                grid-template-rows: 200px 50px 25px 50px;
                 display: grid;
                 background-color: #2E294E;
                 width: 80%;
                 place-items: center;
                 margin-top: 25px;
-                margin-bottom: 25px;
+              
 
                 >img {
                     object-fit: cover;
@@ -152,20 +156,20 @@ grid-template-rows: 45px 25px 25px 25px 25px 25px;
             }
         }
 
-
-        >.breads_article {
+        >.breads_article_2 {
             display: grid;
-            margin-top: 25px;
+    grid-template-rows: 1fr 1fr;
             margin-bottom: 25px;
             place-items: center;
 
 
             >span {
+                grid-template-rows:50px 25px 50px 200px;
                 display: grid;
                 background-color: #2E294E;
                 width: 80%;
                 place-items: center;
-                margin-top: 25px;
+  
                 margin-bottom: 25px;
 
                 >img {
@@ -183,19 +187,27 @@ grid-template-rows: 45px 25px 25px 25px 25px 25px;
             margin-top: 25px;
             margin-bottom: 25px;
             background-image: url(/images/1\ \(19\).avif); background-position: 50% 50%;
-            padding-top: 200px;
-            padding-bottom: 200px;
+           height: 600px;
 
             >span {
+         
                 display: grid;
-                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-rows: 75px 125px 75px;
                 width: 60%;
 
-                >p {}
+                >p {
+                    color: white;
+                }
 
-                >h1 {}
+                >h1 {
+                    color: white;
+                }
 
-                >a {}
+                >a {
+color: white;
+
+
+                }
 
             }
         }

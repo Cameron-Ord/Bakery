@@ -167,46 +167,48 @@ body {
   justify-self: start;
 }
 #page_main > #hero_section > #div {
+  margin-top: 25px;
+  margin-bottom: 25px;
   align-self: center;
   justify-self: center;
   text-align: center;
   width: 80%;
 }
-#page_main > #hero_section > .breads_article_2 {
+#page_main > #hero_section > .breads_article {
   display: grid;
-  margin-top: 25px;
   margin-bottom: 25px;
   place-items: center;
+  grid-template-rows: 1fr 1fr;
 }
-#page_main > #hero_section > .breads_article_2 > span {
+#page_main > #hero_section > .breads_article > span {
+  grid-template-rows: 200px 50px 25px 50px;
   display: grid;
   background-color: #2E294E;
   width: 80%;
   place-items: center;
   margin-top: 25px;
-  margin-bottom: 25px;
 }
-#page_main > #hero_section > .breads_article_2 > span > img {
+#page_main > #hero_section > .breads_article > span > img {
   object-fit: cover;
   border-radius: 50%;
   width: 150px;
   height: 150px;
 }
-#page_main > #hero_section > .breads_article {
+#page_main > #hero_section > .breads_article_2 {
   display: grid;
-  margin-top: 25px;
+  grid-template-rows: 1fr 1fr;
   margin-bottom: 25px;
   place-items: center;
 }
-#page_main > #hero_section > .breads_article > span {
+#page_main > #hero_section > .breads_article_2 > span {
+  grid-template-rows: 50px 25px 50px 200px;
   display: grid;
   background-color: #2E294E;
   width: 80%;
   place-items: center;
-  margin-top: 25px;
   margin-bottom: 25px;
 }
-#page_main > #hero_section > .breads_article > span > img {
+#page_main > #hero_section > .breads_article_2 > span > img {
   object-fit: cover;
   border-radius: 50%;
   width: 150px;
@@ -219,13 +221,21 @@ body {
   margin-bottom: 25px;
   background-image: url(/images/1\ \(19\).avif);
   background-position: 50% 50%;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  height: 600px;
 }
 #page_main > #hero_section > .custom_orders > span {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 75px 125px 75px;
   width: 60%;
+}
+#page_main > #hero_section > .custom_orders > span > p {
+  color: white;
+}
+#page_main > #hero_section > .custom_orders > span > h1 {
+  color: white;
+}
+#page_main > #hero_section > .custom_orders > span > a {
+  color: white;
 }
 
 /*# sourceMappingURL=products.css.map */
