@@ -1,0 +1,77 @@
+#page_header {
+  background-color: #8661C1;
+  width: 100%;
+  place-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#page_header > .div_1 {
+  grid-template-columns: 1fr 3fr;
+  display: grid;
+  width: 80%;
+}
+#page_header > .div_1 > a > .Logo {
+  width: 40px;
+  justify-self: start;
+  align-self: center;
+  padding: 10px;
+  background-color: #2E294E;
+  border-radius: 50%;
+}
+#page_header > .div_1 > .Menu {
+  width: 40px;
+  justify-self: end;
+  align-self: center;
+}
+
+#footer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  place-items: center;
+}
+#footer > span {
+  min-height: 40vh;
+  width: 90%;
+  grid-template-columns: 2fr 1fr;
+  display: grid;
+}
+#footer > span > div {
+  border-radius: 25px;
+  width: 90%;
+  background-color: #2E294E;
+  display: grid;
+}
+#footer > span > div > p,
+#footer > span > div h4,
+#footer > span > div a {
+  color: #BE97C6;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+#footer > span > nav {
+  background-color: #2E294E;
+  border-radius: 25px;
+  display: grid;
+}
+#footer > span > nav > p,
+#footer > span > nav h4,
+#footer > span > nav a {
+  color: #2E294E;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+#footer > span > nav .text {
+  color: #EFBCD5;
+}
+#footer > span > nav .insta {
+  padding: 10px;
+  background-color: #8661c1;
+  border-radius: 45%;
+  width: 20px;
+}
+
+/*# sourceMappingURL=contact.css.map */
