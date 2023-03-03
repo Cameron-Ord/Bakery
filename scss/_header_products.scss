@@ -1,5 +1,5 @@
 #page_header {
-    min-height: 10vh;
+    
     background-color: #8661C1;
     width: 100%;
     place-items: center;
@@ -9,22 +9,29 @@
     >.div_1 {
         grid-template-columns: 1fr 3fr;
         display: grid;
-        width: 80%;
+width: 80%;
 
-        >.Logo {
-            width: 40px;
-            justify-self: start;
-            align-self: center;
-            padding: 10px;
-            background-color: #2E294E;
-            border-radius: 50%;
-        }
 
-        >.Menu {
-            width: 40px;
-            justify-self: end;
-            align-self: center;
+>a{
+    >.Logo {
+        width: 40px;
+        justify-self: start;
+        align-self: center;
+        padding: 10px;
+        background-color: #2E294E;
+        border-radius: 50%;
+    }
 
-        }
+}
+
+>.Menu {
+    width: 40px;
+    justify-self: end;
+    align-self: center;
+
+}
+
+
+
     }
 }

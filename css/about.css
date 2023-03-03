@@ -1,28 +1,119 @@
-#footer {
+#page_header {
+  background-color: #8661C1;
+  width: 100%;
+  place-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#page_header > .div_1 {
+  grid-template-columns: 1fr 3fr;
+  display: grid;
+  width: 80%;
+}
+#page_header > .div_1 > a > .Logo {
+  width: 40px;
+  justify-self: start;
+  align-self: center;
+  padding: 10px;
+  background-color: #2E294E;
+  border-radius: 50%;
+}
+#page_header > .div_1 > .Menu {
+  width: 40px;
+  justify-self: end;
+  align-self: center;
+}
+
+#footer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  place-items: center;
 }
 #footer > span {
+  min-height: 40vh;
+  width: 90%;
+  grid-template-columns: 2fr 1fr;
   display: grid;
-  grid-template-columns: 1fr 1fr;
 }
-#footer > span > p,
-#footer > span h4,
-#footer > span a {
-  justify-self: start;
+#footer > span > div {
+  border-radius: 25px;
+  width: 90%;
+  background-color: #2E294E;
+  display: grid;
+}
+#footer > span > div > p,
+#footer > span > div h4,
+#footer > span > div a {
+  color: #BE97C6;
+  justify-self: center;
   align-self: center;
-  margin-left: 30px;
+  text-align: center;
 }
-#footer > span .red_text {
-  color: red;
+#footer > span > nav {
+  background-color: #2E294E;
+  border-radius: 25px;
+  display: grid;
 }
-#footer > span .insta {
+#footer > span > nav > p,
+#footer > span > nav h4,
+#footer > span > nav a {
+  color: #2E294E;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+#footer > span > nav .text {
+  color: #EFBCD5;
+}
+#footer > span > nav .insta {
   padding: 10px;
-  background-color: #7D80DA;
+  background-color: #8661c1;
   border-radius: 45%;
-  justify-self: start;
-  align-self: center;
   width: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #8661C1;
+}
+
+#page_main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#page_main > #hero_section {
+  display: grid;
+}
+#page_main > #hero_section > .about_article {
+  place-items: center;
+  display: grid;
+}
+#page_main > #hero_section > .about_article > span {
+  width: 80%;
+  background-color: #2E294E;
+  display: grid;
+}
+#page_main > #hero_section > .about_image {
+  place-items: center;
+  display: grid;
+}
+#page_main > #hero_section > .about_image > span {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  display: grid;
+  background-color: #2E294E;
+  width: 80%;
+  place-items: center;
+}
+#page_main > #hero_section > .about_image > span > img {
+  width: 50%;
 }
 
 /*# sourceMappingURL=about.css.map */

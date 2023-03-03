@@ -1,2 +1,70 @@
 @use "header_about";
 @use "footer_about";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #8661C1;
+
+}
+
+#page_main{
+
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+>#hero_section{
+
+
+    display: grid;
+
+    >.about_article{
+        place-items: center;
+        display: grid;
+        >span{
+
+            width: 80%;
+            background-color: #2E294E;
+            display: grid;
+
+
+
+
+        }
+
+    }
+
+>.about_image{
+
+    place-items: center;
+    display: grid;
+
+
+>span{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: grid;
+    background-color: #2E294E;
+    width: 80%;
+place-items: center;
+>img{
+
+width: 50%;
+
+}
+}
+
+}
+
+}
+
+
+
+
+}

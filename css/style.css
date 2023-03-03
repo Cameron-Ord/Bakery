@@ -1,5 +1,4 @@
 #page_header {
-  min-height: 10vh;
   background-color: #8661C1;
   width: 100%;
   place-items: center;
@@ -11,7 +10,7 @@
   display: grid;
   width: 80%;
 }
-#page_header > .div_1 > .Logo {
+#page_header > .div_1 > a > .Logo {
   width: 40px;
   justify-self: start;
   align-self: center;
