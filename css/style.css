@@ -126,16 +126,16 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-#page_main > .hero_section {
+#page_main > #hero_section {
   display: grid;
 }
-#page_main > .hero_section > .article_1 {
+#page_main > #hero_section > .article_1 {
   margin-top: 25px;
   margin-bottom: 25px;
   place-items: center;
   display: grid;
 }
-#page_main > .hero_section > .article_1 > span {
+#page_main > #hero_section > .article_1 > span {
   border-radius: 50px;
   grid-template-rows: 60px 125px 60px 60px;
   padding-bottom: 25px;
@@ -146,27 +146,27 @@ body {
   text-align: center;
   display: grid;
 }
-#page_main > .hero_section > .article_1 > span > h1 {
+#page_main > #hero_section > .article_1 > span > h1 {
   justify-self: center;
   text-align: center;
   font-size: 1.5em;
   color: #BE97C6;
 }
-#page_main > .hero_section > .article_1 > span > a {
+#page_main > #hero_section > .article_1 > span > a {
   width: 90%;
   color: #EFBCD5;
   font-size: 1.24em;
 }
-#page_main > .hero_section > .article_1 > span > p {
+#page_main > #hero_section > .article_1 > span > p {
   font-size: 1em;
   width: 75%;
   text-align: center;
   justify-self: center;
 }
-#page_main > .hero_section > .article_1 > span > h4 {
+#page_main > #hero_section > .article_1 > span > h4 {
   font-size: 1.25em;
 }
-#page_main > .hero_section > .article_1 > span > #atag {
+#page_main > #hero_section > .article_1 > span > #atag {
   border-radius: 50px;
   background-color: #8661C1;
   padding-bottom: 10px;
@@ -180,13 +180,13 @@ body {
   font-size: 1em;
   width: 40%;
 }
-#page_main > .hero_section > .article_2 {
+#page_main > #hero_section > .article_2 {
   margin-top: 25px;
   margin-bottom: 45px;
   place-items: center;
   display: grid;
 }
-#page_main > .hero_section > .article_2 > span {
+#page_main > #hero_section > .article_2 > span {
   border-radius: 50px;
   text-align: center;
   place-items: center;
@@ -195,13 +195,13 @@ body {
   display: grid;
   grid-template-rows: 60px 40px 100px;
 }
-#page_main > .hero_section > .article_2 > span > p {
+#page_main > #hero_section > .article_2 > span > p {
   color: #BE97C6;
   align-self: center;
   font-size: 1em;
   font-weight: 600;
 }
-#page_main > .hero_section > .article_2 > span > a {
+#page_main > #hero_section > .article_2 > span > a {
   color: #EFBCD5;
   align-self: center;
   background: #8661C1;
@@ -212,17 +212,17 @@ body {
   border-radius: 30px;
   font-weight: bold;
 }
-#page_main > .hero_section > .article_2 > span > h4 {
+#page_main > #hero_section > .article_2 > span > h4 {
   color: #BE97C6;
   align-self: center;
 }
-#page_main > .hero_section > .article_3 {
+#page_main > #hero_section > .article_3 {
   display: grid;
   place-items: center;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-#page_main > .hero_section > .article_3 > span {
+#page_main > #hero_section > .article_3 > span {
   border-radius: 25px;
   padding-top: 45px;
   padding-bottom: 45px;
@@ -232,25 +232,25 @@ body {
   display: grid;
   place-items: center;
 }
-#page_main > .hero_section > .article_3 > span > img {
+#page_main > #hero_section > .article_3 > span > img {
   width: 100px;
   border-radius: 50%;
   padding: 5px;
   background-color: #8661C1;
 }
-#page_main > .hero_section > .article_3 > span > p {
+#page_main > #hero_section > .article_3 > span > p {
   width: 80%;
   text-align: center;
   font-size: 1em;
   color: #BE97C6;
 }
-#page_main > .hero_section > .article_5 {
+#page_main > #hero_section > .article_5 {
   display: grid;
   place-items: center;
   margin-top: 25px;
   margin-bottom: 25px;
 }
-#page_main > .hero_section > .article_5 > span {
+#page_main > #hero_section > .article_5 > span {
   border-radius: 25px;
   padding-top: 25px;
   padding: bottom 25px;
@@ -260,20 +260,20 @@ body {
   display: grid;
   place-items: center;
 }
-#page_main > .hero_section > .article_5 > span > p {
+#page_main > #hero_section > .article_5 > span > p {
   width: 90%;
   text-align: center;
   color: #BE97C6;
   font-size: 1.1em;
 }
-#page_main > .hero_section > .article_5 > span .insta {
+#page_main > #hero_section > .article_5 > span .insta {
   justify-self: center;
   width: 20px;
   padding: 10px;
   background-color: #8661C1;
   border-radius: 45%;
 }
-#page_main > .hero_section > .article_5 > span > img {
+#page_main > #hero_section > .article_5 > span > img {
   object-fit: cover;
   border-radius: 50%;
   align-self: center;

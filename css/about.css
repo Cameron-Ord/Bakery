@@ -1,0 +1,28 @@
+#footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px));
+}
+#footer > span {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#footer > span > p,
+#footer > span h4,
+#footer > span a {
+  justify-self: start;
+  align-self: center;
+  margin-left: 30px;
+}
+#footer > span .red_text {
+  color: red;
+}
+#footer > span .insta {
+  padding: 10px;
+  background-color: #7D80DA;
+  border-radius: 45%;
+  justify-self: start;
+  align-self: center;
+  width: 20px;
+}
+
+/*# sourceMappingURL=about.css.map */
