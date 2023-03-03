@@ -95,27 +95,73 @@ body {
 }
 #page_main > #hero_section > .sweets_article {
   margin-bottom: 25px;
-  width: 100%;
-  height: 500px;
-  background-image: url(/images/1\ \(21\).avif);
+  grid-template-rows: 100px 225px 225px 225px;
+  background-image: url(/images/1\ \(17\).avif);
+  background-position: 50% 50%;
   object-fit: cover;
+  height: 850px;
   display: grid;
   place-items: center;
 }
-#page_main > #hero_section > .sweets_article > span {
+#page_main > #hero_section > .sweets_article > div {
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+#page_main > #hero_section > .sweets_article > #span_1 {
+  grid-template-rows: 45px 25px 25px 25px 25px 25px;
   border-radius: 50px;
   padding-bottom: 25px;
   padding-top: 25px;
-  width: 80%;
+  width: 70%;
   display: grid;
   background-color: #2E294E;
 }
-#page_main > #hero_section > .sweets_article > span > h1 {
+#page_main > #hero_section > .sweets_article > #span_1 > h1 {
   margin-left: 25px;
   align-self: center;
   justify-self: start;
 }
-#page_main > #hero_section > .sweets_article > span > p {
+#page_main > #hero_section > .sweets_article > #span_1 > p {
+  margin-left: 25px;
+  text-align: start;
+  justify-self: start;
+}
+#page_main > #hero_section > .sweets_article > #span_2 {
+  grid-template-rows: 45px 25px 25px 25px;
+  border-radius: 50px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  width: 70%;
+  display: grid;
+  background-color: #2E294E;
+}
+#page_main > #hero_section > .sweets_article > #span_2 > h1 {
+  margin-left: 25px;
+  align-self: center;
+  justify-self: start;
+}
+#page_main > #hero_section > .sweets_article > #span_2 > p {
+  margin-left: 25px;
+  text-align: start;
+  justify-self: start;
+}
+#page_main > #hero_section > .sweets_article > #span_3 {
+  grid-template-rows: 45px 25px 25px 25px 25px 25px;
+  border-radius: 50px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  width: 70%;
+  display: grid;
+  background-color: #2E294E;
+}
+#page_main > #hero_section > .sweets_article > #span_3 > h1 {
+  margin-left: 25px;
+  align-self: center;
+  justify-self: start;
+}
+#page_main > #hero_section > .sweets_article > #span_3 > p {
   margin-left: 25px;
   text-align: start;
   justify-self: start;
@@ -165,6 +211,21 @@ body {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+}
+#page_main > #hero_section > .custom_orders {
+  display: grid;
+  place-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-image: url(/images/1\ \(19\).avif);
+  background-position: 50% 50%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+#page_main > #hero_section > .custom_orders > span {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 60%;
 }
 
 /*# sourceMappingURL=products.css.map */
