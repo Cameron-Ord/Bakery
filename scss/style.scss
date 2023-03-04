@@ -238,130 +238,265 @@ body {
 
             }
         }
+
+
+
+>.article_6{
+    margin-top: 10px;
+margin-bottom: 10px;
+
+    display: grid;
+    place-items: center;
+>span{
+    height: 700px;
+border-radius: 25px;
+    background-color: #2E294E;
+text-align: center;
+    width: 80%;
+    display: grid;
+    place-items: center;
+grid-template-rows: 400px 250px; 
+    >h2{
+  
+
+        width: 80%;
+        font-size: 2em;
+        
+                }
+    >img{
+
+
+        object-fit: cover;
+        border-radius: 50%;
+        align-self: center;
+        justify-self: center;
+        width: 250px;
+        height: 250px;
+
+
     }
 
-    >#hero_section_two {
-        place-items: center;
+}
+
+
+
+}
+        
+>.article_7{
+
+margin-top: 10px;
+margin-bottom: 10px;
+    display: grid;
+    place-items: center;
+    >span{
+        border-radius: 25px;
+        background-color: #2E294E;
+   height: 300px;
+        width: 80%;
         display: grid;
-
-        >.section_2_article_1 {
-            margin-top: 25px;
-            margin-bottom: 25px;
-            display: grid;
-            place-items: center;
-
-            >span {
-                width: 80%;
-                border-radius: 25px;
-                grid-template-rows: 500px 300px;
-                display: grid;
-                background-color: #2E294E;
-
-                >img {
-                    border-radius: 25px;
-                    align-self: center;
-                    object-fit: cover;
-                    justify-self: center;
-                    width: 75%;
-                    height: 400px;
-                }
-
-                h2 {
-                    color: #BE97C6;
-                    justify-self: center;
-                    align-self: center;
-                    width: 76%;
-                    text-align: center;
-
-                    font-size: 2em;
-                }
+        place-items: center;
+        >img{
 
 
-            }
+            object-fit: cover;
+            border-radius: 25px;
+            align-self: center;
+            justify-self: center;
+            width: 250px;
+            height: 225px;
+    
         }
 
->.section_2_article_2{
+    }
 
+}
 
-    margin-top: 25px;
-    margin-bottom: 25px;
+>.article_8{
+    margin-top: 10px;
+margin-bottom: 10px;
     display: grid;
     place-items: center;
+    >span{
+        border-radius: 25px;
+        background-color: #2E294E;
+height: 850px;
+        width: 80%;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        >p{
 
->span{
-place-items: center;
-display: grid;
-width: 80%;
+            width: 80%;
+            letter-spacing: 1.5px;
+        }
 
-padding-top: 20px;
-padding-bottom: 20px;
-border-radius: 25px;
-background-color: #2E294E;
->img{
-    justify-self: center;
-    object-fit: cover;
- border-radius: 25px;
-width: 80%;
+        >a{
 
-
-}
-
-}
-
-}
-
->.section_2_article_3{
-
-
-
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: grid;
-    place-items: center;
-
->span{
-
-    border-radius: 25px;
-grid-template-rows: 375px 175px 125px;
-place-items: center;
-display: grid;
-width: 80%;
-background-color: #2E294E;
-text-align: center;
-
->a{
-    border-radius: 25px;
-    background-color: #8661C1;
-padding: 15px;
-color: #BE97C6;
-
-
-}
-
->p{
-
-width: 80%;
-
-}
-
->img{
-    object-fit: cover;
-border-radius: 25px;
 align-self: center;
-    width: 80%;
-}
-
-}
-}
+padding: 15px;
+background-color: #8661C1;
+border-radius: 30px;
 
 
+        }
+        >img{
 
+            object-fit: cover;
+        
+            align-self: center;
+            justify-self: center;
+            width: 300px;
+            height: 500px;
 
-
-
+        }
 
 
     }
+}
+
+    }
+
+    
+
+}
 
 
+@media only screen and (min-width: 700px){
+
+    #page_main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    
+        >#hero_section {
+place-items: center;
+     display: grid;
+     align-content: center;
+            >.article_1 {
+
+                place-items: center;
+                display: grid;
+                align-content: center;
+                grid-template-columns: 3fr;
+    
+                >span {
+ 
+    
+                    >h1 {
+      
+                    }
+    
+                    >a {
+
+                    }
+    
+                    >p {
+ 
+    
+                    }
+    
+                    >h4 {
+    
+                    }
+    
+                    >#atag {
+     
+    
+    
+                    }
+    
+    
+                }
+    
+            }
+
+            >#hero_section_two {
+                place-items: center;
+                display: grid;
+        
+                >.section_2_article_1 {
+                    margin-top: 25px;
+                    margin-bottom: 25px;
+                    display: grid;
+                    place-items: center;
+        
+                    >span {
+                        width: 80%;
+                        border-radius: 25px;
+    
+                        display: grid;
+                        background-color: #2E294E;
+        
+                        >img {
+                            border-radius: 25px;
+                            align-self: center;
+                            object-fit: cover;
+                            justify-self: center;
+                            width: 75%;
+                            height: 400px;
+                        }
+        
+                        h2 {
+                            color: #BE97C6;
+                            justify-self: center;
+                            align-self: center;
+                            width: 76%;
+                            text-align: center;
+        
+                            font-size: 2em;
+                        }
+        
+        
+                    }
+                }
+            }
+
+
+            >.article_3 {
+
+                display: grid;
+                place-items: center;
+    
+                margin-top: 5px;
+                margin-bottom: 5px;
+    grid-template-columns: 1fr 1fr;
+                >span {
+                    border-radius: 25px;
+                    padding-top: 45px;
+                    padding-bottom: 45px;
+                    width: 80%;
+                    background-color: #2E294E;
+                
+                    display: grid;
+                    place-items: center;
+    
+                    >img {
+                        width: 100px;
+                        border-radius: 50%;
+                        padding: 5px;
+                        background-color: #8661C1;
+                    }
+    
+    
+    
+                    >p {
+                        width: 80%;
+                        text-align: center;
+                        font-size: 1em;
+    
+                        color: #BE97C6;
+    
+                    }
+                }
+            }
+    
+
+
+
+
+
+
+
+
+        }
+    }
 }

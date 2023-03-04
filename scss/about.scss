@@ -32,32 +32,34 @@ body {
             >span {
                 border-radius: 25px;
                 height: 500px;
-grid-template-rows: 50px 125px 225px;
+                grid-template-rows: 50px 125px 225px;
                 width: 80%;
                 background-color: #2E294E;
                 display: grid;
                 justify-items: start;
                 align-content: center;
                 text-align: start;
->h3{
-color: white;
-margin-left: 25px;
-}
 
->p{
-    width: 80%;
-    color: white;
-    margin-left: 25px;
-}
+                >h3 {
+                    color: white;
+                    margin-left: 25px;
+                }
 
->h2{
-    color: white;
-    margin-left: 25px;
-}
->a{
-    margin-left: 25px;
-    color: white;
-}
+                >p {
+                    width: 80%;
+                    color: white;
+                    margin-left: 25px;
+                }
+
+                >h2 {
+                    color: white;
+                    margin-left: 25px;
+                }
+
+                >a {
+                    margin-left: 25px;
+                    color: white;
+                }
 
 
 
@@ -82,7 +84,7 @@ margin-left: 25px;
                 place-items: center;
 
                 >img {
-border-radius: 10%;
+                    border-radius: 10%;
                     width: 75%;
                     object-fit: cover;
 
@@ -92,23 +94,23 @@ border-radius: 10%;
         }
 
 
-        >.hours_article{
-display: grid;
-place-items: center;
->span{
-    width: 65%;
-    display: grid;
-    place-items: center;
-    text-align: center;
-    background-color: #2E294E;
-    border-radius: 25px;
-    height: 275px;
-    color: white;
-}
+        >.hours_article {
+            display: grid;
+            place-items: center;
+
+            >span {
+                width: 65%;
+                display: grid;
+                place-items: center;
+                text-align: center;
+                background-color: #2E294E;
+                border-radius: 25px;
+                height: 275px;
+                color: white;
+            }
         }
 
     }
-
 
 
 

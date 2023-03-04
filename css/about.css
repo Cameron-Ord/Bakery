@@ -26,6 +26,12 @@
   align-self: center;
 }
 
+@media only screen and (min-width: 700px) {
+  #page_header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
 #footer {
   margin-top: 25px;
   margin-bottom: 25px;

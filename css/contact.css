@@ -94,39 +94,55 @@ body {
   display: grid;
 }
 #page_main > #hero_section > .images_article {
+  margin-top: 25px;
+  margin-bottom: 25px;
   place-items: center;
   display: grid;
 }
 #page_main > #hero_section > .images_article > span {
+  align-content: center;
+  grid-template-rows: 275px 275px 175px;
   display: grid;
   place-items: center;
 }
 #page_main > #hero_section > .images_article > span > .image1 {
-  width: 50%;
+  border-radius: 50%;
+  width: 325px;
+  height: 300px;
 }
 #page_main > #hero_section > .images_article > span > .image2 {
-  width: 40%;
+  border-radius: 50%;
+  width: 200px;
+  height: 180px;
 }
 #page_main > #hero_section > .images_article > span > .image3 {
-  width: 40%;
+  border-radius: 50%;
+  width: 200px;
+  height: 180px;
 }
 #page_main > #hero_section > .contact_article {
   display: grid;
   place-items: center;
 }
 #page_main > #hero_section > .contact_article > span {
+  align-content: center;
+  height: 200px;
   margin-top: 10px;
   margin-bottom: 10px;
   place-items: center;
   display: grid;
   width: 80%;
   background-color: #2E294E;
+  grid-template-rows: 45px 45px 45px 45px;
 }
 #page_main > #hero_section > .contact_article_locations {
   display: grid;
   place-items: center;
 }
 #page_main > #hero_section > .contact_article_locations > span {
+  align-content: center;
+  height: 325px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px;
   place-items: center;
   display: grid;
   width: 80%;
