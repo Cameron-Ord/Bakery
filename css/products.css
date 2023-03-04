@@ -95,19 +95,13 @@ body {
 }
 #page_main > #hero_section > .sweets_article {
   margin-bottom: 25px;
-  grid-template-rows: 100px 225px 225px 225px;
+  grid-template-rows: 1fr 1fr 1fr;
   background-image: url(/images/1\ \(17\).avif);
   background-position: 50% 50%;
   object-fit: cover;
-  height: 850px;
+  height: 950px;
   display: grid;
   place-items: center;
-}
-#page_main > #hero_section > .sweets_article > div {
-  color: white;
-  display: grid;
-  justify-content: center;
-  align-content: center;
 }
 #page_main > #hero_section > .sweets_article > #span_1 {
   grid-template-rows: 45px 25px 25px 25px 25px 25px;
@@ -180,7 +174,7 @@ body {
   place-items: center;
   grid-template-rows: 1fr 1fr;
 }
-#page_main > #hero_section > .breads_article > span {
+#page_main > #hero_section > .breads_article > #span_bread1 {
   color: white;
   border-radius: 25px;
   grid-template-rows: 200px 50px 25px 50px;
@@ -190,19 +184,13 @@ body {
   place-items: center;
   margin-top: 25px;
 }
-#page_main > #hero_section > .breads_article > span > img {
+#page_main > #hero_section > .breads_article > #span_bread1 > img {
   object-fit: cover;
   border-radius: 50%;
   width: 150px;
   height: 150px;
 }
-#page_main > #hero_section > .breads_article_2 {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  margin-bottom: 25px;
-  place-items: center;
-}
-#page_main > #hero_section > .breads_article_2 > span {
+#page_main > #hero_section > .breads_article > #span_bread2 {
   color: white;
   border-radius: 25px;
   grid-template-rows: 50px 25px 50px 200px;
@@ -210,9 +198,9 @@ body {
   background-color: #2E294E;
   width: 80%;
   place-items: center;
-  margin-bottom: 25px;
+  margin-top: 25px;
 }
-#page_main > #hero_section > .breads_article_2 > span > img {
+#page_main > #hero_section > .breads_article > #span_bread2 > img {
   object-fit: cover;
   border-radius: 50%;
   width: 150px;
@@ -240,6 +228,67 @@ body {
 }
 #page_main > #hero_section > .custom_orders > span > a {
   color: white;
+}
+
+@media only screen and (min-width: 700px) {
+  #page_main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  #page_main > #hero_section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+  }
+  #page_main > #hero_section > .sweets_article {
+    width: 90%;
+    border-radius: 25px;
+    grid-template-columns: 1fr 1fr;
+    height: 550px;
+  }
+  #page_main > #hero_section > .sweets_article > #span_1 {
+    align-content: center;
+    height: 175px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+    width: 70%;
+    display: grid;
+  }
+  #page_main > #hero_section > .sweets_article > #span_2 {
+    grid-template-rows: 45px 42px 42px 42px;
+    align-content: center;
+    height: 175px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+    width: 70%;
+    display: grid;
+  }
+  #page_main > #hero_section > .sweets_article > #span_3 {
+    align-content: center;
+    height: 175px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+    width: 70%;
+    display: grid;
+  }
+  #page_main > #hero_section > #div {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    width: 80%;
+    font-size: 2em;
+  }
+  #page_main > #hero_section > .breads_article {
+    display: grid;
+    margin-bottom: 25px;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /*# sourceMappingURL=products.css.map */
