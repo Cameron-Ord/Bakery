@@ -188,14 +188,19 @@ body {
 
 
 
-        >.article_5 {
-            display: grid;
-            place-items: center;
 
-            margin-top: 25px;
-            margin-bottom: 25px;
+        
 
-            >span {
+
+
+>.article_6{
+    margin-top: 10px;
+margin-bottom: 10px;
+
+    display: grid;
+    place-items: center;
+
+            >#instaspan {
                 height: 425px;
                 border-radius: 25px;
         
@@ -234,17 +239,10 @@ body {
                 }
 
             }
-        }
 
-
-
->.article_6{
-    margin-top: 10px;
-margin-bottom: 10px;
-
-    display: grid;
-    place-items: center;
 >#article_span_1{
+    margin-top: 10px;
+    margin-bottom: 10px;
     height: 700px;
 border-radius: 25px;
     background-color: #2E294E;
@@ -276,6 +274,8 @@ grid-template-rows: 400px 250px;
 }
 
 >#article_span_2{
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 25px;
     background-color: #2E294E;
 height: 300px;
@@ -295,21 +295,23 @@ height: 300px;
     }
 
 }
->#article_span_3{
-    border-radius: 25px;
-    background-color: #2E294E;
+    >#article_span_3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 25px;
+        background-color: #2E294E;
 height: 950px;
-    width: 90%;
-    display: grid;
-    place-items: center;
-    text-align: center;
-    >p{
+        width: 90%;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        >p{
 font-size: 1em;
-        width: 80%;
-        letter-spacing: 1.5px;
-    }
+            width: 80%;
+            letter-spacing: 1.5px;
+        }
 
-    >a{
+        >a{
 font-size: 1em;
 align-self: center;
 padding: 15px;
@@ -317,20 +319,20 @@ background-color: #8661C1;
 border-radius: 30px;
 
 
+        }
+        >img{
+
+            object-fit: cover;
+        border-radius: 25px;
+            align-self: center;
+            justify-self: center;
+            width: 300px;
+            height: 500px;
+
+        }
+
+
     }
-    >img{
-
-        object-fit: cover;
-    border-radius: 25px;
-        align-self: center;
-        justify-self: center;
-        width: 300px;
-        height: 500px;
-
-    }
-
-
-}
 
 
 }
@@ -484,46 +486,59 @@ font-size: 1.6em;
     
 
 
->.article_5{
-    display: grid;
-    place-items: center;
 
-width: 100%;
-
->span{
-    width: 90%;
-    display: grid;
-    height: 850px;
-    grid-template-rows: 550px 150px 100px;
-    >p{
-
-width: 75%;
-font-size: 1.4em;
-
-
-    }
-
-
-    .insta{
-
-        width: 25px;
-
-    }
-
-    >img{
-
-        width: 450px;
-        height: 450px;
-
-    }
-} 
-}
 
 >.article_6{
 
 
     display: grid;
     place-items: center;
+
+
+
+
+    >#instaspan {
+        height: 425px;
+        border-radius: 25px;
+
+        background-color: #2E294E;
+        grid-template-rows: 250px 70px 100px;
+        width: 80%;
+        display: grid;
+        place-items: center;
+
+        >p {
+
+            width: 90%;
+            text-align: center;
+            color: #BE97C6;
+
+            font-size: 1.1em;
+        }
+
+        .insta {
+
+            justify-self: center;
+            width: 20px;
+            padding: 10px;
+            background-color: #8661C1;
+            border-radius: 45%;
+
+        }
+
+        >img {
+            object-fit: cover;
+            border-radius: 50%;
+            align-self: center;
+            justify-self: center;
+            width: 65%;
+            height: 75%;
+        }
+
+    }
+
+
+
  >#article_span_1{
     width: 90%;
     height: 800px;
@@ -748,11 +763,51 @@ font-size: 1.6em;
     
 
 
->.article_5{
+>.article_6{
     display: grid;
     place-items: center;
 
 width: 85%;
+
+>#instaspan {
+    height: 425px;
+    border-radius: 25px;
+
+    background-color: #2E294E;
+    grid-template-rows: 250px 70px 100px;
+    width: 80%;
+    display: grid;
+    place-items: center;
+
+    >p {
+
+        width: 90%;
+        text-align: center;
+        color: #BE97C6;
+
+        font-size: 1.1em;
+    }
+
+    .insta {
+
+        justify-self: center;
+        width: 20px;
+        padding: 10px;
+        background-color: #8661C1;
+        border-radius: 45%;
+
+    }
+
+    >img {
+        object-fit: cover;
+        border-radius: 50%;
+        align-self: center;
+        justify-self: center;
+        width: 65%;
+        height: 75%;
+    }
+
+}
 
 >#article_span_1{
     width: 50%;
