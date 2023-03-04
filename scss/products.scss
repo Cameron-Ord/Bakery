@@ -320,18 +320,20 @@ height: 550px;
     
             >.breads_article {
                 display: grid;
-height: 500px;
-                margin-bottom: 25px;
+height: 1000px;
+             
                 place-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-
+    grid-template-columns: 1fr 1fr; 
+width: 90%;
 
     >.span_bread1 {
         display: grid;
+        height: 475px;
         width: 90%;
 text-align: center;
 grid-template-rows: 225px 75px 50px 75px;
-    
+margin-top: 0px;
+margin-bottom: 0px;
         >img {
             object-fit: cover;
             border-radius: 50%;
@@ -354,16 +356,18 @@ grid-template-rows: 225px 75px 50px 75px;
     }
 
     >.span_bread2{
+        height: 475px;
         width: 90%;
         display: grid;
-    
+        margin-top: 0px;
+        margin-bottom: 0px;
         grid-template-rows: 75px 50px 75px 225px;
         >img{
             object-fit: cover;
             border-radius: 50%;
             width: 150px;
             height: 150px;
-
+        
         }
 
 

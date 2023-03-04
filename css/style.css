@@ -61,6 +61,22 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
+@media only screen and (min-width: 1080px) {
+  #page_header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+  }
+  #page_header_bread {
+    margin-bottom: 30px;
+    width: 100%;
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  #page_header_bread .container_div {
+    width: 100%;
+  }
+}
 #footer {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -288,7 +304,7 @@ body {
   display: grid;
   place-items: center;
 }
-#page_main > #hero_section > .article_6 > span {
+#page_main > #hero_section > .article_6 > #article_span_1 {
   height: 700px;
   border-radius: 25px;
   background-color: #2E294E;
@@ -298,11 +314,11 @@ body {
   place-items: center;
   grid-template-rows: 400px 250px;
 }
-#page_main > #hero_section > .article_6 > span > h2 {
+#page_main > #hero_section > .article_6 > #article_span_1 > h2 {
   width: 80%;
   font-size: 2em;
 }
-#page_main > #hero_section > .article_6 > span > img {
+#page_main > #hero_section > .article_6 > #article_span_1 > img {
   object-fit: cover;
   border-radius: 50%;
   align-self: center;
@@ -310,13 +326,7 @@ body {
   width: 250px;
   height: 250px;
 }
-#page_main > #hero_section > .article_7 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: grid;
-  place-items: center;
-}
-#page_main > #hero_section > .article_7 > span {
+#page_main > #hero_section > .article_6 > #article_span_2 {
   border-radius: 25px;
   background-color: #2E294E;
   height: 300px;
@@ -324,7 +334,7 @@ body {
   display: grid;
   place-items: center;
 }
-#page_main > #hero_section > .article_7 > span > img {
+#page_main > #hero_section > .article_6 > #article_span_2 > img {
   object-fit: cover;
   border-radius: 25px;
   align-self: center;
@@ -332,13 +342,7 @@ body {
   width: 250px;
   height: 225px;
 }
-#page_main > #hero_section > .article_8 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: grid;
-  place-items: center;
-}
-#page_main > #hero_section > .article_8 > span {
+#page_main > #hero_section > .article_6 > #article_span_3 {
   border-radius: 25px;
   background-color: #2E294E;
   height: 950px;
@@ -347,19 +351,19 @@ body {
   place-items: center;
   text-align: center;
 }
-#page_main > #hero_section > .article_8 > span > p {
+#page_main > #hero_section > .article_6 > #article_span_3 > p {
   font-size: 1em;
   width: 80%;
   letter-spacing: 1.5px;
 }
-#page_main > #hero_section > .article_8 > span > a {
+#page_main > #hero_section > .article_6 > #article_span_3 > a {
   font-size: 1em;
   align-self: center;
   padding: 15px;
   background-color: #8661C1;
   border-radius: 30px;
 }
-#page_main > #hero_section > .article_8 > span > img {
+#page_main > #hero_section > .article_6 > #article_span_3 > img {
   object-fit: cover;
   border-radius: 25px;
   align-self: center;
@@ -371,7 +375,7 @@ body {
 @media only screen and (min-width: 700px) {
   #page_main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
   }
   #page_main > #hero_section {
     place-items: center;
@@ -492,14 +496,14 @@ body {
     display: grid;
     place-items: center;
   }
-  #page_main > #hero_section > .article_6 > span {
+  #page_main > #hero_section > .article_6 > #article_span_1 {
     width: 90%;
     height: 800px;
     display: grid;
     place-items: center;
     grid-template-rows: 600px 150px;
   }
-  #page_main > #hero_section > .article_6 > span > img {
+  #page_main > #hero_section > .article_6 > #article_span_1 > img {
     object-fit: cover;
     border-radius: 50%;
     align-self: center;
@@ -507,18 +511,180 @@ body {
     width: 450px;
     height: 450px;
   }
-  #page_main > #hero_section > .article_7 {
-    display: grid;
-    place-items: center;
-    width: 80%;
-  }
-  #page_main > #hero_section > .article_7 > span {
+  #page_main > #hero_section > .article_6 > #article_span_2 {
     height: 550px;
     width: 85%;
     display: grid;
     place-items: center;
   }
-  #page_main > #hero_section > .article_7 > span > img {
+  #page_main > #hero_section > .article_6 > #article_span_2 > img {
+    object-fit: cover;
+    border-radius: 25px;
+    align-self: center;
+    justify-self: center;
+    width: 450px;
+    height: 425px;
+  }
+  #page_main > #hero_section > .article_6 > #article_span_3 {
+    height: 1150px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 90%;
+  }
+  #page_main > #hero_section > .article_6 > #article_span_3 > p {
+    font-size: 1.25em;
+  }
+  #page_main > #hero_section > .article_6 > #article_span_3 > a {
+    font-size: 1.25em;
+  }
+  #page_main > #hero_section > .article_6 > #article_span_3 > img {
+    width: 500px;
+    height: 700px;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  #page_main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+  }
+  #page_main > #hero_section {
+    place-items: center;
+    display: grid;
+    align-content: center;
+  }
+  #page_main > #hero_section > .article_1 {
+    place-items: center;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr;
+  }
+  #page_main > #hero_section > .article_1 > span {
+    width: 50%;
+    height: 450px;
+    grid-template-rows: 120px 125px 90px 90px;
+  }
+  #page_main > #hero_section > .article_1 > span > h1 {
+    font-size: 2.5em;
+  }
+  #page_main > #hero_section > .article_1 > span > p {
+    width: 70%;
+    font-size: 1.5em;
+  }
+  #page_main > #hero_section > .article_1 > span > h4 {
+    font-size: 1.8em;
+  }
+  #page_main > #hero_section > .article_1 > span > #atag {
+    border-radius: 50px;
+    background-color: #8661C1;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    color: #EFBCD5;
+    font-size: 1.4em;
+    width: 30%;
+  }
+  #page_main > #hero_section > .article_2 {
+    place-items: center;
+    display: grid;
+  }
+  #page_main > #hero_section > .article_2 > span {
+    grid-template-rows: 100px 80px 100px;
+    height: 300px;
+    display: grid;
+    width: 40%;
+  }
+  #page_main > #hero_section > .article_2 > span > h4 {
+    width: 75%;
+    font-size: 1.5em;
+  }
+  #page_main > #hero_section > .article_2 > span > p {
+    font-size: 2.1em;
+    text-align: center;
+    width: 50%;
+  }
+  #page_main > #hero_section > .article_2 > span > a {
+    font-size: 1.6em;
+  }
+  #page_main > #hero_section > .article_3 {
+    display: grid;
+    place-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 85%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  #page_main > #hero_section > .article_3 > span {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    width: 95%;
+    background-color: #2E294E;
+    display: grid;
+    place-items: center;
+  }
+  #page_main > #hero_section > .article_3 > span > img {
+    width: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #8661C1;
+  }
+  #page_main > #hero_section > .article_3 > span > p {
+    width: 80%;
+    text-align: center;
+    font-size: 1em;
+    color: #BE97C6;
+  }
+  #page_main > #hero_section > .article_5 {
+    display: grid;
+    place-items: center;
+    width: 85%;
+  }
+  #page_main > #hero_section > .article_5 > #article_span_1 {
+    width: 50%;
+    display: grid;
+    height: 850px;
+    grid-template-rows: 550px 150px 100px;
+  }
+  #page_main > #hero_section > .article_5 > #article_span_1 > p {
+    width: 75%;
+    font-size: 1.4em;
+  }
+  #page_main > #hero_section > .article_5 > #article_span_1 .insta {
+    width: 25px;
+  }
+  #page_main > #hero_section > .article_5 > #article_span_1 > img {
+    width: 450px;
+    height: 450px;
+  }
+  #page_main > #hero_section > #article_span_2 {
+    width: 90%;
+    height: 800px;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 600px 150px;
+  }
+  #page_main > #hero_section > #article_span_2 > img {
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    width: 450px;
+    height: 450px;
+  }
+  #page_main > #hero_section > #article_span_3 {
+    height: 550px;
+    width: 85%;
+    display: grid;
+    place-items: center;
+  }
+  #page_main > #hero_section > #article_span_3 > img {
     object-fit: cover;
     border-radius: 25px;
     align-self: center;

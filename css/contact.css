@@ -92,6 +92,7 @@ body {
 }
 #page_main > #hero_section {
   display: grid;
+  place-items: center;
   width: 100%;
 }
 #page_main > #hero_section > .images_article {
@@ -126,11 +127,12 @@ body {
 #page_main > #hero_section > .contact_article {
   display: grid;
   place-items: center;
+  width: 95%;
 }
 #page_main > #hero_section > .contact_article > span {
   border-radius: 25px;
   align-content: center;
-  height: 175px;
+  height: 80px;
   margin-top: 10px;
   margin-bottom: 10px;
   place-items: center;
@@ -139,15 +141,26 @@ body {
   background-color: #2E294E;
   grid-template-rows: 25px 25px;
 }
-#page_main > #hero_section > .contact_article > span > a {
-  margin-top: 25px;
-  color: white;
-  padding: 15px;
-  background-color: #8661C1;
-  border-radius: 25px;
-}
 #page_main > #hero_section > .contact_article > span > p {
+  align-content: center;
+  text-align: center;
   color: white;
+}
+#page_main > #hero_section > #submit {
+  width: 80%;
+  display: grid;
+  place-items: center;
+}
+#page_main > #hero_section > #submit > a {
+  color: white;
+  text-align: center;
+  justify-self: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: #2E294E;
+  border-radius: 20px;
+  width: 90%;
 }
 #page_main > #hero_section > .contact_article_locations {
   display: grid;

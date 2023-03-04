@@ -122,3 +122,64 @@
     }
     
     }
+
+    @media only screen and (min-width: 1080px){
+
+
+
+        #page_header {
+    
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+            
+            >.div_1{
+            
+            >a{
+            
+            
+            
+                >.Logo{
+            
+            
+            
+                }
+            }
+            
+            >.Menu{
+            
+                
+            }
+            }
+            }
+            #page_header_bread {
+                margin-bottom: 30px;
+width: 100%;
+                place-items: center;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            
+            
+                .container_div {
+               
+                    width: 100%;
+            
+                    >img {
+         
+                    }
+            
+                    >.text {
+        
+                    }
+            
+                }
+            }
+            
+            }
+        
+
+
+
+
+
+
+    

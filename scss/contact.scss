@@ -23,7 +23,7 @@ body {
 
     >#hero_section {
         display: grid;
-
+place-items: center;
 width: 100%;
 
         >.images_article {
@@ -71,14 +71,18 @@ border-radius: 50%;
 
         }
 
+
+        
+
         >.contact_article {
             display: grid;
             place-items: center;
-
+        
+width: 95%;
             >span {
          border-radius: 25px;
                 align-content: center;
-                height: 175px;
+                height: 80px;
                 margin-top: 10px;
                 margin-bottom: 10px;
                 place-items: center;
@@ -87,16 +91,11 @@ border-radius: 50%;
                 background-color: #2E294E;
                 grid-template-rows: 25px 25px;
 
->a{
 
-margin-top: 25px;
-color: white;
-padding: 15px;
-background-color: #8661C1;
-border-radius: 25px;
-}
 
                 >p {
+                    align-content: center;
+                    text-align: center;
                     color: white;
                 }
 
@@ -104,8 +103,26 @@ border-radius: 25px;
 
             }
 
-        }
 
+        }
+            >#submit{
+                width: 80%;
+    display: grid;
+    place-items: center;
+    >a{
+
+        color: white;
+        text-align: center;
+
+    justify-self: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color:#2E294E;
+    border-radius: 20px;
+    width: 90%;
+    }
+}
 
 
 
@@ -267,4 +284,11 @@ place-items: center;
 
         }
         }
+}
+
+
+@media only screen and (min-width: 1080px){
+
+
+
 }
