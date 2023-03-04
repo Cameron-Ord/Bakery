@@ -330,8 +330,16 @@ height: 550px;
 
                 margin-bottom: 25px;
                 place-items: center;
-    grid-template-columns: 1fr 1fr;
-                >span {
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+                >#span_bread1 {
+
+    
+                    >img {
+            
+                    }
+                }
+
+                >#span_bread2 {
 
     
                     >img {
@@ -339,19 +347,7 @@ height: 550px;
                     }
                 }
             }
-    
-            >.breads_article_2 {
 
-    
-    
-                >span {
-
-    
-                    >img {
-       
-                    }
-                }
-            }
     
             >.custom_orders {
 
