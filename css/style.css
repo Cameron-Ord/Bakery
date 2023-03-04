@@ -158,7 +158,8 @@ body {
   place-items: center;
   display: grid;
 }
-#page_main > #hero_section > .article_1 > span {
+#page_main > #hero_section > .article_1 > #article_1_span_1 {
+  margin-bottom: 25px;
   border-radius: 50px;
   grid-template-rows: 60px 125px 60px 60px;
   padding-bottom: 25px;
@@ -169,22 +170,22 @@ body {
   text-align: center;
   display: grid;
 }
-#page_main > #hero_section > .article_1 > span > h1 {
+#page_main > #hero_section > .article_1 > #article_1_span_1 > h1 {
   justify-self: center;
   text-align: center;
   font-size: 1.5em;
   color: #BE97C6;
 }
-#page_main > #hero_section > .article_1 > span > p {
+#page_main > #hero_section > .article_1 > #article_1_span_1 > p {
   font-size: 1em;
   width: 75%;
   text-align: center;
   justify-self: center;
 }
-#page_main > #hero_section > .article_1 > span > h4 {
+#page_main > #hero_section > .article_1 > #article_1_span_1 > h4 {
   font-size: 1.25em;
 }
-#page_main > #hero_section > .article_1 > span > #atag {
+#page_main > #hero_section > .article_1 > #article_1_span_1 > #atag {
   border-radius: 50px;
   background-color: #8661C1;
   padding-bottom: 10px;
@@ -197,42 +198,6 @@ body {
   color: #EFBCD5;
   font-size: 1em;
   width: 40%;
-}
-#page_main > #hero_section > .article_2 {
-  margin-top: 25px;
-  margin-bottom: 45px;
-  place-items: center;
-  display: grid;
-}
-#page_main > #hero_section > .article_2 > span {
-  border-radius: 50px;
-  text-align: center;
-  place-items: center;
-  width: 80%;
-  background-color: #2E294E;
-  display: grid;
-  grid-template-rows: 60px 40px 100px;
-}
-#page_main > #hero_section > .article_2 > span > p {
-  color: #BE97C6;
-  align-self: center;
-  font-size: 1em;
-  font-weight: 600;
-}
-#page_main > #hero_section > .article_2 > span > a {
-  color: #EFBCD5;
-  align-self: center;
-  background: #8661C1;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 30px;
-  font-weight: bold;
-}
-#page_main > #hero_section > .article_2 > span > h4 {
-  color: #BE97C6;
-  align-self: center;
 }
 #page_main > #hero_section > .article_3 {
   display: grid;
@@ -319,8 +284,8 @@ body {
   border-radius: 50%;
   align-self: center;
   justify-self: center;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 #page_main > #hero_section > .article_6 > #article_span_2 {
   margin-top: 10px;
@@ -338,7 +303,7 @@ body {
   align-self: center;
   justify-self: center;
   width: 250px;
-  height: 225px;
+  height: 250px;
 }
 #page_main > #hero_section > .article_6 > #article_span_3 {
   margin-top: 10px;
@@ -386,23 +351,24 @@ body {
     place-items: center;
     display: grid;
     align-content: center;
-    grid-template-columns: 1fr;
+    width: 100%;
   }
-  #page_main > #hero_section > .article_1 > span {
+  #page_main > #hero_section > .article_1 > #article_1_span_1 {
+    width: 75%;
     height: 450px;
     grid-template-rows: 120px 125px 90px 90px;
   }
-  #page_main > #hero_section > .article_1 > span > h1 {
+  #page_main > #hero_section > .article_1 > #article_1_span_1 > h1 {
     font-size: 2.5em;
   }
-  #page_main > #hero_section > .article_1 > span > p {
+  #page_main > #hero_section > .article_1 > #article_1_span_1 > p {
     width: 70%;
     font-size: 1.5em;
   }
-  #page_main > #hero_section > .article_1 > span > h4 {
+  #page_main > #hero_section > .article_1 > #article_1_span_1 > h4 {
     font-size: 1.8em;
   }
-  #page_main > #hero_section > .article_1 > span > #atag {
+  #page_main > #hero_section > .article_1 > #article_1_span_1 > #atag {
     border-radius: 50px;
     background-color: #8661C1;
     padding-bottom: 10px;
@@ -415,29 +381,6 @@ body {
     color: #EFBCD5;
     font-size: 1.4em;
     width: 30%;
-  }
-  #page_main > #hero_section > .article_2 {
-    place-items: center;
-    display: grid;
-    width: 90%;
-  }
-  #page_main > #hero_section > .article_2 > span {
-    grid-template-rows: 100px 80px 100px;
-    height: 300px;
-    display: grid;
-    width: 80%;
-  }
-  #page_main > #hero_section > .article_2 > span > h4 {
-    width: 75%;
-    font-size: 1.5em;
-  }
-  #page_main > #hero_section > .article_2 > span > p {
-    font-size: 2.1em;
-    text-align: center;
-    width: 50%;
-  }
-  #page_main > #hero_section > .article_2 > span > a {
-    font-size: 1.6em;
   }
   #page_main > #hero_section > .article_3 {
     display: grid;
@@ -473,13 +416,14 @@ body {
   #page_main > #hero_section > .article_6 {
     display: grid;
     place-items: center;
+    width: 95%;
   }
   #page_main > #hero_section > .article_6 > #instaspan {
-    height: 425px;
+    height: 625px;
     border-radius: 25px;
     background-color: #2E294E;
-    grid-template-rows: 250px 70px 100px;
-    width: 80%;
+    grid-template-rows: 450px 70px 100px;
+    width: 90%;
     display: grid;
     place-items: center;
   }
@@ -501,8 +445,8 @@ body {
     border-radius: 50%;
     align-self: center;
     justify-self: center;
-    width: 65%;
-    height: 75%;
+    width: 300px;
+    height: 300px;
   }
   #page_main > #hero_section > .article_6 > #article_span_1 {
     width: 90%;
@@ -521,7 +465,7 @@ body {
   }
   #page_main > #hero_section > .article_6 > #article_span_2 {
     height: 550px;
-    width: 85%;
+    width: 90%;
     display: grid;
     place-items: center;
   }
@@ -562,27 +506,28 @@ body {
     align-content: center;
   }
   #page_main > #hero_section > .article_1 {
+    width: 95%;
     place-items: center;
     display: grid;
     align-content: center;
     grid-template-columns: 1fr;
   }
-  #page_main > #hero_section > .article_1 > span {
-    width: 50%;
+  #page_main > #hero_section > .article_1 > #article_1_span_1 {
+    width: 45%;
     height: 450px;
     grid-template-rows: 120px 125px 90px 90px;
   }
-  #page_main > #hero_section > .article_1 > span > h1 {
+  #page_main > #hero_section > .article_1 > #article_1_span_1 > h1 {
     font-size: 2.5em;
   }
-  #page_main > #hero_section > .article_1 > span > p {
+  #page_main > #hero_section > .article_1 > #article_1_span_1 > p {
     width: 70%;
     font-size: 1.5em;
   }
-  #page_main > #hero_section > .article_1 > span > h4 {
+  #page_main > #hero_section > .article_1 > #article_1_span_1 > h4 {
     font-size: 1.8em;
   }
-  #page_main > #hero_section > .article_1 > span > #atag {
+  #page_main > #hero_section > .article_1 > #article_1_span_1 > #atag {
     border-radius: 50px;
     background-color: #8661C1;
     padding-bottom: 10px;
@@ -595,28 +540,6 @@ body {
     color: #EFBCD5;
     font-size: 1.4em;
     width: 30%;
-  }
-  #page_main > #hero_section > .article_2 {
-    place-items: center;
-    display: grid;
-  }
-  #page_main > #hero_section > .article_2 > span {
-    grid-template-rows: 100px 80px 100px;
-    height: 300px;
-    display: grid;
-    width: 40%;
-  }
-  #page_main > #hero_section > .article_2 > span > h4 {
-    width: 75%;
-    font-size: 1.5em;
-  }
-  #page_main > #hero_section > .article_2 > span > p {
-    font-size: 2.1em;
-    text-align: center;
-    width: 50%;
-  }
-  #page_main > #hero_section > .article_2 > span > a {
-    font-size: 1.6em;
   }
   #page_main > #hero_section > .article_3 {
     display: grid;
@@ -652,14 +575,15 @@ body {
   #page_main > #hero_section > .article_6 {
     display: grid;
     place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 85%;
   }
   #page_main > #hero_section > .article_6 > #instaspan {
-    height: 425px;
+    height: 825px;
     border-radius: 25px;
     background-color: #2E294E;
-    grid-template-rows: 250px 70px 100px;
-    width: 80%;
+    grid-template-rows: 650px 70px 100px;
+    width: 96%;
     display: grid;
     place-items: center;
   }
@@ -681,14 +605,14 @@ body {
     border-radius: 50%;
     align-self: center;
     justify-self: center;
-    width: 65%;
-    height: 75%;
+    width: 250px;
+    height: 250px;
   }
   #page_main > #hero_section > .article_6 > #article_span_1 {
-    width: 50%;
+    width: 96%;
     display: grid;
-    height: 850px;
-    grid-template-rows: 550px 150px 100px;
+    height: 825px;
+    grid-template-rows: 650px 170px;
   }
   #page_main > #hero_section > .article_6 > #article_span_1 > p {
     width: 75%;
@@ -698,58 +622,37 @@ body {
     width: 25px;
   }
   #page_main > #hero_section > .article_6 > #article_span_1 > img {
-    width: 450px;
-    height: 450px;
+    width: 250px;
+    height: 250px;
   }
-  #page_main > #hero_section > #article_span_2 {
-    width: 90%;
-    height: 800px;
-    display: grid;
-    place-items: center;
-    grid-template-rows: 600px 150px;
-  }
-  #page_main > #hero_section > #article_span_2 > img {
-    object-fit: cover;
-    border-radius: 50%;
-    align-self: center;
-    justify-self: center;
-    width: 450px;
-    height: 450px;
-  }
-  #page_main > #hero_section > #article_span_3 {
-    height: 550px;
-    width: 85%;
-    display: grid;
+  #page_main > #hero_section > .article_6 > #article_span_2 {
+    display: none;
+    width: 95%;
+    height: 825px;
     place-items: center;
   }
-  #page_main > #hero_section > #article_span_3 > img {
+  #page_main > #hero_section > .article_6 > #article_span_2 > img {
+    display: none;
     object-fit: cover;
     border-radius: 25px;
     align-self: center;
     justify-self: center;
-    width: 450px;
+    width: 250px;
+    height: 250px;
+  }
+  #page_main > #hero_section > .article_6 > #article_span_3 {
+    height: 825px;
+    width: 96%;
+    display: grid;
+    place-items: center;
+  }
+  #page_main > #hero_section > .article_6 > #article_span_3 > img {
+    object-fit: cover;
+    border-radius: 25px;
+    align-self: center;
+    justify-self: center;
+    width: 250px;
     height: 425px;
-  }
-  #page_main > #hero_section > .article_8 {
-    display: grid;
-    place-items: center;
-  }
-  #page_main > #hero_section > .article_8 > span {
-    height: 1150px;
-    display: grid;
-    place-items: center;
-    text-align: center;
-    width: 90%;
-  }
-  #page_main > #hero_section > .article_8 > span > p {
-    font-size: 1.25em;
-  }
-  #page_main > #hero_section > .article_8 > span > a {
-    font-size: 1.25em;
-  }
-  #page_main > #hero_section > .article_8 > span > img {
-    width: 500px;
-    height: 700px;
   }
 }
 
