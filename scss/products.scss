@@ -27,7 +27,7 @@ body {
 
         >.sweets_article {
             margin-bottom: 25px;
-            grid-template-rows: 1fr 1fr 1fr;
+
             background-image: url(/images/1\ \(17\).avif);
             background-position: 50% 50%;
             object-fit: cover;
@@ -239,12 +239,14 @@ grid-template-columns: 1fr 1fr;
 height: 550px;
   
                 >#span_1 {
+              
+                    justify-self: center;
                     align-content: center;
                     height: 175px;
                     margin-top: 25px;
                     margin-bottom: 25px;
-                    width: 50%;
                     width: 70%;
+                   
                     display: grid;
                     >h1 {
                  
@@ -265,8 +267,8 @@ height: 550px;
                     height: 175px;
                     margin-top: 25px;
                     margin-bottom: 25px;
-                    width: 50%;
                     width: 70%;
+              
                     display: grid;
                     >h1 {
           
@@ -286,8 +288,8 @@ height: 550px;
                     height: 175px;
                     margin-top: 25px;
                     margin-bottom: 25px;
-                    width: 50%;
                     width: 70%;
+          
                     display: grid;
                     >h1 {
                     
@@ -430,6 +432,133 @@ margin-left: 25px;
 
 
 
+
+    #page_main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+    
+        >#hero_section {
+  
+            display: grid;
+            place-items: center;
+
+
+            >.sweets_article {
+
+                width: 60%;
+                height: 400px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+    
+                >#span_1 {
+
+             
+                    width: 90%;
+                    display: grid;
+                    >h1 {
+          
+    
+                    }
+    
+                    >p {
+    
+    
+                    }
+                }
+    
+                >#span_2 {
+ 
+          
+                    width: 90%;
+                    display: grid;
+                    >h1 {
+
+    
+                    }
+    
+                    >p {
+
+    
+                    }
+                }
+    
+                >#span_3 {
+              
+                    width: 90%;
+                    display: grid;
+                    >h1 {
+    
+    
+                    }
+    
+                    >p {
+    
+           
+    
+                    }
+                }
+    
+    
+    
+            }
+    
+    
+            >#div {
+
+            }
+    
+    
+            >.breads_article {
+
+    width: 75%;
+                >.span_bread1 {
+  
+    width: 75%;
+    
+                    >img {
+     
+                    }
+                }
+    
+                >.span_bread2{
+                    width: 75%;
+                   
+                    >img{
+                 
+    
+                    }
+    
+                }
+            }
+    
+    
+    
+            >.custom_orders {
+width: 60%;
+    
+                >span {
+    
+              
+                    >p {
+                        color: white;
+                    }
+    
+                    >h1 {
+                        color: white;
+                    }
+    
+                    >a {
+                        color: white;
+    
+    
+                    }
+    
+                }
+            }
+    
+        }
+    
+    }
 
 
 

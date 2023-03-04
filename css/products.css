@@ -95,7 +95,6 @@ body {
 }
 #page_main > #hero_section > .sweets_article {
   margin-bottom: 25px;
-  grid-template-rows: 1fr 1fr 1fr;
   background-image: url(/images/1\ \(17\).avif);
   background-position: 50% 50%;
   object-fit: cover;
@@ -247,11 +246,11 @@ body {
     height: 550px;
   }
   #page_main > #hero_section > .sweets_article > #span_1 {
+    justify-self: center;
     align-content: center;
     height: 175px;
     margin-top: 25px;
     margin-bottom: 25px;
-    width: 50%;
     width: 70%;
     display: grid;
   }
@@ -261,7 +260,6 @@ body {
     height: 175px;
     margin-top: 25px;
     margin-bottom: 25px;
-    width: 50%;
     width: 70%;
     display: grid;
   }
@@ -270,7 +268,6 @@ body {
     height: 175px;
     margin-top: 25px;
     margin-bottom: 25px;
-    width: 50%;
     width: 70%;
     display: grid;
   }
@@ -365,6 +362,55 @@ body {
   }
   #page_main > #hero_section > .custom_orders > span > a {
     font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  #page_main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+  }
+  #page_main > #hero_section {
+    display: grid;
+    place-items: center;
+  }
+  #page_main > #hero_section > .sweets_article {
+    width: 60%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #page_main > #hero_section > .sweets_article > #span_1 {
+    width: 90%;
+    display: grid;
+  }
+  #page_main > #hero_section > .sweets_article > #span_2 {
+    width: 90%;
+    display: grid;
+  }
+  #page_main > #hero_section > .sweets_article > #span_3 {
+    width: 90%;
+    display: grid;
+  }
+  #page_main > #hero_section > .breads_article {
+    width: 75%;
+  }
+  #page_main > #hero_section > .breads_article > .span_bread1 {
+    width: 75%;
+  }
+  #page_main > #hero_section > .breads_article > .span_bread2 {
+    width: 75%;
+  }
+  #page_main > #hero_section > .custom_orders {
+    width: 60%;
+  }
+  #page_main > #hero_section > .custom_orders > span > p {
+    color: white;
+  }
+  #page_main > #hero_section > .custom_orders > span > h1 {
+    color: white;
+  }
+  #page_main > #hero_section > .custom_orders > span > a {
+    color: white;
   }
 }
 
