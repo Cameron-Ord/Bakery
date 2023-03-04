@@ -159,11 +159,6 @@ body {
   font-size: 1.5em;
   color: #BE97C6;
 }
-#page_main > #hero_section > .article_1 > span > a {
-  width: 90%;
-  color: #EFBCD5;
-  font-size: 1.24em;
-}
 #page_main > #hero_section > .article_1 > span > p {
   font-size: 1em;
   width: 75%;
@@ -226,10 +221,10 @@ body {
 #page_main > #hero_section > .article_3 {
   display: grid;
   place-items: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 #page_main > #hero_section > .article_3 > span {
+  margin-top: 5px;
+  margin-bottom: 5px;
   border-radius: 25px;
   padding-top: 45px;
   padding-bottom: 45px;
@@ -258,11 +253,10 @@ body {
   margin-bottom: 25px;
 }
 #page_main > #hero_section > .article_5 > span {
+  height: 425px;
   border-radius: 25px;
-  padding-top: 25px;
-  padding: bottom 25px;
   background-color: #2E294E;
-  grid-template-rows: 250px 50px 100px;
+  grid-template-rows: 250px 70px 100px;
   width: 80%;
   display: grid;
   place-items: center;
@@ -326,7 +320,7 @@ body {
   border-radius: 25px;
   background-color: #2E294E;
   height: 300px;
-  width: 80%;
+  width: 75%;
   display: grid;
   place-items: center;
 }
@@ -347,17 +341,19 @@ body {
 #page_main > #hero_section > .article_8 > span {
   border-radius: 25px;
   background-color: #2E294E;
-  height: 850px;
-  width: 80%;
+  height: 950px;
+  width: 90%;
   display: grid;
   place-items: center;
   text-align: center;
 }
 #page_main > #hero_section > .article_8 > span > p {
+  font-size: 1em;
   width: 80%;
   letter-spacing: 1.5px;
 }
 #page_main > #hero_section > .article_8 > span > a {
+  font-size: 1em;
   align-self: center;
   padding: 15px;
   background-color: #8661C1;
@@ -365,6 +361,7 @@ body {
 }
 #page_main > #hero_section > .article_8 > span > img {
   object-fit: cover;
+  border-radius: 25px;
   align-self: center;
   justify-self: center;
   width: 300px;
@@ -385,52 +382,74 @@ body {
     place-items: center;
     display: grid;
     align-content: center;
-    grid-template-columns: 3fr;
+    grid-template-columns: 1fr;
   }
-  #page_main > #hero_section > #hero_section_two {
+  #page_main > #hero_section > .article_1 > span {
+    height: 450px;
+    grid-template-rows: 120px 125px 90px 90px;
+  }
+  #page_main > #hero_section > .article_1 > span > h1 {
+    font-size: 2.5em;
+  }
+  #page_main > #hero_section > .article_1 > span > p {
+    width: 70%;
+    font-size: 1.5em;
+  }
+  #page_main > #hero_section > .article_1 > span > h4 {
+    font-size: 1.8em;
+  }
+  #page_main > #hero_section > .article_1 > span > #atag {
+    border-radius: 50px;
+    background-color: #8661C1;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    color: #EFBCD5;
+    font-size: 1.4em;
+    width: 30%;
+  }
+  #page_main > #hero_section > .article_2 {
     place-items: center;
     display: grid;
+    width: 90%;
   }
-  #page_main > #hero_section > #hero_section_two > .section_2_article_1 {
-    margin-top: 25px;
-    margin-bottom: 25px;
+  #page_main > #hero_section > .article_2 > span {
+    grid-template-rows: 100px 80px 100px;
+    height: 300px;
     display: grid;
-    place-items: center;
-  }
-  #page_main > #hero_section > #hero_section_two > .section_2_article_1 > span {
     width: 80%;
-    border-radius: 25px;
-    display: grid;
-    background-color: #2E294E;
   }
-  #page_main > #hero_section > #hero_section_two > .section_2_article_1 > span > img {
-    border-radius: 25px;
-    align-self: center;
-    object-fit: cover;
-    justify-self: center;
+  #page_main > #hero_section > .article_2 > span > h4 {
     width: 75%;
-    height: 400px;
+    font-size: 1.5em;
   }
-  #page_main > #hero_section > #hero_section_two > .section_2_article_1 > span h2 {
-    color: #BE97C6;
-    justify-self: center;
-    align-self: center;
-    width: 76%;
+  #page_main > #hero_section > .article_2 > span > p {
+    font-size: 2.1em;
     text-align: center;
-    font-size: 2em;
+    width: 50%;
+  }
+  #page_main > #hero_section > .article_2 > span > a {
+    font-size: 1.6em;
   }
   #page_main > #hero_section > .article_3 {
     display: grid;
     place-items: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 95%;
     grid-template-columns: 1fr 1fr;
   }
   #page_main > #hero_section > .article_3 > span {
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 25px;
     padding-top: 45px;
     padding-bottom: 45px;
-    width: 80%;
+    width: 95%;
     background-color: #2E294E;
     display: grid;
     place-items: center;
@@ -446,6 +465,87 @@ body {
     text-align: center;
     font-size: 1em;
     color: #BE97C6;
+  }
+  #page_main > #hero_section > .article_5 {
+    display: grid;
+    place-items: center;
+    width: 100%;
+  }
+  #page_main > #hero_section > .article_5 > span {
+    width: 90%;
+    display: grid;
+    height: 850px;
+    grid-template-rows: 550px 150px 100px;
+  }
+  #page_main > #hero_section > .article_5 > span > p {
+    width: 75%;
+    font-size: 1.4em;
+  }
+  #page_main > #hero_section > .article_5 > span .insta {
+    width: 25px;
+  }
+  #page_main > #hero_section > .article_5 > span > img {
+    width: 450px;
+    height: 450px;
+  }
+  #page_main > #hero_section > .article_6 {
+    display: grid;
+    place-items: center;
+  }
+  #page_main > #hero_section > .article_6 > span {
+    width: 90%;
+    height: 800px;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 600px 150px;
+  }
+  #page_main > #hero_section > .article_6 > span > img {
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    width: 450px;
+    height: 450px;
+  }
+  #page_main > #hero_section > .article_7 {
+    display: grid;
+    place-items: center;
+    width: 80%;
+  }
+  #page_main > #hero_section > .article_7 > span {
+    height: 550px;
+    width: 85%;
+    display: grid;
+    place-items: center;
+  }
+  #page_main > #hero_section > .article_7 > span > img {
+    object-fit: cover;
+    border-radius: 25px;
+    align-self: center;
+    justify-self: center;
+    width: 450px;
+    height: 425px;
+  }
+  #page_main > #hero_section > .article_8 {
+    display: grid;
+    place-items: center;
+  }
+  #page_main > #hero_section > .article_8 > span {
+    height: 1150px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 90%;
+  }
+  #page_main > #hero_section > .article_8 > span > p {
+    font-size: 1.25em;
+  }
+  #page_main > #hero_section > .article_8 > span > a {
+    font-size: 1.25em;
+  }
+  #page_main > #hero_section > .article_8 > span > img {
+    width: 500px;
+    height: 700px;
   }
 }
 
