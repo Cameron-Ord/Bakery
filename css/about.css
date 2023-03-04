@@ -102,6 +102,24 @@ body {
 #page_main > #hero_section > .about_article {
   place-items: center;
   display: grid;
+  align-items: center;
+}
+#page_main > #hero_section > .about_article > #span_image {
+  grid-template-rows: 1fr;
+  border-radius: 25px;
+  height: 400px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  display: grid;
+  background-color: #2E294E;
+  width: 80%;
+  place-items: center;
+  align-items: center;
+}
+#page_main > #hero_section > .about_article > #span_image > img {
+  border-radius: 10%;
+  width: 75%;
+  object-fit: cover;
 }
 #page_main > #hero_section > .about_article > span {
   border-radius: 25px;
@@ -131,25 +149,6 @@ body {
   margin-left: 25px;
   color: white;
 }
-#page_main > #hero_section > .about_image {
-  place-items: center;
-  display: grid;
-}
-#page_main > #hero_section > .about_image > span {
-  border-radius: 25px;
-  height: 400px;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  display: grid;
-  background-color: #2E294E;
-  width: 80%;
-  place-items: center;
-}
-#page_main > #hero_section > .about_image > span > img {
-  border-radius: 10%;
-  width: 75%;
-  object-fit: cover;
-}
 #page_main > #hero_section > .hours_article {
   display: grid;
   place-items: center;
@@ -163,6 +162,45 @@ body {
   border-radius: 25px;
   height: 275px;
   color: white;
+}
+
+@media only screen and (min-width: 700px) {
+  #page_main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  #page_main > #hero_section > .about_article {
+    grid-template-columns: 1fr 1fr;
+  }
+  #page_main > #hero_section > .about_article > #span_image {
+    grid-template-rows: 1fr;
+    border-radius: 25px;
+    height: 600px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: grid;
+    background-color: #2E294E;
+    width: 80%;
+    place-items: center;
+    align-items: center;
+  }
+  #page_main > #hero_section > .about_article > #span_image > img {
+    border-radius: 10%;
+    height: 500px;
+    object-fit: cover;
+  }
+  #page_main > #hero_section > .about_article > span {
+    width: 80%;
+    height: 600px;
+  }
+  #page_main > #hero_section > .hours_article > span {
+    width: 90%;
+    height: 475px;
+    font-size: 1.5em;
+  }
+  #page_main > #hero_section > .hours_article > span > h1 {
+    font-size: 1.75em;
+  }
 }
 
 /*# sourceMappingURL=about.css.map */

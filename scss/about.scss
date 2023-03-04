@@ -28,6 +28,27 @@ body {
         >.about_article {
             place-items: center;
             display: grid;
+align-items: center;
+            >#span_image {
+                grid-template-rows: 1fr;
+                border-radius: 25px;
+                height: 400px;
+                margin-bottom: 25px;
+                margin-top: 25px;
+                display: grid;
+                background-color: #2E294E;
+                width: 80%;
+                place-items: center;
+align-items: center;
+                >img {
+                    border-radius: 10%;
+                    width: 75%;
+                    object-fit: cover;
+
+                }
+            }
+
+
 
             >span {
                 border-radius: 25px;
@@ -67,31 +88,9 @@ body {
 
         }
 
-        >.about_image {
-
-            place-items: center;
-            display: grid;
 
 
-            >span {
-                border-radius: 25px;
-                height: 400px;
-                margin-bottom: 25px;
-                margin-top: 25px;
-                display: grid;
-                background-color: #2E294E;
-                width: 80%;
-                place-items: center;
-
-                >img {
-                    border-radius: 10%;
-                    width: 75%;
-                    object-fit: cover;
-
-                }
-            }
-
-        }
+        
 
 
         >.hours_article {
@@ -114,4 +113,90 @@ body {
 
 
 
+}
+
+@media only screen and (min-width: 700px){
+
+
+    #page_main {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    
+        >#hero_section {
+    
+
+            >.about_article {
+ grid-template-columns: 1fr 1fr;
+                >#span_image {
+                    grid-template-rows: 1fr;
+                    border-radius: 25px;
+                    height: 600px;
+                    margin-bottom: 25px;
+                    margin-top: 25px;
+                    display: grid;
+                    background-color: #2E294E;
+                    width: 80%;
+                    place-items: center;
+    align-items: center;
+                    >img {
+                        border-radius: 10%;
+                       height: 500px;
+                        object-fit: cover;
+                    }
+                }
+    
+    
+    
+                >span {
+                    width: 80%;
+    height: 600px;
+                    >h3 {
+   
+                    }
+    
+                    >p {
+                  
+                    }
+    
+                    >h2 {
+                   
+                    }
+    
+                    >a {
+                
+                    }
+    
+    
+    
+                }
+    
+            }
+    
+    
+    
+            
+    
+    
+            >.hours_article {
+
+    
+                >span {
+width: 90%;
+height: 475px;
+font-size: 1.5em;
+
+>h1{
+    font-size: 1.75em;
+}
+                }
+            }
+    
+        }
+    
+    
+    
+    }
+
+    
 }
