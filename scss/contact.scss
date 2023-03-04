@@ -78,7 +78,7 @@ border-radius: 50%;
             display: grid;
             place-items: center;
         
-width: 95%;
+width: 90%;
             >span {
          border-radius: 25px;
                 align-content: center;
@@ -106,22 +106,33 @@ width: 95%;
 
         }
             >#submit{
-                width: 80%;
+                width: 90%;
     display: grid;
-    place-items: center;
-    >a{
+   place-items: center;
 
-        color: white;
+
+    >span{
+        display: grid;
+        background-color:#2E294E;
+        width: 80%;
+        border-radius: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
         text-align: center;
+        align-content: center;
+        height: 50px;
 
-    justify-self: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding: 10px;
-    background-color:#2E294E;
-    border-radius: 20px;
-    width: 90%;
+        >a{
+
+            color: white;
+
+
+
+
+        }
+
     }
+
 }
 
 
@@ -134,13 +145,13 @@ width: 95%;
 
             display: grid;
             place-items: center;
-width: 95%;
+            width: 90%;
             >span {
                 margin-top: 25px;
                 border-radius: 25px;
                 align-content: center;
-                height: 325px;
-                grid-template-rows: 50px 50px 50px 50px 50px 50px;
+                height: 100px;
+                grid-template-rows: 50px 50px;
                 place-items: center;
                 display: grid;
                 width: 80%;
@@ -159,10 +170,11 @@ width: 95%;
 
     #page_main {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     
     
         >#hero_section {
+            width: 100%;
 place-items: center;
     
             >.images_article {
@@ -196,72 +208,87 @@ place-items: center;
     
             }
             >.contact_article_locations {
-
-
+                width: 70%;
+                align-content: center;
                 display: grid;
                 place-items: center;
-    width: 95%;
+                grid-template-columns: 1fr 1fr 1fr;
+
                 >span {
                     color: white;
                     margin-top: 25px;
                     border-radius: 25px;
                     align-content: center;
-                    height: 325px;
-                    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+                    height: 125px;
+                    grid-template-rows: 50px 50px;
                     place-items: center;
                     display: grid;
-                    width: 80%;
+                    width: 90%;
                     background-color: #2E294E;
     
                 }
             }
             >#submit{
-                width: 80%;
+                width: 70%;
     display: grid;
-    >a{
-        color: white;
+   place-items: center;
+
+
+    >span{
+        display: grid;
+        background-color:#2E294E;
+        width: 95%;
+        border-radius: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
         text-align: center;
-    
-    justify-self: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding: 10px;
-    background-color:#2E294E;
-    border-radius: 20px;
-    width: 90%;
+        align-content: center;
+        height: 50px;
+
+        >a{
+
+            color: white;
+
+
+
+
+        }
+
     }
-    
-            }
+
+}
 
 
             >.contact_article {
+                width: 70%;
                 display: grid;
                 place-items: center;
-       width: 80%;
+      height: 125px;
     grid-template-columns: 1fr 1fr;
 
-
+align-items: center;
 
 
                 >span {
-                    align-content: center;
-                   justify-items: start;
+              
+           
                     place-items: center;
                     width: 90%;
-                    grid-template-columns: 1fr 2fr;
+                
     
-    >a{
-        text-align: start;
+  
+      
 
     
                     >p {
+                        align-self: center;
+                        text-align: center;
+                        color: white;
                         color: white;
                     }
     
     
     
-                }
-  
                 
                 
                 
@@ -290,5 +317,146 @@ place-items: center;
 @media only screen and (min-width: 1080px){
 
 
+    #page_main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    
+    place-items: center;
+        >#hero_section {
+            width: 100%;
+place-items: center;
+    
+            >.images_article {
 
+                >span {
+
+                    >.image1 {
+
+    
+    
+    
+                    }
+    
+                    >.image2 {
+
+    
+    
+    
+    
+                    }
+    
+                    >.image3 {
+    
+          
+    
+    
+    
+    
+                    }
+                }
+    
+            }
+
+            >.contact_article {
+                width: 50%;
+                display: grid;
+                place-items: center;
+      height: 200px;
+    grid-template-columns: 1fr 1fr;
+
+align-items: center;
+
+
+                >span {
+              
+           
+                    place-items: center;
+                    width: 80%;
+                
+    
+  
+      
+
+    
+                    >p {
+                        align-self: center;
+                        text-align: center;
+                        color: white;
+                        color: white;
+                    }
+    
+    
+                }
+            }
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            >.contact_article_locations {
+           height: 200px;
+grid-template-columns: 1fr 1fr 1fr;
+                display: grid;
+                      align-items: center;
+                place-items: center;
+    width: 50%;
+                >span {
+                    color: white;
+                    margin-top: 25px;
+                    border-radius: 25px;
+             
+                    height: 135px;
+                    grid-template-rows: 50px 50px;
+                    place-items: center;
+                    display: grid;
+                    width: 75%;
+                    background-color: #2E294E;
+    
+                }
+            }
+            >#submit{
+                width: 60%;
+    display: grid;
+   place-items: center;
+
+
+    >span{
+        display: grid;
+        background-color:#2E294E;
+        width: 75%;
+        border-radius: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: center;
+        align-content: center;
+        height: 50px;
+
+        >a{
+
+            color: white;
+
+
+
+
+        }
+
+    }
+
+}
+
+
+  
+    
+    
+    
+    
+   
+
+
+        }
+        }
 }

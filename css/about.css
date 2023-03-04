@@ -202,5 +202,29 @@ body {
     font-size: 1.75em;
   }
 }
+@media only screen and (min-width: 1080px) {
+  #page_main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    place-items: center;
+  }
+  #page_main > #hero_section {
+    place-items: center;
+    width: 90%;
+  }
+  #page_main > #hero_section > .about_article {
+    width: 80%;
+    grid-template-columns: 3fr 3fr;
+  }
+  #page_main > #hero_section > .about_article > #span_image {
+    width: 90%;
+  }
+  #page_main > #hero_section > .about_article > span {
+    width: 90%;
+  }
+  #page_main > #hero_section > .hours_article {
+    width: 85%;
+  }
+}
 
 /*# sourceMappingURL=about.css.map */
