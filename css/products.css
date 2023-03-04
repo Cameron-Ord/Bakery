@@ -174,7 +174,7 @@ body {
   place-items: center;
   grid-template-rows: 1fr 1fr;
 }
-#page_main > #hero_section > .breads_article > #span_bread1 {
+#page_main > #hero_section > .breads_article > .span_bread1 {
   color: white;
   border-radius: 25px;
   grid-template-rows: 200px 50px 25px 50px;
@@ -184,13 +184,13 @@ body {
   place-items: center;
   margin-top: 25px;
 }
-#page_main > #hero_section > .breads_article > #span_bread1 > img {
+#page_main > #hero_section > .breads_article > .span_bread1 > img {
   object-fit: cover;
   border-radius: 50%;
   width: 150px;
   height: 150px;
 }
-#page_main > #hero_section > .breads_article > #span_bread2 {
+#page_main > #hero_section > .breads_article > .span_bread2 {
   color: white;
   border-radius: 25px;
   grid-template-rows: 50px 25px 50px 200px;
@@ -200,7 +200,7 @@ body {
   place-items: center;
   margin-top: 25px;
 }
-#page_main > #hero_section > .breads_article > #span_bread2 > img {
+#page_main > #hero_section > .breads_article > .span_bread2 > img {
   object-fit: cover;
   border-radius: 50%;
   width: 150px;
@@ -285,9 +285,80 @@ body {
   }
   #page_main > #hero_section > .breads_article {
     display: grid;
+    height: 500px;
     margin-bottom: 25px;
     place-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  #page_main > #hero_section > .breads_article > .span_bread1 {
+    display: grid;
+    width: 90%;
+    text-align: center;
+    grid-template-rows: 225px 75px 50px 75px;
+  }
+  #page_main > #hero_section > .breads_article > .span_bread1 > img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  #page_main > #hero_section > .breads_article > .span_bread1 > h3 {
+    justify-self: start;
+    align-self: center;
+    margin-left: 25px;
+  }
+  #page_main > #hero_section > .breads_article > .span_bread1 > p {
+    align-self: center;
+    text-align: start;
+    margin-left: 20px;
+    width: 80%;
+  }
+  #page_main > #hero_section > .breads_article > .span_bread2 {
+    width: 90%;
+    display: grid;
+    grid-template-rows: 75px 50px 75px 225px;
+  }
+  #page_main > #hero_section > .breads_article > .span_bread2 > img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  #page_main > #hero_section > .breads_article > .span_bread2 > h3 {
+    justify-self: start;
+    align-self: center;
+    margin-left: 25px;
+  }
+  #page_main > #hero_section > .breads_article > .span_bread2 > p {
+    align-self: center;
+    text-align: start;
+    margin-left: 20px;
+    width: 80%;
+  }
+  #page_main > #hero_section > .custom_orders {
+    align-content: center;
+    display: grid;
+    place-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url(/images/1\ \(19\).avif);
+    background-position: 50% 50%;
+    height: 600px;
+  }
+  #page_main > #hero_section > .custom_orders > span {
+    align-content: center;
+    display: grid;
+    grid-template-rows: 115px 225px 115px;
+    width: 60%;
+  }
+  #page_main > #hero_section > .custom_orders > span > p {
+    font-size: 1.5em;
+  }
+  #page_main > #hero_section > .custom_orders > span > h1 {
+    font-size: 2em;
+  }
+  #page_main > #hero_section > .custom_orders > span > a {
+    font-size: 1.5em;
   }
 }
 

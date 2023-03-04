@@ -137,7 +137,8 @@ body {
             place-items: center;
             grid-template-rows: 1fr 1fr;
 
-            >#span_bread1 {
+
+            >.span_bread1 {
                 color: white;
                 border-radius: 25px;
                 grid-template-rows: 200px 50px 25px 50px;
@@ -156,7 +157,7 @@ body {
                 }
             }
 
-            >#span_bread2{
+            >.span_bread2{
                 color: white;
                 border-radius: 25px;
                 grid-template-rows: 50px 25px 50px 200px;
@@ -173,14 +174,6 @@ margin-top: 25px;
                     height: 150px;
 
                 }
-
-
-
-
-
-
-
-
 
             }
         }
@@ -327,44 +320,96 @@ height: 550px;
     
             >.breads_article {
                 display: grid;
-
+height: 500px;
                 margin-bottom: 25px;
                 place-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
-                >#span_bread1 {
 
+
+    >.span_bread1 {
+        display: grid;
+        width: 90%;
+text-align: center;
+grid-template-rows: 225px 75px 50px 75px;
     
-                    >img {
-            
-                    }
-                }
-
-                >#span_bread2 {
-
+        >img {
+            object-fit: cover;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        >h3{
+            justify-self: start;
+            align-self: center;
+ margin-left: 25px;
+ 
+         }
+         >p{
+            align-self: center;
+            text-align: start;
+            margin-left: 20px;
+            width: 80%;
+         }
     
-                    >img {
-            
-                    }
-                }
-            }
+    }
 
+    >.span_bread2{
+        width: 90%;
+        display: grid;
+    
+        grid-template-rows: 75px 50px 75px 225px;
+        >img{
+            object-fit: cover;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+
+        }
+
+
+        >h3{
+           justify-self: start;
+           align-self: center;
+margin-left: 25px;
+        }
+        >p{
+            
+            align-self: center;
+            text-align: start;
+            margin-left: 20px;
+            width: 80%;
+        }
+
+    }
+
+
+        }
     
             >.custom_orders {
-
-    
+                align-content: center;
+                display: grid;
+            place-items: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            background-image: url(/images/1\ \(19\).avif);
+            background-position: 50% 50%;
+            height: 600px;
                 >span {
-    
+                    align-content: center;
+                    display: grid;
+                grid-template-rows: 115px 225px 115px;
+                width: 60%;
                     >p {
-                    
+                    font-size: 1.5em;
                     }
     
                     >h1 {
-                
+                font-size: 2em;
                     }
     
                     >a {
             
-    
+    font-size: 1.5em;
     
                     }
     
