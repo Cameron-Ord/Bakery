@@ -152,9 +152,10 @@ body {
 #page_main > #hero_section > .hours_article {
   display: grid;
   place-items: center;
+  width: 100%;
 }
 #page_main > #hero_section > .hours_article > span {
-  width: 65%;
+  width: 80%;
   display: grid;
   place-items: center;
   text-align: center;
@@ -205,25 +206,28 @@ body {
 @media only screen and (min-width: 1080px) {
   #page_main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
     place-items: center;
   }
   #page_main > #hero_section {
     place-items: center;
-    width: 90%;
+    width: 75%;
   }
   #page_main > #hero_section > .about_article {
-    width: 80%;
-    grid-template-columns: 3fr 3fr;
+    grid-template-columns: 1fr 1fr;
   }
   #page_main > #hero_section > .about_article > #span_image {
-    width: 90%;
+    width: 95%;
   }
   #page_main > #hero_section > .about_article > span {
-    width: 90%;
+    width: 95%;
   }
   #page_main > #hero_section > .hours_article {
-    width: 85%;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  #page_main > #hero_section > .hours_article > span {
+    width: 95%;
   }
 }
 
