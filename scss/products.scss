@@ -1,4 +1,4 @@
-@use "footer_products";
+@use "footer";
 @use "header_products";
 
 
@@ -20,6 +20,7 @@ body {
 #page_main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 100%;
 
     >#hero_section {
         display: grid;
@@ -141,13 +142,18 @@ body {
             >.span_bread1 {
                 color: white;
                 border-radius: 25px;
-                grid-template-rows: 200px 50px 25px 50px;
+      
                 display: grid;
                 background-color: #2E294E;
                 width: 80%;
                 place-items: center;
                 margin-top: 25px;
+                height: 350px;
+>div{
+display: grid;
 
+grid-template-rows: 45px 35px 35px;
+}
 
                 >img {
                     object-fit: cover;
@@ -157,17 +163,23 @@ body {
                 }
             }
 
-            >.span_bread2{
+            >.span_bread2 {
                 color: white;
                 border-radius: 25px;
-                grid-template-rows: 50px 25px 50px 200px;
+              
                 display: grid;
                 background-color: #2E294E;
                 width: 80%;
                 place-items: center;
-margin-top: 25px;
-               
-                >img{
+                margin-top: 25px;
+height: 350px;
+
+>div{
+    display: grid;
+    
+    grid-template-rows: 45px 35px 35px;
+    }
+                >img {
                     object-fit: cover;
                     border-radius: 50%;
                     width: 150px;
@@ -217,98 +229,80 @@ margin-top: 25px;
 }
 
 
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 700px) {
 
 
 
 
     #page_main {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        place-items: center;
+
         >#hero_section {
             display: grid;
             place-items: center;
-align-content: center;
+            align-content: center;
+            width: 90%;
 
             >.sweets_article {
-      
-width: 90%;
-border-radius: 25px;
-grid-template-columns: 1fr 1fr;
-height: 550px;
-  
+
+                margin-top: 50px;
+                border-radius: 25px;
+                grid-template-columns: 1fr 1fr;
+                height: 550px;
+                width: 90%;
+
                 >#span_1 {
-              
+
                     justify-self: center;
                     align-content: center;
                     height: 175px;
                     margin-top: 25px;
                     margin-bottom: 25px;
                     width: 70%;
-                   
+
                     display: grid;
-                    >h1 {
-                 
-    
-    
-                    }
-    
-                    >p {
-    
-                  
-    
-                    }
+
+                    >h1 {}
+
+                    >p {}
                 }
-    
+
                 >#span_2 {
                     grid-template-rows: 45px 42px 42px 42px;
-    align-content: center;
+                    align-content: center;
                     height: 175px;
                     margin-top: 25px;
                     margin-bottom: 25px;
                     width: 70%;
-              
+
                     display: grid;
-                    >h1 {
-          
-    
-    
-                    }
-    
-                    >p {
-    
-                 
-    
-                    }
+
+                    >h1 {}
+
+                    >p {}
                 }
-    
+
                 >#span_3 {
                     align-content: center;
                     height: 175px;
                     margin-top: 25px;
                     margin-bottom: 25px;
                     width: 70%;
-          
+
                     display: grid;
-                    >h1 {
-                    
-    
-    
-                    }
-    
-                    >p {
-    
-                     
-    
-                    }
+
+                    >h1 {}
+
+                    >p {}
                 }
-    
-    
-    
+
+
+
             }
-    
-    
+
+
             >#div {
                 margin-top: 25px;
                 margin-bottom: 25px;
@@ -318,117 +312,139 @@ height: 550px;
                 width: 80%;
                 font-size: 2em;
             }
-    
-    
+
+
             >.breads_article {
                 display: grid;
-height: 1000px;
-             
+                height: 1000px;
+                width: 90%;
                 place-items: center;
-    grid-template-columns: 1fr 1fr; 
-width: 90%;
-
-    >.span_bread1 {
-        display: grid;
-        height: 475px;
-        width: 90%;
-text-align: center;
-grid-template-rows: 225px 75px 50px 75px;
-margin-top: 0px;
-margin-bottom: 0px;
-        >img {
-            object-fit: cover;
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-        }
-        >h3{
-            justify-self: start;
-            align-self: center;
- margin-left: 25px;
- 
-         }
-         >p{
-            align-self: center;
-            text-align: start;
-            margin-left: 20px;
-            width: 80%;
-         }
-    
-    }
-
-    >.span_bread2{
-        height: 475px;
-        width: 90%;
-        display: grid;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        grid-template-rows: 75px 50px 75px 225px;
-        >img{
-            object-fit: cover;
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-        
-        }
+                grid-template-columns: 1fr 1fr;
 
 
-        >h3{
-           justify-self: start;
-           align-self: center;
-margin-left: 25px;
-        }
-        >p{
+                >.span_bread1 {
+                    display: grid;
+                    height: 450px;
+                    width: 90%;
+                    text-align: center;
             
-            align-self: center;
-            text-align: start;
-            margin-left: 20px;
-            width: 80%;
-        }
-
-    }
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+>div{
 
 
-        }
-    
+display: grid;
+grid-template-rows: 50px 50px 60px;
+
+
+}
+                    >img {
+                        object-fit: cover;
+                        border-radius: 50%;
+                        width: 175px;
+                        height: 175px;
+                    }
+
+                    >h3 {
+                        justify-self: start;
+                        align-self: center;
+                        margin-left: 25px;
+
+                    }
+
+                    >p {
+                        align-self: center;
+                        text-align: start;
+                        margin-left: 20px;
+                        width: 80%;
+                    }
+
+                }
+
+                >.span_bread2 {
+                    height: 450px;
+                    width: 90%;
+                    display: grid;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+         >div{
+
+
+            display: grid;
+            grid-template-rows: 50px 50px 60px;
+         }
+
+                    >img {
+                        object-fit: cover;
+                        border-radius: 50%;
+                        width: 175px;
+                        height: 175px;
+
+                    }
+
+
+                    >h3 {
+                        justify-self: start;
+                        align-self: center;
+                        margin-left: 25px;
+                    }
+
+                    >p {
+
+                        align-self: center;
+                        text-align: start;
+                        margin-left: 20px;
+                        width: 80%;
+                    }
+
+                }
+
+
+            }
+
             >.custom_orders {
+                border-radius: 25px;
                 align-content: center;
                 display: grid;
-            place-items: center;
-            margin-top: 25px;
-            margin-bottom: 25px;
-            background-image: url(/images/1\ \(19\).avif);
-            background-position: 50% 50%;
-            height: 600px;
+                place-items: center;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                background-image: url(/images/1\ \(19\).avif);
+                background-position: 50% 50%;
+                height: 600px;
+                width: 90%;
+
                 >span {
                     align-content: center;
                     display: grid;
-                grid-template-rows: 115px 225px 115px;
-                width: 60%;
+                    grid-template-rows: 115px 225px 115px;
+                    width: 60%;
+
                     >p {
-                    font-size: 1.5em;
+                        font-size: 1.5em;
                     }
-    
+
                     >h1 {
-                font-size: 2em;
+                        font-size: 2em;
                     }
-    
+
                     >a {
-            
-    font-size: 1.5em;
-    
+
+                        font-size: 1.5em;
+
                     }
-    
+
                 }
             }
-    
+
         }
-    
+
     }
 
 
 }
-@media only screen and (min-width: 1080px){
+
+@media only screen and (min-width: 1080px) {
 
 
 
@@ -436,131 +452,156 @@ margin-left: 25px;
     #page_main {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
-    
+        place-items: center;
+
         >#hero_section {
-  
+
             display: grid;
             place-items: center;
-
+            width: 75%;
 
             >.sweets_article {
-
-                width: 60%;
+                width: 75%;
+                margin-top: 50px;
                 height: 400px;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-    
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+
                 >#span_1 {
 
-             
+
                     width: 90%;
                     display: grid;
-                    >h1 {
-          
-    
-                    }
-    
-                    >p {
-    
-    
-                    }
+
+                    >h1 {}
+
+                    >p {}
                 }
-    
+
                 >#span_2 {
- 
-          
+
+
                     width: 90%;
                     display: grid;
-                    >h1 {
 
-    
-                    }
-    
-                    >p {
+                    >h1 {}
 
-    
-                    }
+                    >p {}
                 }
-    
+
                 >#span_3 {
-              
+
                     width: 90%;
                     display: grid;
-                    >h1 {
-    
-    
-                    }
-    
-                    >p {
-    
-           
-    
-                    }
+
+                    >h1 {}
+
+                    >p {}
                 }
-    
-    
-    
-            }
-    
-    
-            >#div {
+
+
 
             }
-    
-    
+
+
+            >#div {}
+
+
             >.breads_article {
+height: 850px;
+                width: 95%;
+                grid-template-rows: 400px 400px;
 
-    width: 75%;
                 >.span_bread1 {
-  
-    width: 75%;
-    
-                    >img {
-     
+                    height: 350px;
+                    display: grid;
+                    width: 95%;
+                    grid-template-columns: 1fr 1fr;
+
+                    >div {
+   
+                        display: grid;
+                        grid-template-rows: 75px 75px 75px;
+>p{
+align-self: center;
+justify-self: center;
+
+}
+
+>h3{
+
+    align-self: center;
+    justify-self: center;
+
+}
                     }
+
+                    >img {}
                 }
-    
-                >.span_bread2{
-                    width: 75%;
-                   
-                    >img{
-                 
-    
+
+                >.span_bread2 {
+             
+                    display: grid;
+                    width: 95%;
+                    grid-template-columns: 1fr 1fr;
+                    height: 350px;
+text-align: center;
+justify-items: center;
+                    >div {
+
+                        display: grid;
+                        grid-template-rows: 75px 75px 75px;
+
+                        >p{
+                            align-self: center;
+                            justify-self: center;
+                            
+                            }
+                            
+                            >h3{
+                            
+                                align-self: center;
+                                justify-self: center;
+                            
+                            }
+
                     }
-    
+
+                    >img {}
+
                 }
             }
-    
-    
-    
+
+
+
             >.custom_orders {
-width: 60%;
-    
+                width: 75%;
+
                 >span {
-    
-              
+
+
                     >p {
                         color: white;
                     }
-    
+
                     >h1 {
                         color: white;
                     }
-    
+
                     >a {
                         color: white;
-    
-    
+
+
                     }
-    
+
                 }
             }
-    
+
         }
-    
+
     }
 
 
 
-    
+
 }

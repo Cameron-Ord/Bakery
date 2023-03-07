@@ -6,17 +6,21 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     place-items: center;
 
+>article{
+    place-items: center;
+width: 100%;
+display: grid;
     >span {
 
         min-height: 40vh;
-        width: 90%;
+        width: 80%;
         grid-template-columns: 2fr 1fr;
         display: grid;
 
 
         >div {
             border-radius: 25px;
-            width: 90%;
+            width: 80%;
             background-color: #2E294E;
             display: grid;
 
@@ -66,5 +70,58 @@
             }
         }
     }
+}
+}
+
+@media only screen and (min-width: 700px) {
+    #footer {
+
+    
+    >article{
+width: 90%;
+        >span {
+    
+width: 90%;
+    
+            >div {
+   width: 90%;
+                >p,
+                h4,
+                a {
+  
+    
+                }
+    
+            }
+    
+            >nav {
+
+    
+    
+                >p,
+                h4,
+                a {
+            
+
+    
+    
+                }
+    
+    
+                .text {
+
+    
+                }
+    
+                .insta {
+   
+    
+                }
+            }
+        }
+    }
+    }
+    
+  
 
 }

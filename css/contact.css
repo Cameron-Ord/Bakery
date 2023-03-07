@@ -33,49 +33,65 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   place-items: center;
 }
-#footer > span {
+#footer > article {
+  place-items: center;
+  width: 100%;
+  display: grid;
+}
+#footer > article > span {
   min-height: 40vh;
-  width: 90%;
+  width: 80%;
   grid-template-columns: 2fr 1fr;
   display: grid;
 }
-#footer > span > div {
+#footer > article > span > div {
   border-radius: 25px;
-  width: 90%;
+  width: 80%;
   background-color: #2E294E;
   display: grid;
 }
-#footer > span > div > p,
-#footer > span > div h4,
-#footer > span > div a {
+#footer > article > span > div > p,
+#footer > article > span > div h4,
+#footer > article > span > div a {
   color: #BE97C6;
   justify-self: center;
   align-self: center;
   text-align: center;
 }
-#footer > span > nav {
+#footer > article > span > nav {
   background-color: #2E294E;
   border-radius: 25px;
   display: grid;
 }
-#footer > span > nav > p,
-#footer > span > nav h4,
-#footer > span > nav a {
+#footer > article > span > nav > p,
+#footer > article > span > nav h4,
+#footer > article > span > nav a {
   color: #2E294E;
   justify-self: center;
   align-self: center;
   text-align: center;
 }
-#footer > span > nav .text {
+#footer > article > span > nav .text {
   color: #EFBCD5;
 }
-#footer > span > nav .insta {
+#footer > article > span > nav .insta {
   padding: 10px;
   background-color: #8661c1;
   border-radius: 45%;
   width: 20px;
 }
 
+@media only screen and (min-width: 700px) {
+  #footer > article {
+    width: 90%;
+  }
+  #footer > article > span {
+    width: 90%;
+  }
+  #footer > article > span > div {
+    width: 90%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
