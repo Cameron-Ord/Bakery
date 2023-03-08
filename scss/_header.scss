@@ -49,28 +49,18 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
     .container_div {
+        width: 100%;
+        height: 400px;
         display: grid;
         position: relative;
-
-        >img {
-            background-color: #2E294E;
-            padding-bottom: 30px;
-            padding-top: 30px;
-
-            width: 100%;
-            justify-self: center;
-        }
-
+background-image: url(/images/1\ \(25\).avif);
+background-position: 50% 50%;
+object-fit: cover;
         >.text {
-            z-index: 100;
-            position: absolute;
-            color: #EFBCD5;
-            font-size: 24px;
-            font-weight: bold;
-            left: 50px;
-            bottom: 50px;
-            text-align: start;
-            justify-self: start;
+align-self: center;
+justify-self: center;
+color: white;
+font-size: 2em;
         }
 
     }
@@ -108,11 +98,9 @@
     
         .container_div {
   
-    
-            >img {
-  
-    
-            }
+            width: 100%;
+        height: 500px;
+     
     
             >.text {
 
@@ -161,11 +149,10 @@ width: 100%;
             
                 .container_div {
                
-                    width: 100%;
-            
-                    >img {
-         
-                    }
+                 
+                    width: 55%;
+        height: 600px;
+              border-radius: 50px;
             
                     >.text {
         
