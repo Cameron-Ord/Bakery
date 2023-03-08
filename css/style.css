@@ -1,5 +1,4 @@
 #page_header {
-  background-color: #8661C1;
   width: 100%;
   place-items: center;
   display: grid;
@@ -17,7 +16,7 @@
   justify-self: start;
   align-self: center;
   padding: 10px;
-  background-color: #2E294E;
+  background-color: #E28413;
   border-radius: 50%;
 }
 #page_header > .div_1 > .Menu {
@@ -166,12 +165,12 @@ h1,
 h3,
 h2,
 h4 {
-  color: #BE97C6;
+  color: #FBF5F3;
 }
 
 body {
   font-family: sans-serif;
-  background-color: #8661C1;
+  background-color: #000022;
 }
 
 #page_main {
@@ -195,7 +194,7 @@ body {
   padding-bottom: 25px;
   padding-top: 25px;
   width: 80%;
-  background-color: #2E294E;
+  background-color: #E28413;
   place-items: center;
   text-align: center;
   display: grid;
@@ -204,7 +203,7 @@ body {
   justify-self: center;
   text-align: center;
   font-size: 1.5em;
-  color: #BE97C6;
+  color: #FBF5F3;
 }
 #page_main > #hero_section > .article_1 > #article_1_span_1 > p {
   font-size: 1em;
@@ -217,7 +216,7 @@ body {
 }
 #page_main > #hero_section > .article_1 > #article_1_span_1 > #atag {
   border-radius: 50px;
-  background-color: #8661C1;
+  background-color: #FBF5F3;
   padding-bottom: 10px;
   padding-top: 10px;
   padding-left: 10px;
@@ -225,7 +224,7 @@ body {
   display: grid;
   justify-self: center;
   align-self: center;
-  color: #EFBCD5;
+  color: #E28413;
   font-size: 1em;
   width: 40%;
 }
@@ -234,13 +233,13 @@ body {
   place-items: center;
 }
 #page_main > #hero_section > .article_3 > span {
+  background-color: #E28413;
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 25px;
   padding-top: 45px;
   padding-bottom: 45px;
   width: 80%;
-  background-color: #2E294E;
   grid-template-rows: 125px 65px 65px;
   display: grid;
   place-items: center;
@@ -249,13 +248,13 @@ body {
   width: 100px;
   border-radius: 50%;
   padding: 5px;
-  background-color: #8661C1;
+  background-color: #FBF5F3;
 }
 #page_main > #hero_section > .article_3 > span > p {
   width: 80%;
   text-align: center;
   font-size: 1em;
-  color: #BE97C6;
+  color: #FBF5F3;
 }
 #page_main > #hero_section > .article_6 {
   margin-top: 10px;
@@ -266,7 +265,7 @@ body {
 #page_main > #hero_section > .article_6 > #instaspan {
   height: 425px;
   border-radius: 25px;
-  background-color: #2E294E;
+  background-color: #E28413;
   grid-template-rows: 250px 70px 100px;
   width: 80%;
   display: grid;
@@ -275,14 +274,14 @@ body {
 #page_main > #hero_section > .article_6 > #instaspan > p {
   width: 90%;
   text-align: center;
-  color: #BE97C6;
+  color: #FBF5F3;
   font-size: 1.1em;
 }
 #page_main > #hero_section > .article_6 > #instaspan .insta {
   justify-self: center;
   width: 20px;
   padding: 10px;
-  background-color: #8661C1;
+  background-color: #FBF5F3;
   border-radius: 45%;
 }
 #page_main > #hero_section > .article_6 > #instaspan > img {
@@ -298,7 +297,7 @@ body {
   margin-bottom: 10px;
   height: 700px;
   border-radius: 25px;
-  background-color: #2E294E;
+  background-color: #E28413;
   text-align: center;
   width: 80%;
   display: grid;
@@ -321,7 +320,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 25px;
-  background-color: #2E294E;
+  background-color: #E28413;
   height: 300px;
   width: 75%;
   display: grid;
@@ -339,7 +338,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 25px;
-  background-color: #2E294E;
+  background-color: #E28413;
   height: 950px;
   width: 80%;
   display: grid;
@@ -355,8 +354,9 @@ body {
   font-size: 1em;
   align-self: center;
   padding: 15px;
-  background-color: #8661C1;
+  background-color: #FBF5F3;
   border-radius: 30px;
+  color: #E28413;
 }
 #page_main > #hero_section > .article_6 > #article_span_3 > img {
   object-fit: cover;
@@ -402,7 +402,6 @@ body {
   }
   #page_main > #hero_section > .article_1 > #article_1_span_1 > #atag {
     border-radius: 50px;
-    background-color: #8661C1;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 10px;
@@ -429,7 +428,6 @@ body {
     padding-top: 45px;
     padding-bottom: 45px;
     width: 93%;
-    background-color: #2E294E;
     display: grid;
     place-items: center;
   }
@@ -437,13 +435,11 @@ body {
     width: 100px;
     border-radius: 50%;
     padding: 5px;
-    background-color: #8661C1;
   }
   #page_main > #hero_section > .article_3 > span > p {
     width: 80%;
     text-align: center;
     font-size: 1em;
-    color: #BE97C6;
   }
   #page_main > #hero_section > .article_6 {
     width: 95%;
@@ -453,7 +449,6 @@ body {
   #page_main > #hero_section > .article_6 > #instaspan {
     height: 625px;
     border-radius: 25px;
-    background-color: #2E294E;
     grid-template-rows: 450px 70px 100px;
     width: 95%;
     display: grid;
@@ -462,14 +457,12 @@ body {
   #page_main > #hero_section > .article_6 > #instaspan > p {
     width: 90%;
     text-align: center;
-    color: #BE97C6;
     font-size: 1.1em;
   }
   #page_main > #hero_section > .article_6 > #instaspan .insta {
     justify-self: center;
     width: 20px;
     padding: 10px;
-    background-color: #8661C1;
     border-radius: 45%;
   }
   #page_main > #hero_section > .article_6 > #instaspan > img {
@@ -562,7 +555,6 @@ body {
   }
   #page_main > #hero_section > .article_1 > #article_1_span_1 > #atag {
     border-radius: 50px;
-    background-color: #8661C1;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 10px;
@@ -589,7 +581,6 @@ body {
     padding-top: 45px;
     padding-bottom: 45px;
     width: 90%;
-    background-color: #2E294E;
     display: grid;
     place-items: center;
   }
@@ -597,13 +588,11 @@ body {
     width: 100px;
     border-radius: 50%;
     padding: 5px;
-    background-color: #8661C1;
   }
   #page_main > #hero_section > .article_3 > span > p {
     width: 80%;
     text-align: center;
     font-size: 1em;
-    color: #BE97C6;
   }
   #page_main > #hero_section > .article_6 {
     display: grid;
@@ -614,7 +603,6 @@ body {
   #page_main > #hero_section > .article_6 > #instaspan {
     height: 825px;
     border-radius: 25px;
-    background-color: #2E294E;
     grid-template-rows: 650px 70px 100px;
     width: 95%;
     display: grid;
@@ -630,7 +618,6 @@ body {
     justify-self: center;
     width: 20px;
     padding: 10px;
-    background-color: #8661C1;
     border-radius: 45%;
   }
   #page_main > #hero_section > .article_6 > #instaspan > img {
