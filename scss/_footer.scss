@@ -21,13 +21,13 @@ display: grid;
         >div {
             border-radius: 25px;
             width: 80%;
-            background-color: #2E294E;
+            background-color: #E28413;
             display: grid;
 
             >p,
             h4,
             a {
-                color: #BE97C6;
+                color: #FBF5F3;
                 justify-self: center;
                 align-self: center;
                 text-align: center;
@@ -37,7 +37,7 @@ display: grid;
         }
 
         >nav {
-            background-color: #2E294E;
+            background-color: #E28413;
             border-radius: 25px;
             display: grid;
 
@@ -45,7 +45,7 @@ display: grid;
             >p,
             h4,
             a {
-                color: #2E294E;
+                color: #FBF5F3;
                 justify-self: center;
                 align-self: center;
                 text-align: center;
@@ -56,13 +56,13 @@ display: grid;
 
             .text {
 
-                color: #EFBCD5;
+                color: #000022;
 
             }
 
             .insta {
                 padding: 10px;
-                background-color: #8661c1;
+                background-color: #FBF5F3;
                 border-radius: 45%;
 
                 width: 20px;
@@ -128,7 +128,7 @@ width: 90%;
 
 @media only screen and (min-width: 1080px) {
     #footer {
-background-color: #2E294E;
+background-color: #E28413;
     margin: 0;
     >article{
 
@@ -149,7 +149,7 @@ grid-template-rows: 75px 75px 75px 75px 75px;
             }
     
             >nav {
-
+margin-top: 50px;
                 display: grid;
                 grid-template-rows: 75px 75px 75px 75px;
     

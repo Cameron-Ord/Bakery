@@ -1,9 +1,10 @@
 #page_header {
-  background-color: #8661C1;
   width: 100%;
   place-items: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  background-color: #000022;
+  margin-bottom: 50px;
 }
 #page_header > .div_1 {
   grid-template-columns: 1fr 3fr;
@@ -17,7 +18,7 @@
   justify-self: start;
   align-self: center;
   padding: 10px;
-  background-color: #2E294E;
+  background-color: #E28413;
   border-radius: 50%;
 }
 #page_header > .div_1 > .Menu {
@@ -47,36 +48,36 @@
 #footer > article > span > div {
   border-radius: 25px;
   width: 80%;
-  background-color: #2E294E;
+  background-color: #E28413;
   display: grid;
 }
 #footer > article > span > div > p,
 #footer > article > span > div h4,
 #footer > article > span > div a {
-  color: #BE97C6;
+  color: #FBF5F3;
   justify-self: center;
   align-self: center;
   text-align: center;
 }
 #footer > article > span > nav {
-  background-color: #2E294E;
+  background-color: #E28413;
   border-radius: 25px;
   display: grid;
 }
 #footer > article > span > nav > p,
 #footer > article > span > nav h4,
 #footer > article > span > nav a {
-  color: #2E294E;
+  color: #FBF5F3;
   justify-self: center;
   align-self: center;
   text-align: center;
 }
 #footer > article > span > nav .text {
-  color: #EFBCD5;
+  color: #000022;
 }
 #footer > article > span > nav .insta {
   padding: 10px;
-  background-color: #8661c1;
+  background-color: #FBF5F3;
   border-radius: 45%;
   width: 20px;
 }
@@ -94,7 +95,7 @@
 }
 @media only screen and (min-width: 1080px) {
   #footer {
-    background-color: #2E294E;
+    background-color: #E28413;
     margin: 0;
   }
   #footer > article > span > div {
@@ -102,6 +103,7 @@
     grid-template-rows: 75px 75px 75px 75px 75px;
   }
   #footer > article > span > nav {
+    margin-top: 50px;
     display: grid;
     grid-template-rows: 75px 75px 75px 75px;
   }
@@ -113,7 +115,7 @@
 
 body {
   font-family: sans-serif;
-  background-color: #8661C1;
+  background-color: #000022;
 }
 
 #page_main {
@@ -128,15 +130,14 @@ body {
 }
 #page_main > #hero_section > #contact_div {
   display: grid;
-  margin-bottom: 25px;
   place-items: center;
-  margin-top: 50px;
 }
 #page_main > #hero_section > #contact_div > h1 {
   text-align: center;
   align-self: center;
   justify-self: center;
   font-size: 2.5em;
+  color: #E28413;
 }
 #page_main > #hero_section > .images_article {
   width: 100%;
@@ -159,14 +160,20 @@ body {
   border-radius: 50%;
   width: 275px;
   height: 275px;
+  padding: 25px;
+  background-color: #E28413;
 }
 #page_main > #hero_section > .images_article > span > .image2 {
+  padding: 25px;
+  background-color: #E28413;
   border-radius: 50%;
   width: 225px;
   height: 225px;
   transform: translateY(-80px) translateX(0px);
 }
 #page_main > #hero_section > .images_article > span > .image3 {
+  background-color: #E28413;
+  padding: 25px;
   transform: translateY(-30px) translateX(-30px);
   border-radius: 50%;
   width: 200px;
@@ -182,36 +189,36 @@ body {
   border-radius: 25px;
   align-content: center;
   height: 80px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   place-items: center;
   display: grid;
   width: 80%;
-  background-color: #2E294E;
+  background-color: #E28413;
   grid-template-rows: 25px 25px;
 }
 #page_main > #hero_section > .contact_article > span > p {
   align-content: center;
   text-align: center;
-  color: white;
+  color: #FBF5F3;
 }
 #page_main > #hero_section > #submit {
   width: 90%;
   display: grid;
   place-items: center;
+  align-items: center;
 }
 #page_main > #hero_section > #submit > span {
+  margin-bottom: 20px;
   display: grid;
-  background-color: #2E294E;
+  background-color: #E28413;
   width: 80%;
   border-radius: 25px;
-  margin-top: 25px;
-  margin-bottom: 25px;
   text-align: center;
   align-content: center;
   height: 50px;
 }
 #page_main > #hero_section > #submit > span > a {
-  color: white;
+  color: #FBF5F3;
 }
 #page_main > #hero_section > .contact_article_locations {
   width: 100%;
@@ -219,7 +226,7 @@ body {
   place-items: center;
 }
 #page_main > #hero_section > .contact_article_locations > span {
-  margin-top: 25px;
+  margin-bottom: 20px;
   border-radius: 25px;
   align-content: center;
   height: 100px;
@@ -227,7 +234,8 @@ body {
   place-items: center;
   display: grid;
   width: 80%;
-  background-color: #2E294E;
+  background-color: #E28413;
+  color: #FBF5F3;
 }
 
 @media only screen and (min-width: 700px) {
@@ -266,7 +274,6 @@ body {
     transform: translateX(80px) translateY(-120px);
   }
   #page_main > #hero_section > .contact_article_locations {
-    height: 150px;
     width: 90%;
     align-content: center;
     display: grid;
@@ -274,8 +281,6 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
   }
   #page_main > #hero_section > .contact_article_locations > span {
-    color: white;
-    margin-top: 25px;
     border-radius: 25px;
     align-content: center;
     height: 125px;
@@ -283,7 +288,6 @@ body {
     place-items: center;
     display: grid;
     width: 95%;
-    background-color: #2E294E;
   }
   #page_main > #hero_section > #submit {
     width: 90%;
@@ -292,24 +296,18 @@ body {
   }
   #page_main > #hero_section > #submit > span {
     display: grid;
-    background-color: #2E294E;
     width: 95%;
     border-radius: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
     text-align: center;
     align-content: center;
     height: 50px;
-  }
-  #page_main > #hero_section > #submit > span > a {
-    color: white;
   }
   #page_main > #hero_section > .contact_article {
     width: 90%;
     display: grid;
     place-items: center;
+    height: 100px;
     grid-template-columns: 1fr 1fr;
-    height: 75px;
     align-items: center;
   }
   #page_main > #hero_section > .contact_article > span {
@@ -319,8 +317,6 @@ body {
   #page_main > #hero_section > .contact_article > span > p {
     align-self: center;
     text-align: center;
-    color: white;
-    color: white;
   }
 }
 @media only screen and (min-width: 1080px) {
@@ -365,6 +361,7 @@ body {
     place-items: center;
     height: 50px;
     grid-template-columns: 1fr 1fr;
+    margin: 25px;
     align-items: center;
   }
   #page_main > #hero_section > .contact_article > span {
@@ -375,8 +372,6 @@ body {
   #page_main > #hero_section > .contact_article > span > p {
     align-self: center;
     text-align: center;
-    color: white;
-    color: white;
   }
   #page_main > #hero_section > .contact_article_locations {
     grid-template-columns: 1fr 1fr 1fr;
@@ -388,14 +383,12 @@ body {
   }
   #page_main > #hero_section > .contact_article_locations > span {
     color: white;
-    margin-top: 25px;
     border-radius: 25px;
     height: 125px;
     grid-template-rows: 50px 50px;
     place-items: center;
     display: grid;
     width: 90%;
-    background-color: #2E294E;
   }
   #page_main > #hero_section > #submit {
     width: 40%;
@@ -405,7 +398,6 @@ body {
   }
   #page_main > #hero_section > #submit > span {
     display: grid;
-    background-color: #2E294E;
     width: 95%;
     border-radius: 25px;
     text-align: center;

@@ -1,36 +1,39 @@
 #page_header {
-    
-    background-color: #8661C1;
+
     width: 100%;
     place-items: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-
+    background-color:#000022;
+    margin-bottom: 50px;
     >.div_1 {
         grid-template-columns: 1fr 3fr;
         display: grid;
-width: 80%;
-align-items: center;
-min-height: 100px;
+        width: 80%;
+        align-items: center;
+        min-height: 100px;
 
->a{
-    >.Logo {
-        width: 40px;
-        justify-self: start;
-        align-self: center;
-        padding: 10px;
-        background-color: #2E294E;
-        border-radius: 50%;
-    }
 
-}
+        >a {
 
->.Menu {
-    width: 40px;
-    justify-self: end;
-    align-self: center;
 
-}
+            >.Logo {
+                width: 40px;
+                justify-self: start;
+                align-self: center;
+                padding: 10px;
+            background-color: #E28413;
+                border-radius: 50%;
+            }
+
+        }
+
+        >.Menu {
+            width: 40px;
+            justify-self: end;
+            align-self: center;
+
+        }
 
 
 

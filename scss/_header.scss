@@ -4,6 +4,7 @@
     place-items: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+background-color:#000022;
 
     >.div_1 {
         grid-template-columns: 1fr 3fr;
@@ -58,7 +59,7 @@ object-fit: cover;
         >.text {
 align-self: center;
 justify-self: center;
-color: white;
+color: #FBF5F3;
 font-size: 2em;
         }
 
@@ -147,11 +148,11 @@ width: 100%;
             
             
                 .container_div {
-               
+               background-size: cover;
                  
-                    width: 55%;
+                    width: 100%;
         height: 600px;
-              border-radius: 50px;
+           
             
                     >.text {
         
