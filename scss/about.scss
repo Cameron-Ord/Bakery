@@ -105,6 +105,7 @@ width: 100%;
             width: 100%;
 
             >span {
+                margin: 25px;
                 width: 80%;
                 display: grid;
                 place-items: center;
@@ -113,6 +114,17 @@ width: 100%;
                 border-radius: 25px;
                 height: 275px;
                 color: #FBF5F3;
+            }
+            >#video{
+
+                margin-bottom: 50px;
+                width: 80%;
+            
+
+                >#video_width{
+width: 80%;
+height: 80%;
+                }
             }
         }
 
@@ -192,6 +204,15 @@ width: 95%;
                     >h1 {
                         font-size: 1.75em;
                     }
+
+                    >#video{
+
+                        margin-bottom: 50px;
+                        width: 95%;
+                    
+
+
+                    }
                 }
             }
 
@@ -259,7 +280,12 @@ margin-bottom: 50px;
                     width: 95%;
 
                 }
+>#video{
 
+    margin-bottom: 50px;
+    width: 95%;
+
+}
                 >h1 {}
             }
         }

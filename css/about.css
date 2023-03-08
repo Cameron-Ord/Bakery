@@ -187,6 +187,7 @@ body {
   width: 100%;
 }
 #page_main > #hero_section > .hours_article > span {
+  margin: 25px;
   width: 80%;
   display: grid;
   place-items: center;
@@ -195,6 +196,14 @@ body {
   border-radius: 25px;
   height: 275px;
   color: #FBF5F3;
+}
+#page_main > #hero_section > .hours_article > #video {
+  margin-bottom: 50px;
+  width: 80%;
+}
+#page_main > #hero_section > .hours_article > #video > #video_width {
+  width: 80%;
+  height: 80%;
 }
 
 @media only screen and (min-width: 700px) {
@@ -243,6 +252,10 @@ body {
   #page_main > #hero_section > .hours_article > span > h1 {
     font-size: 1.75em;
   }
+  #page_main > #hero_section > .hours_article > span > #video {
+    margin-bottom: 50px;
+    width: 95%;
+  }
 }
 @media only screen and (min-width: 1080px) {
   #page_main {
@@ -268,6 +281,10 @@ body {
     place-items: center;
   }
   #page_main > #hero_section > .hours_article > span {
+    margin-bottom: 50px;
+    width: 95%;
+  }
+  #page_main > #hero_section > .hours_article > #video {
     margin-bottom: 50px;
     width: 95%;
   }
