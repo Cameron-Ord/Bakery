@@ -488,7 +488,7 @@ width: 95%;
 
                 >#article_span_1 {
                     width: 95%;
-                    height: 800px;
+                    height: 625px;
                     display: grid;
                     place-items: center;
                     grid-template-rows: 600px 150px;
@@ -504,8 +504,8 @@ color: #000022;
                         border-radius: 50%;
                         align-self: center;
                         justify-self: center;
-                        width: 450px;
-                        height: 450px;
+                        width: 300px;
+                        height: 300px;
 
                     }
                 }
@@ -518,9 +518,10 @@ color: #000022;
 
 
                     >img {
-
+                        background-color: #E28413;
+padding: 50px;
                         object-fit: cover;
-                        border-radius: 25px;
+                        border-radius: 30%;
                         align-self: center;
                         justify-self: center;
                         width: 450px;
