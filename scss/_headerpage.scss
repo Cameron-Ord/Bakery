@@ -5,17 +5,7 @@
     font-weight: lighter;
 }
 
-body {
-    display: grid;
-    place-items: center;
-    grid-template-rows: auto 1fr auto;
-}
 
-img,
-svg,
-iframe {
-    width: 100%;
-}
 
 
 #mobile_header {
@@ -33,17 +23,11 @@ iframe {
         height: 40px;
     }
 
-    >.menu_radio_button {
-        display: none;
-    }
-    
 }
 }
-
 .menu_radio_button {
     display: none;
 }
-
 
 #mobile_menu {
 

@@ -164,18 +164,6 @@
   font-weight: lighter;
 }
 
-body {
-  display: grid;
-  place-items: center;
-  grid-template-rows: auto 1fr auto;
-}
-
-img,
-svg,
-iframe {
-  width: 100%;
-}
-
 #mobile_header > div {
   min-height: 20vh;
   width: 100%;
@@ -186,9 +174,6 @@ iframe {
 #mobile_header > div img {
   width: 40px;
   height: 40px;
-}
-#mobile_header > div > .menu_radio_button {
-  display: none;
 }
 
 .menu_radio_button {
