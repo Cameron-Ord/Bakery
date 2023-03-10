@@ -1,6 +1,6 @@
 @use "header";
 @use "footer";
-
+@use "headerpage";
 
 
 * {
@@ -21,7 +21,7 @@ h4 {
 
 body {
     font-family: sans-serif;
-background-color: #000022;
+    background-color: #000022;
 
 }
 
@@ -31,24 +31,25 @@ background-color: #000022;
 
     >#hero_section {
         display: grid;
- width: 100%;
+        width: 100%;
 
         >.article_1 {
- 
+
             place-items: center;
             display: grid;
-transform: translateY(-140px);
-height: 250px;
+            transform: translateY(-140px);
+            height: 250px;
+
             >#article_1_span_1 {
 
-              margin-bottom: 50px;
+                margin-bottom: 50px;
                 border-radius: 50px;
                 grid-template-rows: 60px 125px 60px 60px;
                 padding-bottom: 25px;
                 padding-top: 25px;
                 width: 80%;
-          
-background-color: #FBF5F3;
+
+                background-color: #FBF5F3;
                 place-items: center;
                 text-align: center;
                 display: grid;
@@ -63,7 +64,7 @@ background-color: #FBF5F3;
 
 
                 >p {
-color: #000022;
+                    color: #000022;
                     font-size: 1em;
                     width: 75%;
                     text-align: center;
@@ -72,13 +73,13 @@ color: #000022;
                 }
 
                 >h4 {
-color: #E28413;
+                    color: #E28413;
                     font-size: 1.25em;
                 }
 
                 >#atag {
                     border-radius: 50px;
-               background-color: #000022;
+                    background-color: #000022;
                     padding-bottom: 10px;
                     padding-top: 10px;
                     padding-left: 10px;
@@ -113,13 +114,13 @@ color: #E28413;
 
 
             >span {
-background-color:#FBF5F3;
-            margin-bottom: 50px;
+                background-color: #FBF5F3;
+                margin-bottom: 50px;
                 border-radius: 25px;
                 padding-top: 45px;
                 padding-bottom: 45px;
                 width: 80%;
-          
+
                 grid-template-rows: 125px 65px 65px;
                 display: grid;
                 place-items: center;
@@ -128,14 +129,14 @@ background-color:#FBF5F3;
                     width: 100px;
                     border-radius: 50%;
                     padding: 5px;
-            background-color: #E28413;
+                    background-color: #E28413;
                 }
 
->h4{
+                >h4 {
 
-color:#E28413 ;
+                    color: #E28413;
 
-}
+                }
 
                 >p {
                     width: 80%;
@@ -156,7 +157,7 @@ color:#E28413 ;
 
 
         >.article_6 {
-       
+
 
             display: grid;
             place-items: center;
@@ -164,9 +165,9 @@ color:#E28413 ;
             >#instaspan {
                 height: 525px;
                 border-radius: 25px;
-background-color: #FBF5F3;
-           margin-bottom: 50px;
-               
+                background-color: #FBF5F3;
+                margin-bottom: 50px;
+
                 width: 80%;
                 display: grid;
                 place-items: center;
@@ -185,7 +186,7 @@ background-color: #FBF5F3;
                     justify-self: center;
                     width: 20px;
                     padding: 10px;
-               background-color: #000022;
+                    background-color: #000022;
                     border-radius: 45%;
 
                 }
@@ -199,25 +200,25 @@ background-color: #FBF5F3;
                     border-radius: 50%;
                     align-self: center;
                     justify-self: center;
-    
+
                 }
 
             }
 
             >#article_span_1 {
-    margin-bottom: 50px;
+                margin-bottom: 50px;
                 height: 525px;
                 border-radius: 25px;
-      background-color: #FBF5F3;
+                background-color: #FBF5F3;
                 text-align: center;
                 width: 80%;
                 display: grid;
                 place-items: center;
-              
+
 
                 >h2 {
 
-color: #000022;
+                    color: #000022;
                     width: 80%;
                     font-size: 2em;
 
@@ -240,17 +241,17 @@ color: #000022;
             }
 
             >#article_span_2 {
-       margin-bottom: 50px;
+                margin-bottom: 50px;
                 border-radius: 25px;
-    background-color: #FBF5F3;
+                background-color: #FBF5F3;
                 height: 350px;
                 width: 70%;
                 display: grid;
                 place-items: center;
 
                 >img {
-background-color: #E28413;
-padding: 25px;
+                    background-color: #E28413;
+                    padding: 25px;
                     object-fit: cover;
                     border-radius: 50%;
                     align-self: center;
@@ -265,7 +266,7 @@ padding: 25px;
             >#article_span_3 {
                 margin-bottom: 50px;
                 border-radius: 25px;
-          background-color: #FBF5F3;
+                background-color: #FBF5F3;
                 height: 650px;
                 width: 80%;
                 display: grid;
@@ -284,9 +285,9 @@ padding: 25px;
                     font-size: 1em;
                     align-self: center;
                     padding: 15px;
-                  background-color: #000022;
+                    background-color: #000022;
                     border-radius: 30px;
-color: #E28413;
+                    color: #E28413;
 
                 }
 
@@ -329,11 +330,13 @@ color: #E28413;
         grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
         place-items: center;
         width: 100%;
+
         >#hero_section {
             place-items: center;
             display: grid;
             align-content: center;
             width: 90%;
+
             >.article_1 {
 
                 place-items: center;
@@ -366,7 +369,7 @@ color: #E28413;
                     >#atag {
 
                         border-radius: 50px;
-                    
+
                         padding-bottom: 10px;
                         padding-top: 10px;
                         padding-left: 10px;
@@ -374,7 +377,7 @@ color: #E28413;
                         display: grid;
                         justify-self: center;
                         align-self: center;
-                  
+
                         font-size: 1.4em;
                         width: 30%;
 
@@ -393,20 +396,20 @@ color: #E28413;
 
 
             >.article_3 {
-width: 95%;
+                width: 95%;
                 display: grid;
                 place-items: center;
-           
-        
+
+
                 grid-template-columns: 1fr 1fr;
 
                 >span {
-             
+
                     border-radius: 25px;
                     padding-top: 45px;
                     padding-bottom: 45px;
                     width: 93%;
-          
+
 
                     display: grid;
                     place-items: center;
@@ -415,7 +418,7 @@ width: 95%;
                         width: 100px;
                         border-radius: 50%;
                         padding: 5px;
-                
+
                     }
 
 
@@ -425,7 +428,7 @@ width: 95%;
                         text-align: center;
                         font-size: 1em;
 
-               
+
 
                     }
                 }
@@ -437,10 +440,10 @@ width: 95%;
 
             >.article_6 {
 
-width: 95%;
+                width: 95%;
                 display: grid;
                 place-items: center;
-         
+
 
 
 
@@ -448,8 +451,8 @@ width: 95%;
                     height: 650px;
                     border-radius: 25px;
 
-   
-                
+
+
                     width: 95%;
                     display: grid;
                     place-items: center;
@@ -458,7 +461,7 @@ width: 95%;
 
                         width: 90%;
                         text-align: center;
-            
+
 
                         font-size: 1.1em;
                     }
@@ -468,7 +471,7 @@ width: 95%;
                         justify-self: center;
                         width: 20px;
                         padding: 10px;
-           
+
                         border-radius: 45%;
 
                     }
@@ -491,11 +494,11 @@ width: 95%;
                     height: 650px;
                     display: grid;
                     place-items: center;
-         
+
 
                     >h2 {
 
-color: #000022;
+                        color: #000022;
 
                     }
 
@@ -518,10 +521,10 @@ color: #000022;
 
 
                     >img {
-                        
+
 
                         object-fit: cover;
-                 
+
                         align-self: center;
                         justify-self: center;
                         width: 325px;
@@ -584,14 +587,16 @@ color: #000022;
     #page_main {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
-place-items: center;
+        place-items: center;
+
         >#hero_section {
             place-items: center;
             display: grid;
             align-content: center;
-width: 75%;
+            width: 75%;
+
             >.article_1 {
-         
+
                 place-items: center;
                 display: grid;
                 align-content: center;
@@ -620,7 +625,7 @@ width: 75%;
                     >#atag {
 
                         border-radius: 50px;
-               
+
                         padding-bottom: 10px;
                         padding-top: 10px;
                         padding-left: 10px;
@@ -628,7 +633,7 @@ width: 75%;
                         display: grid;
                         justify-self: center;
                         align-self: center;
-   
+
                         font-size: 1.4em;
                         width: 30%;
 
@@ -648,20 +653,20 @@ width: 75%;
 
 
             >.article_3 {
-width: 100%;
+                width: 100%;
                 display: grid;
                 place-items: center;
-  
-         
+
+
                 grid-template-columns: 1fr 1fr 1fr 1fr;
 
                 >span {
-     
+
                     border-radius: 25px;
                     padding-top: 45px;
                     padding-bottom: 45px;
                     width: 90%;
-             
+
 
                     display: grid;
                     place-items: center;
@@ -670,7 +675,7 @@ width: 100%;
                         width: 100px;
                         border-radius: 50%;
                         padding: 5px;
-                
+
                     }
 
 
@@ -690,14 +695,14 @@ width: 100%;
             >.article_6 {
                 display: grid;
                 place-items: center;
-                grid-template-columns: 1fr 1fr ;
-       width: 100%;
+                grid-template-columns: 1fr 1fr;
+                width: 100%;
 
                 >#instaspan {
                     height: 825px;
                     border-radius: 25px;
 
-                 
+
                     grid-template-rows: 500px 0px 220px;
                     width: 95%;
                     display: grid;
@@ -707,7 +712,7 @@ width: 100%;
 
                         width: 90%;
                         text-align: center;
-                    
+
                         font-size: 2.1em;
                     }
 
@@ -716,7 +721,7 @@ width: 100%;
                         justify-self: center;
                         width: 20px;
                         padding: 10px;
-          
+
                         border-radius: 45%;
 
                     }
@@ -762,7 +767,7 @@ width: 100%;
                 }
 
                 >#article_span_2 {
-         
+
                     width: 95%;
                     height: 825px;
 
@@ -772,9 +777,9 @@ width: 100%;
                     >h2 {}
 
                     >img {
-                
+
                         object-fit: cover;
-                  
+
                         align-self: center;
                         justify-self: center;
                         width: 300px;
@@ -796,14 +801,14 @@ width: 100%;
                     display: grid;
                     place-items: center;
 
->p{
-    width: 75%;
-}
+                    >p {
+                        width: 75%;
+                    }
 
                     >img {
 
                         object-fit: cover;
-                        
+
                         align-self: center;
                         justify-self: center;
                         width: 350px;

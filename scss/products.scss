@@ -114,7 +114,7 @@ body {
                 }
 
                 >p {
-color: #000022;
+                    color: #000022;
                     margin-left: 25px;
                     text-align: start;
                     justify-self: start;
@@ -134,7 +134,7 @@ color: #000022;
             justify-self: center;
             text-align: center;
             width: 80%;
-            color:#E28413;
+            color: #E28413;
         }
 
 
@@ -149,7 +149,7 @@ color: #000022;
             >.span_bread1 {
                 color: #FBF5F3;
                 border-radius: 25px;
-text-align: center;
+                text-align: center;
                 display: grid;
                 background-color: #FBF5F3;
                 width: 80%;
@@ -158,7 +158,7 @@ text-align: center;
                 height: 350px;
 
                 >div {
-                    
+
                     align-content: center;
                     height: 90%;
                     width: 90%;
@@ -166,14 +166,15 @@ text-align: center;
                     display: grid;
                     background-color: #000022;
                     grid-template-rows: 45px 35px 35px;
-                    >h3{
-color: #E28413;
-align-self: center;
+
+                    >h3 {
+                        color: #E28413;
+                        align-self: center;
 
                     }
 
 
-                    >p{
+                    >p {
 
                         align-self: center;
 
@@ -194,7 +195,7 @@ align-self: center;
             >.span_bread2 {
                 color: #FBF5F3;
                 border-radius: 25px;
-text-align: center;
+                text-align: center;
                 display: grid;
                 background-color: #FBF5F3;
                 width: 80%;
@@ -203,7 +204,7 @@ text-align: center;
                 height: 350px;
 
                 >div {
-                  
+
                     align-content: center;
                     height: 90%;
                     width: 90%;
@@ -212,18 +213,18 @@ text-align: center;
                     background-color: #000022;
                     grid-template-rows: 45px 35px 35px;
 
-                    >h3{
+                    >h3 {
                         color: #E28413;
-                        
+
                         align-self: center;
-                                            }
-                        
-                        
-                                            >p{
+                    }
+
+
+                    >p {
                         align-self: center;
-                        
-                        
-                                            }
+
+
+                    }
                 }
 
                 >img {
@@ -263,7 +264,7 @@ text-align: center;
                 }
 
                 >h1 {
-                    color:#E28413;
+                    color: #E28413;
                 }
 
                 >a {
@@ -302,9 +303,9 @@ text-align: center;
             width: 90%;
 
             >.sweets_article {
-border-style: solid;
-border-width: 20px;
-color: #FBF5F3;
+                border-style: solid;
+                border-width: 20px;
+                color: #FBF5F3;
                 margin-top: 50px;
                 border-radius: 25px;
                 grid-template-columns: 1fr 1fr;
@@ -428,6 +429,7 @@ color: #FBF5F3;
                     margin-top: 0px;
                     margin-bottom: 0px;
                     text-align: center;
+
                     >div {
 
 
@@ -465,8 +467,8 @@ color: #FBF5F3;
 
             >.custom_orders {
                 border-style: solid;
-border-width: 20px;
-color: #FBF5F3;
+                border-width: 20px;
+                color: #FBF5F3;
                 border-radius: 25px;
                 align-content: center;
                 display: grid;
@@ -653,7 +655,7 @@ color: #FBF5F3;
                 margin-bottom: 150px;
 
                 >span {
-               
+
                     margin-left: 100px;
                     justify-self: start;
                     width: 30%;
@@ -666,10 +668,10 @@ color: #FBF5F3;
 
                         border-radius: 45px;
                         align-self: center;
-                     
+
                         justify-self: start;
                         padding: 15px;
-                 
+
 
                     }
 

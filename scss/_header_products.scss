@@ -4,7 +4,8 @@
     place-items: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    background-color:#000022;
+    background-color: #000022;
+
     >.div_1 {
         grid-template-columns: 1fr 3fr;
         display: grid;
@@ -21,7 +22,7 @@
                 justify-self: start;
                 align-self: center;
                 padding: 10px;
-            background-color: #FBF5F3;
+                background-color: #FBF5F3;
                 border-radius: 50%;
             }
 

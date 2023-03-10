@@ -51,7 +51,7 @@ body {
             align-content: center;
 
             >span {
-place-items: center;
+                place-items: center;
                 grid-template-rows: 375px 120px 120px;
                 border-radius: 25px;
                 margin-bottom: 50px;
@@ -100,29 +100,30 @@ place-items: center;
 
         }
 
-        #map_article{
-margin-bottom: 25px;
-display: grid;
-margin-top: 25px;
->#map{
-   
-border-radius: 35px;
-    display: grid;
-align-content: center;
-background-color: #FBF5F3;
-height: 250px;
+        #map_article {
+            margin-bottom: 25px;
+            display: grid;
+            margin-top: 25px;
 
->.window{
+            >#map {
+
+                border-radius: 35px;
+                display: grid;
+                align-content: center;
+                background-color: #FBF5F3;
+                height: 250px;
+
+                >.window {
 
 
-    border-radius: 10px;
-height: 95%;
-width: 75%;
-justify-self: center;
-align-self: center;
+                    border-radius: 10px;
+                    height: 95%;
+                    width: 75%;
+                    justify-self: center;
+                    align-self: center;
 
-}
- }
+                }
+            }
 
 
 
@@ -215,7 +216,8 @@ align-self: center;
                 width: 80%;
                 background-color: #FBF5F3;
                 color: #000022;
-                >p{
+
+                >p {
 
                     width: 80%;
                 }
@@ -285,36 +287,37 @@ align-self: center;
 
             }
 
-            #map_article{
+            #map_article {
                 margin-bottom: 25px;
                 display: grid;
                 width: 90%;
                 height: 500px;
                 margin-top: 25px;
-                >#map{
-                   height: 425px;
-                border-radius: 35px;
+
+                >#map {
+                    height: 425px;
+                    border-radius: 35px;
                     display: grid;
-                align-content: center;
-                background-color: #FBF5F3;
-               
-                
-                >.window{
-                
-                
-                    border-radius: 10px;
-                height: 350px;
-                width: 85%;
-                justify-self: center;
-                align-self: center;
-                
+                    align-content: center;
+                    background-color: #FBF5F3;
+
+
+                    >.window {
+
+
+                        border-radius: 10px;
+                        height: 350px;
+                        width: 85%;
+                        justify-self: center;
+                        align-self: center;
+
+                    }
                 }
-                 }
-                
-                
-                
-                
-                        }
+
+
+
+
+            }
 
             >.contact_article_locations {
 
@@ -480,43 +483,45 @@ align-self: center;
                 }
 
             }
-            #map_article{
+
+            #map_article {
                 margin-bottom: 25px;
                 display: grid;
                 width: 60%;
                 height: 650px;
                 margin-top: 25px;
-                >#map{
-                   height: 525px;
-                border-radius: 35px;
+
+                >#map {
+                    height: 525px;
+                    border-radius: 35px;
                     display: grid;
-                align-content: center;
-                background-color: #FBF5F3;
-               
-                
-                >.window{
-                
-                
-                    border-radius: 10px;
-                height: 450px;
-                width: 85%;
-                justify-self: center;
-                align-self: center;
-                
+                    align-content: center;
+                    background-color: #FBF5F3;
+
+
+                    >.window {
+
+
+                        border-radius: 10px;
+                        height: 450px;
+                        width: 85%;
+                        justify-self: center;
+                        align-self: center;
+
+                    }
                 }
-                 }
-                
-                
-                
-                
-                        }
+
+
+
+
+            }
 
 
             >.contact_article {
                 width: 60%;
                 display: grid;
                 place-items: center;
-            
+
                 grid-template-columns: 1fr 1fr;
                 margin: 25px;
                 align-items: center;
@@ -560,6 +565,7 @@ align-self: center;
                 margin-bottom: 50px;
                 width: 60%;
                 height: 250px;
+
                 >span {
 
                     border-radius: 25px;
