@@ -8,38 +8,99 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     background-color: #000022;
 
-    >.div_1 {
-        grid-template-columns: 1fr 3fr;
+>div{
+
+    width: 100%;
+display: grid;
+place-items: center;
+align-content: center;
+grid-template-columns: 1fr 1fr;
+min-height: 100px;
+>.logo{
+    width: 40px;
+margin-right: 50px;
+    align-self: center;
+    padding: 10px;
+    background-color: #FBF5F3;
+    border-radius: 50%;
+}
+
+>label{
+
+
+>.menu{
+
+    width: 40px;
+margin-left: 50px;
+    align-self: center;
+
+}
+
+}
+    >#mobile_menu {
+
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
         display: grid;
-        width: 80%;
-        align-items: center;
-        min-height: 100px;
+        place-items: center;
+        grid-template-rows: 20vh;
+        width: 100%;
+        height: 100%;
+        background-color: orange;
+        color: white;
+        visibility: hidden;
+        transition: all ease-in-out 0.33s;
+        transform: scale(0);
 
+        >#menu_header {
+            display: grid;
+            place-items: center;
+            width: 100%;
+            grid-auto-flow: column;
+            height: 20vh;
+            >.logo{
 
-        >a {
-
-
-            >.Logo {
                 width: 40px;
-                justify-self: start;
-                align-self: center;
-                padding: 10px;
-                background-color: #FBF5F3;
-                border-radius: 50%;
+                margin-right: 50px;
+                    align-self: center;
+                    padding: 10px;
+                    background-color: #FBF5F3;
+                    border-radius: 50%;
+
             }
-
         }
-
-        >.Menu {
-            width: 40px;
-            justify-self: end;
-            align-self: center;
-
-        }
-
-
-
+    
     }
+    
+    >#menu_open:checked~#mobile_menu {
+        visibility: visible;
+        transform: scale(1);
+        z-index: 10;
+    }
+    .hoverable {
+        transition: all 0.3s ease-in-out;
+        filter: drop-shadow(0px 0px 0px black);
+    }
+    
+    
+    .hoverable:hover {
+        cursor: pointer;
+        filter: drop-shadow(3px 3px 6px gray);
+    }
+
+
+
+}
+}
+
+
+
+
+
+.menu_radio_button {
+    display: none;
 }
 
 #page_header_bread {
