@@ -47,7 +47,7 @@ margin-left: 50px;
 }
     >#mobile_menu {
 
-        position: absolute;
+        position: fixed;
         top: 0px;
         left: 0px;
         z-index: -1;
@@ -128,6 +128,9 @@ padding: 25px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
     .container_div {
+        color: #E28413;
+        border-width: 25px;
+        border-style: solid;
         width: 100%;
         height: 400px;
         display: grid;
@@ -140,7 +143,7 @@ padding: 25px;
             align-self: center;
             justify-self: center;
             color: #FBF5F3;
-            font-size: 2em;
+            font-size: 4em;
         }
 
     }
@@ -198,7 +201,7 @@ padding: 25px;
     }
         >#mobile_menu {
     
-            position: absolute;
+            position: fixed;
             top: 0px;
             left: 0px;
             z-index: -1;
@@ -275,6 +278,8 @@ padding: 25px;
         display: none;
     }
 
+
+
     #page_header_bread {
 
 
@@ -344,7 +349,7 @@ padding: 25px;
     }
         >#mobile_menu {
     
-            position: absolute;
+            position: fixed;
             top: 0px;
             left: 0px;
             z-index: -1;
@@ -431,7 +436,10 @@ padding: 25px;
             height: 600px;
 
 
-            >.text {}
+            >.text {
+
+
+            }
 
         }
     }

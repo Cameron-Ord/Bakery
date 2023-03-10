@@ -109,7 +109,7 @@
   align-self: center;
 }
 #page_header > div > #mobile_menu {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   z-index: -1;
@@ -169,6 +169,9 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 #page_header_bread .container_div {
+  color: #E28413;
+  border-width: 25px;
+  border-style: solid;
   width: 100%;
   height: 400px;
   display: grid;
@@ -181,7 +184,7 @@
   align-self: center;
   justify-self: center;
   color: #FBF5F3;
-  font-size: 2em;
+  font-size: 4em;
 }
 
 @media only screen and (min-width: 700px) {
@@ -214,7 +217,7 @@
     align-self: center;
   }
   #page_header > div > #mobile_menu {
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     z-index: -1;
@@ -300,7 +303,7 @@
     align-self: center;
   }
   #page_header > div > #mobile_menu {
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     z-index: -1;
