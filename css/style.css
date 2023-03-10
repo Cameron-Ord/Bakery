@@ -17,7 +17,7 @@
   justify-self: start;
   align-self: center;
   padding: 10px;
-  background-color: #E28413;
+  background-color: #FBF5F3;
   border-radius: 50%;
 }
 #page_header > .div_1 > .Menu {
@@ -97,26 +97,26 @@
 #footer > article > span > div {
   border-radius: 25px;
   width: 80%;
-  background-color: #E28413;
+  background-color: #FBF5F3;
   display: grid;
 }
 #footer > article > span > div > p,
 #footer > article > span > div h4,
 #footer > article > span > div a {
-  color: #FBF5F3;
+  color: #000022;
   justify-self: center;
   align-self: center;
   text-align: center;
 }
 #footer > article > span > nav {
-  background-color: #E28413;
+  background-color: #FBF5F3;
   border-radius: 25px;
   display: grid;
 }
 #footer > article > span > nav > p,
 #footer > article > span > nav h4,
 #footer > article > span > nav a {
-  color: #FBF5F3;
+  color: #000022;
   justify-self: center;
   align-self: center;
   text-align: center;
@@ -126,7 +126,7 @@
 }
 #footer > article > span > nav .insta {
   padding: 10px;
-  background-color: #FBF5F3;
+  background-color: #000022;
   border-radius: 45%;
   width: 20px;
 }
@@ -144,7 +144,7 @@
 }
 @media only screen and (min-width: 1080px) {
   #footer {
-    background-color: #E28413;
+    background-color: #FBF5F3;
     margin: 0;
   }
   #footer > article > span > div {
@@ -267,11 +267,10 @@ body {
   place-items: center;
 }
 #page_main > #hero_section > .article_6 > #instaspan {
-  height: 425px;
+  height: 525px;
   border-radius: 25px;
   background-color: #FBF5F3;
   margin-bottom: 50px;
-  grid-template-rows: 250px 70px 100px;
   width: 80%;
   display: grid;
   place-items: center;
@@ -290,33 +289,33 @@ body {
   border-radius: 45%;
 }
 #page_main > #hero_section > .article_6 > #instaspan > img {
+  width: 200px;
+  height: 200px;
   background-color: #E28413;
-  padding: 50px;
+  padding: 25px;
   object-fit: cover;
   border-radius: 50%;
   align-self: center;
   justify-self: center;
-  width: 65%;
-  height: 75%;
 }
 #page_main > #hero_section > .article_6 > #article_span_1 {
   margin-bottom: 50px;
-  height: 700px;
+  height: 525px;
   border-radius: 25px;
   background-color: #FBF5F3;
   text-align: center;
   width: 80%;
   display: grid;
   place-items: center;
-  grid-template-rows: 400px 250px;
 }
 #page_main > #hero_section > .article_6 > #article_span_1 > h2 {
+  color: #000022;
   width: 80%;
   font-size: 2em;
 }
 #page_main > #hero_section > .article_6 > #article_span_1 > img {
   background-color: #E28413;
-  padding: 50px;
+  padding: 25px;
   object-fit: cover;
   border-radius: 50%;
   align-self: center;
@@ -328,24 +327,26 @@ body {
   margin-bottom: 50px;
   border-radius: 25px;
   background-color: #FBF5F3;
-  height: 300px;
-  width: 75%;
+  height: 350px;
+  width: 70%;
   display: grid;
   place-items: center;
 }
 #page_main > #hero_section > .article_6 > #article_span_2 > img {
+  background-color: #E28413;
+  padding: 25px;
   object-fit: cover;
-  border-radius: 25px;
+  border-radius: 50%;
   align-self: center;
   justify-self: center;
-  width: 225px;
-  height: 225px;
+  width: 185px;
+  height: 185px;
 }
 #page_main > #hero_section > .article_6 > #article_span_3 {
   margin-bottom: 50px;
   border-radius: 25px;
   background-color: #FBF5F3;
-  height: 950px;
+  height: 650px;
   width: 80%;
   display: grid;
   place-items: center;
@@ -370,11 +371,11 @@ body {
   background-color: #E28413;
   padding: 25px;
   object-fit: cover;
-  border-radius: 25px;
+  border-radius: 50%;
   align-self: center;
   justify-self: center;
-  width: 225px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -454,9 +455,8 @@ body {
     place-items: center;
   }
   #page_main > #hero_section > .article_6 > #instaspan {
-    height: 625px;
+    height: 650px;
     border-radius: 25px;
-    grid-template-rows: 450px 70px 100px;
     width: 95%;
     display: grid;
     place-items: center;
@@ -482,10 +482,9 @@ body {
   }
   #page_main > #hero_section > .article_6 > #article_span_1 {
     width: 95%;
-    height: 625px;
+    height: 650px;
     display: grid;
     place-items: center;
-    grid-template-rows: 600px 150px;
   }
   #page_main > #hero_section > .article_6 > #article_span_1 > h2 {
     color: #000022;
@@ -499,23 +498,20 @@ body {
     height: 300px;
   }
   #page_main > #hero_section > .article_6 > #article_span_2 {
-    height: 550px;
-    width: 95%;
+    height: 500px;
+    width: 85%;
     display: grid;
     place-items: center;
   }
   #page_main > #hero_section > .article_6 > #article_span_2 > img {
-    background-color: #E28413;
-    padding: 50px;
     object-fit: cover;
-    border-radius: 30%;
     align-self: center;
     justify-self: center;
-    width: 450px;
-    height: 425px;
+    width: 325px;
+    height: 325px;
   }
   #page_main > #hero_section > .article_6 > #article_span_3 {
-    height: 1150px;
+    height: 750px;
     display: grid;
     place-items: center;
     text-align: center;
@@ -528,8 +524,8 @@ body {
     font-size: 1.25em;
   }
   #page_main > #hero_section > .article_6 > #article_span_3 > img {
-    width: 500px;
-    height: 700px;
+    width: 300px;
+    height: 300px;
   }
 }
 @media only screen and (min-width: 1080px) {
@@ -604,13 +600,13 @@ body {
   #page_main > #hero_section > .article_6 {
     display: grid;
     place-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
   }
   #page_main > #hero_section > .article_6 > #instaspan {
     height: 825px;
     border-radius: 25px;
-    grid-template-rows: 650px 70px 100px;
+    grid-template-rows: 500px 0px 220px;
     width: 95%;
     display: grid;
     place-items: center;
@@ -618,7 +614,7 @@ body {
   #page_main > #hero_section > .article_6 > #instaspan > p {
     width: 90%;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 2.1em;
   }
   #page_main > #hero_section > .article_6 > #instaspan .insta {
     justify-self: center;
@@ -638,7 +634,7 @@ body {
     width: 95%;
     display: grid;
     height: 825px;
-    grid-template-rows: 650px 170px;
+    grid-template-rows: 500px 220px;
   }
   #page_main > #hero_section > .article_6 > #article_span_1 > p {
     width: 75%;
@@ -652,19 +648,16 @@ body {
     height: 250px;
   }
   #page_main > #hero_section > .article_6 > #article_span_2 {
-    display: none;
     width: 95%;
     height: 825px;
     place-items: center;
   }
   #page_main > #hero_section > .article_6 > #article_span_2 > img {
-    display: none;
     object-fit: cover;
-    border-radius: 25px;
     align-self: center;
     justify-self: center;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
   #page_main > #hero_section > .article_6 > #article_span_3 {
     height: 825px;
@@ -672,13 +665,15 @@ body {
     display: grid;
     place-items: center;
   }
+  #page_main > #hero_section > .article_6 > #article_span_3 > p {
+    width: 75%;
+  }
   #page_main > #hero_section > .article_6 > #article_span_3 > img {
     object-fit: cover;
-    border-radius: 25px;
     align-self: center;
     justify-self: center;
-    width: 250px;
-    height: 425px;
+    width: 350px;
+    height: 350px;
   }
 }
 

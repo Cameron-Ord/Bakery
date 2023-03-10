@@ -18,7 +18,7 @@
   justify-self: start;
   align-self: center;
   padding: 10px;
-  background-color: #E28413;
+  background-color: #FBF5F3;
   border-radius: 50%;
 }
 #page_header > .div_1 > .Menu {
@@ -48,26 +48,26 @@
 #footer > article > span > div {
   border-radius: 25px;
   width: 80%;
-  background-color: #E28413;
+  background-color: #FBF5F3;
   display: grid;
 }
 #footer > article > span > div > p,
 #footer > article > span > div h4,
 #footer > article > span > div a {
-  color: #FBF5F3;
+  color: #000022;
   justify-self: center;
   align-self: center;
   text-align: center;
 }
 #footer > article > span > nav {
-  background-color: #E28413;
+  background-color: #FBF5F3;
   border-radius: 25px;
   display: grid;
 }
 #footer > article > span > nav > p,
 #footer > article > span > nav h4,
 #footer > article > span > nav a {
-  color: #FBF5F3;
+  color: #000022;
   justify-self: center;
   align-self: center;
   text-align: center;
@@ -77,7 +77,7 @@
 }
 #footer > article > span > nav .insta {
   padding: 10px;
-  background-color: #FBF5F3;
+  background-color: #000022;
   border-radius: 45%;
   width: 20px;
 }
@@ -95,7 +95,7 @@
 }
 @media only screen and (min-width: 1080px) {
   #footer {
-    background-color: #E28413;
+    background-color: #FBF5F3;
     margin: 0;
   }
   #footer > article > span > div {
@@ -137,17 +137,17 @@ body {
   align-self: center;
   justify-self: center;
   font-size: 2.5em;
-  color: #E28413;
+  color: #FBF5F3;
 }
 #page_main > #hero_section > .images_article {
   width: 100%;
   margin-top: 25px;
-  margin-bottom: 25px;
   place-items: center;
   display: grid;
   align-content: center;
 }
 #page_main > #hero_section > .images_article > span {
+  place-items: center;
   grid-template-rows: 375px 120px 120px;
   border-radius: 25px;
   margin-bottom: 50px;
@@ -161,23 +161,42 @@ body {
   width: 275px;
   height: 275px;
   padding: 25px;
-  background-color: #E28413;
+  background-color: #FBF5F3;
 }
 #page_main > #hero_section > .images_article > span > .image2 {
   padding: 25px;
-  background-color: #E28413;
+  background-color: #FBF5F3;
   border-radius: 50%;
   width: 225px;
   height: 225px;
   transform: translateY(-80px) translateX(0px);
 }
 #page_main > #hero_section > .images_article > span > .image3 {
-  background-color: #E28413;
+  background-color: #FBF5F3;
   padding: 25px;
   transform: translateY(-30px) translateX(-30px);
   border-radius: 50%;
   width: 200px;
   height: 200px;
+}
+#page_main > #hero_section #map_article {
+  margin-bottom: 25px;
+  display: grid;
+  margin-top: 25px;
+}
+#page_main > #hero_section #map_article > #map {
+  border-radius: 35px;
+  display: grid;
+  align-content: center;
+  background-color: #FBF5F3;
+  height: 250px;
+}
+#page_main > #hero_section #map_article > #map > .window {
+  border-radius: 10px;
+  height: 95%;
+  width: 75%;
+  justify-self: center;
+  align-self: center;
 }
 #page_main > #hero_section > .contact_article {
   display: grid;
@@ -193,13 +212,13 @@ body {
   place-items: center;
   display: grid;
   width: 80%;
-  background-color: #E28413;
+  background-color: #FBF5F3;
   grid-template-rows: 25px 25px;
 }
 #page_main > #hero_section > .contact_article > span > p {
   align-content: center;
   text-align: center;
-  color: #FBF5F3;
+  color: #000022;
 }
 #page_main > #hero_section > #submit {
   width: 90%;
@@ -210,7 +229,7 @@ body {
 #page_main > #hero_section > #submit > span {
   margin-bottom: 20px;
   display: grid;
-  background-color: #E28413;
+  background-color: #FBF5F3;
   width: 80%;
   border-radius: 25px;
   text-align: center;
@@ -218,7 +237,7 @@ body {
   height: 50px;
 }
 #page_main > #hero_section > #submit > span > a {
-  color: #FBF5F3;
+  color: #000022;
 }
 #page_main > #hero_section > .contact_article_locations {
   width: 100%;
@@ -234,8 +253,8 @@ body {
   place-items: center;
   display: grid;
   width: 80%;
-  background-color: #E28413;
-  color: #FBF5F3;
+  background-color: #FBF5F3;
+  color: #000022;
 }
 
 @media only screen and (min-width: 700px) {
@@ -272,6 +291,27 @@ body {
     width: 225px;
     height: 225px;
     transform: translateX(80px) translateY(-120px);
+  }
+  #page_main > #hero_section #map_article {
+    margin-bottom: 25px;
+    display: grid;
+    width: 90%;
+    height: 500px;
+    margin-top: 25px;
+  }
+  #page_main > #hero_section #map_article > #map {
+    height: 425px;
+    border-radius: 35px;
+    display: grid;
+    align-content: center;
+    background-color: #FBF5F3;
+  }
+  #page_main > #hero_section #map_article > #map > .window {
+    border-radius: 10px;
+    height: 350px;
+    width: 85%;
+    justify-self: center;
+    align-self: center;
   }
   #page_main > #hero_section > .contact_article_locations {
     width: 90%;
@@ -355,19 +395,40 @@ body {
     height: 225px;
     width: 225px;
   }
+  #page_main > #hero_section #map_article {
+    margin-bottom: 25px;
+    display: grid;
+    width: 60%;
+    height: 650px;
+    margin-top: 25px;
+  }
+  #page_main > #hero_section #map_article > #map {
+    height: 525px;
+    border-radius: 35px;
+    display: grid;
+    align-content: center;
+    background-color: #FBF5F3;
+  }
+  #page_main > #hero_section #map_article > #map > .window {
+    border-radius: 10px;
+    height: 450px;
+    width: 85%;
+    justify-self: center;
+    align-self: center;
+  }
   #page_main > #hero_section > .contact_article {
-    width: 40%;
+    width: 60%;
     display: grid;
     place-items: center;
-    height: 50px;
     grid-template-columns: 1fr 1fr;
     margin: 25px;
     align-items: center;
+    height: 75px;
   }
   #page_main > #hero_section > .contact_article > span {
     height: 90px;
     place-items: center;
-    width: 90%;
+    width: 85%;
   }
   #page_main > #hero_section > .contact_article > span > p {
     align-self: center;
@@ -379,33 +440,30 @@ body {
     align-items: center;
     place-items: center;
     margin-bottom: 50px;
-    width: 40%;
+    width: 60%;
+    height: 250px;
   }
   #page_main > #hero_section > .contact_article_locations > span {
-    color: white;
     border-radius: 25px;
-    height: 125px;
+    height: 225px;
     grid-template-rows: 50px 50px;
     place-items: center;
     display: grid;
-    width: 90%;
+    width: 85%;
   }
   #page_main > #hero_section > #submit {
-    width: 40%;
+    width: 60%;
     height: 150px;
     display: grid;
     place-items: center;
   }
   #page_main > #hero_section > #submit > span {
     display: grid;
-    width: 95%;
+    width: 90%;
     border-radius: 25px;
     text-align: center;
-    align-content: center;
+    align-self: center;
     height: 50px;
-  }
-  #page_main > #hero_section > #submit > span > a {
-    color: white;
   }
 }
 

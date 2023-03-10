@@ -21,13 +21,13 @@ display: grid;
         >div {
             border-radius: 25px;
             width: 80%;
-            background-color: #E28413;
+            background-color: #FBF5F3;
             display: grid;
 
             >p,
             h4,
             a {
-                color: #FBF5F3;
+                color: #000022;
                 justify-self: center;
                 align-self: center;
                 text-align: center;
@@ -37,7 +37,7 @@ display: grid;
         }
 
         >nav {
-            background-color: #E28413;
+            background-color: #FBF5F3;
             border-radius: 25px;
             display: grid;
 
@@ -45,7 +45,7 @@ display: grid;
             >p,
             h4,
             a {
-                color: #FBF5F3;
+                color: #000022;
                 justify-self: center;
                 align-self: center;
                 text-align: center;
@@ -62,7 +62,7 @@ display: grid;
 
             .insta {
                 padding: 10px;
-                background-color: #FBF5F3;
+                background-color: #000022;
                 border-radius: 45%;
 
                 width: 20px;
@@ -128,7 +128,7 @@ width: 90%;
 
 @media only screen and (min-width: 1080px) {
     #footer {
-background-color: #E28413;
+background-color: #FBF5F3;
     margin: 0;
     >article{
 

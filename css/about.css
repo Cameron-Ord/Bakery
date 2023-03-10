@@ -18,7 +18,7 @@
   justify-self: start;
   align-self: center;
   padding: 10px;
-  background-color: #E28413;
+  background-color: #FBF5F3;
   border-radius: 50%;
 }
 #page_header > .div_1 > .Menu {
@@ -48,26 +48,26 @@
 #footer > article > span > div {
   border-radius: 25px;
   width: 80%;
-  background-color: #E28413;
+  background-color: #FBF5F3;
   display: grid;
 }
 #footer > article > span > div > p,
 #footer > article > span > div h4,
 #footer > article > span > div a {
-  color: #FBF5F3;
+  color: #000022;
   justify-self: center;
   align-self: center;
   text-align: center;
 }
 #footer > article > span > nav {
-  background-color: #E28413;
+  background-color: #FBF5F3;
   border-radius: 25px;
   display: grid;
 }
 #footer > article > span > nav > p,
 #footer > article > span > nav h4,
 #footer > article > span > nav a {
-  color: #FBF5F3;
+  color: #000022;
   justify-self: center;
   align-self: center;
   text-align: center;
@@ -77,7 +77,7 @@
 }
 #footer > article > span > nav .insta {
   padding: 10px;
-  background-color: #FBF5F3;
+  background-color: #000022;
   border-radius: 45%;
   width: 20px;
 }
@@ -95,7 +95,7 @@
 }
 @media only screen and (min-width: 1080px) {
   #footer {
-    background-color: #E28413;
+    background-color: #FBF5F3;
     margin: 0;
   }
   #footer > article > span > div {
@@ -140,7 +140,7 @@ body {
   margin-bottom: 25px;
   margin-top: 25px;
   display: grid;
-  background-color: #E28413;
+  background-color: #FBF5F3;
   width: 80%;
   place-items: center;
   align-items: center;
@@ -155,31 +155,31 @@ body {
   height: 500px;
   grid-template-rows: 50px 125px 225px;
   width: 80%;
-  background-color: #E28413;
+  background-color: #FBF5F3;
   display: grid;
   justify-items: start;
   align-content: center;
   text-align: start;
 }
 #page_main > #hero_section > .about_article > span > h3 {
-  color: #FBF5F3;
+  color: #000022;
   margin-left: 25px;
 }
 #page_main > #hero_section > .about_article > span > p {
   width: 80%;
-  color: #FBF5F3;
+  color: #000022;
   margin-left: 25px;
 }
 #page_main > #hero_section > .about_article > span > h2 {
-  color: #FBF5F3;
+  color: #000022;
   margin-left: 25px;
 }
 #page_main > #hero_section > .about_article > span > a {
   border-radius: 25px;
-  background-color: #FBF5F3;
+  background-color: #000022;
   padding: 15px;
   margin-left: 25px;
-  color: #000022;
+  color: #E28413;
 }
 #page_main > #hero_section > .hours_article {
   display: grid;
@@ -192,10 +192,10 @@ body {
   display: grid;
   place-items: center;
   text-align: center;
-  background-color: #E28413;
+  background-color: #FBF5F3;
   border-radius: 25px;
   height: 275px;
-  color: #FBF5F3;
+  color: #000022;
 }
 #page_main > #hero_section > .hours_article > #video {
   margin-bottom: 50px;
