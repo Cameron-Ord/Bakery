@@ -245,6 +245,7 @@ body {
   place-items: center;
 }
 #page_main > #hero_section > .contact_article_locations > span {
+  text-align: center;
   margin-bottom: 20px;
   border-radius: 25px;
   align-content: center;
@@ -255,6 +256,9 @@ body {
   width: 80%;
   background-color: #FBF5F3;
   color: #000022;
+}
+#page_main > #hero_section > .contact_article_locations > span > p {
+  width: 80%;
 }
 
 @media only screen and (min-width: 700px) {

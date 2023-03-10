@@ -218,6 +218,7 @@ body {
 #page_main > #hero_section > .breads_article > .span_bread1 {
   color: #FBF5F3;
   border-radius: 25px;
+  text-align: center;
   display: grid;
   background-color: #FBF5F3;
   width: 80%;
@@ -236,6 +237,10 @@ body {
 }
 #page_main > #hero_section > .breads_article > .span_bread1 > div > h3 {
   color: #E28413;
+  align-self: center;
+}
+#page_main > #hero_section > .breads_article > .span_bread1 > div > p {
+  align-self: center;
 }
 #page_main > #hero_section > .breads_article > .span_bread1 > img {
   background-color: #000022;
@@ -248,6 +253,7 @@ body {
 #page_main > #hero_section > .breads_article > .span_bread2 {
   color: #FBF5F3;
   border-radius: 25px;
+  text-align: center;
   display: grid;
   background-color: #FBF5F3;
   width: 80%;
@@ -266,6 +272,10 @@ body {
 }
 #page_main > #hero_section > .breads_article > .span_bread2 > div > h3 {
   color: #E28413;
+  align-self: center;
+}
+#page_main > #hero_section > .breads_article > .span_bread2 > div > p {
+  align-self: center;
 }
 #page_main > #hero_section > .breads_article > .span_bread2 > img {
   background-color: #000022;

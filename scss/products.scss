@@ -149,7 +149,7 @@ color: #000022;
             >.span_bread1 {
                 color: #FBF5F3;
                 border-radius: 25px;
-
+text-align: center;
                 display: grid;
                 background-color: #FBF5F3;
                 width: 80%;
@@ -168,14 +168,14 @@ color: #000022;
                     grid-template-rows: 45px 35px 35px;
                     >h3{
 color: #E28413;
-
+align-self: center;
 
                     }
 
 
                     >p{
 
-
+                        align-self: center;
 
                     }
 
@@ -194,7 +194,7 @@ color: #E28413;
             >.span_bread2 {
                 color: #FBF5F3;
                 border-radius: 25px;
-
+text-align: center;
                 display: grid;
                 background-color: #FBF5F3;
                 width: 80%;
@@ -203,6 +203,7 @@ color: #E28413;
                 height: 350px;
 
                 >div {
+                  
                     align-content: center;
                     height: 90%;
                     width: 90%;
@@ -214,12 +215,12 @@ color: #E28413;
                     >h3{
                         color: #E28413;
                         
-                        
+                        align-self: center;
                                             }
                         
                         
                                             >p{
-                        
+                        align-self: center;
                         
                         
                                             }

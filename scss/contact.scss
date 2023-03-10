@@ -204,6 +204,7 @@ align-self: center;
             place-items: center;
 
             >span {
+                text-align: center;
                 margin-bottom: 20px;
                 border-radius: 25px;
                 align-content: center;
@@ -214,6 +215,10 @@ align-self: center;
                 width: 80%;
                 background-color: #FBF5F3;
                 color: #000022;
+                >p{
+
+                    width: 80%;
+                }
             }
         }
 
