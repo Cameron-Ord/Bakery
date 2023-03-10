@@ -22,16 +22,32 @@
 
 <body>
     <header id="page_header">
-        <div class="div_1">
-            <a href="/index.html"><img class="Logo" src="/images/reshot-icon-loaf-of-bread-25JZEUHKTD.svg"></a>
-            <img class="Menu" src="/images/menu(1).svg">
+        <div>
+            <input type="radio" name="menu" id="menu_open" class="menu_radio_button">
+            <input type="radio" name="menu" id="menu_close" class="menu_radio_button">
+            <a href="/index.html"><img class="logo" src="/images/reshot-icon-loaf-of-bread-25JZEUHKTD.svg" alt="logo"></a>
+            <label for="menu_open">
+                <img class="menu" src="/images/menu(1).svg" alt="Open Menu Label" class="hoverable">
+            </label>
+            <section id="mobile_menu">
+                <div id="menu_header">
+                    <a href="/index.html"><img class="logo" src="/images/reshot-icon-loaf-of-bread-25JZEUHKTD.svg"
+                            alt="logo"></a>
+                    <label for="menu_close">
+                        <img src="/images/exit.svg" alt="Exit Menu Label" class="hoverable">
+                    </label>
+                </div>
+                <a href="/pages/about.html">About</a>
+                <a href="/pages/products.html">Products</a>
+                <a href="/pages/contact.html">Contact</a>
+            </section>
         </div>
     </header>
     <main id="page_main">
         <section id="hero_section">
 
             <article class="sweets_article">
-       
+
 
                 <span id="span_1">
                     <h1>COOKIES</h1>
@@ -57,7 +73,7 @@
                 </span>
 
 
-        </article>
+            </article>
             <div id="div">
 
                 <h1>We bake fresh, handmade bread, pastries, and cakes every day</h1>
@@ -65,46 +81,46 @@
             </div>
             <article class="breads_article">
                 <span class="span_bread1">
-                   
+
                     <img src="/images/sourdough-bread-horizontal-466-1548048509.jpg">
 
                     <div>
-                    <h3>SOURDOUGH LOAF</h3>
-                    <p>Fresh bread made using a sourdough starter</p>
-                    <h3>$4.65</h3>
-                </div>
+                        <h3>SOURDOUGH LOAF</h3>
+                        <p>Fresh bread made using a sourdough starter</p>
+                        <h3>$4.65</h3>
+                    </div>
                 </span>
                 <span class="span_bread1" class="order">
                     <img src="/images/bagueete.avif">
                     <div>
-                    <h3>BAGUETTE</h3>
-                    <p>Crisp crust with a soft fluffy texture inside</p>
-                    <h3>$4.65</h3>
-                </div>
+                        <h3>BAGUETTE</h3>
+                        <p>Crisp crust with a soft fluffy texture inside</p>
+                        <h3>$4.65</h3>
+                    </div>
                 </span>
                 <span class="span_bread2">
                     <div>
-                    <h3>FARMERS LOAF</h3>
-                    <p>A traditional staple bread</p>
-                    <h3>$4.65</h3>
-                </div>
+                        <h3>FARMERS LOAF</h3>
+                        <p>A traditional staple bread</p>
+                        <h3>$4.65</h3>
+                    </div>
                     <img src="/images/1 (26).avif">
                 </span>
                 <span class="span_bread2" class="order">
                     <div>
-                    <h3>ROUND BREAD</h3>
-                    <p>A crisp bread with a short fermentation time</p>
-                    <h3>$4.65</h3>
+                        <h3>ROUND BREAD</h3>
+                        <p>A crisp bread with a short fermentation time</p>
+                        <h3>$4.65</h3>
                     </div>
                     <img src="/images/roundbread.avif">
                 </span>
             </article>
             <article class="custom_orders">
                 <span>
-                <h1>Custom Orders</h1>
-                <p>Call us anytime during store hours to make a special request!</p>
-                <a href="">Order Now!</a>
-            </span>
+                    <h1>Custom Orders</h1>
+                    <p>Call us anytime during store hours to make a special request!</p>
+                    <a href="">Order Now!</a>
+                </span>
             </article>
         </section>
 
@@ -112,22 +128,23 @@
     </main>
     <footer id="footer">
         <article>
-        <span>
-            <div>
-                <h4>Freshest Bakery</h4>
-                <p>UNIT *** **** ** ST</p>
-                <p>Edmonton, AB ******</p>
-                <p>Canada</p>
-                <p>***-***-****</p>
-            </div>
-            <nav>
-                <a class="text" href="/index.html">Home</a>
-                <a class="text" href="/pages/about.html">About</a>
-                <a class="text" href="/pages/contact.html">Contact</a>
-                <a class="text" href="https://www.instagram.com"><img class="insta" src="/images/instagramSV.svg"></a>
-            </nav>
-        </span>
-    </article>
+            <span>
+                <div>
+                    <h4>Freshest Bakery</h4>
+                    <p>UNIT *** **** ** ST</p>
+                    <p>Edmonton, AB ******</p>
+                    <p>Canada</p>
+                    <p>***-***-****</p>
+                </div>
+                <nav>
+                    <a class="text" href="/index.html">Home</a>
+                    <a class="text" href="/pages/about.html">About</a>
+                    <a class="text" href="/pages/contact.html">Contact</a>
+                    <a class="text" href="https://www.instagram.com"><img class="insta"
+                            src="/images/instagramSV.svg"></a>
+                </nav>
+            </span>
+        </article>
     </footer>
 </body>
 

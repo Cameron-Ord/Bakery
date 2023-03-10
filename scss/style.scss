@@ -163,6 +163,7 @@ body {
             place-items: center;
 
             >#instaspan {
+                padding-top: 50px;
                 height: 525px;
                 border-radius: 25px;
                 background-color: #FBF5F3;
@@ -192,8 +193,8 @@ body {
                 }
 
                 >img {
-                    width: 200px;
-                    height: 200px;
+                    width: 75%;
+                    height: 75%;
                     background-color: #E28413;
                     padding: 25px;
                     object-fit: cover;
@@ -206,6 +207,7 @@ body {
             }
 
             >#article_span_1 {
+                padding-top: 50px;
                 margin-bottom: 50px;
                 height: 525px;
                 border-radius: 25px;
@@ -232,8 +234,8 @@ body {
                     border-radius: 50%;
                     align-self: center;
                     justify-self: center;
-                    width: 200px;
-                    height: 200px;
+                    width: 75%;
+                    height: 75%;
 
 
                 }
@@ -244,30 +246,31 @@ body {
                 margin-bottom: 50px;
                 border-radius: 25px;
                 background-color: #FBF5F3;
-                height: 350px;
+                height: 450px;
                 width: 70%;
                 display: grid;
                 place-items: center;
 
                 >img {
-                    background-color: #E28413;
-                    padding: 25px;
+               
                     object-fit: cover;
-                    border-radius: 50%;
+                    border-radius: 25px;
                     align-self: center;
                     justify-self: center;
-                    width: 185px;
-                    height: 185px;
+                    width: 75%;
+                    height: 85%;
 
                 }
 
             }
 
             >#article_span_3 {
+                padding-bottom: 25px;
+                padding-top: 50px;
                 margin-bottom: 50px;
                 border-radius: 25px;
                 background-color: #FBF5F3;
-                height: 650px;
+                height: 700px;
                 width: 80%;
                 display: grid;
                 place-items: center;
@@ -298,8 +301,8 @@ body {
                     border-radius: 50%;
                     align-self: center;
                     justify-self: center;
-                    width: 200px;
-                    height: 200px;
+                    width: 75%;
+                    height: 75%;
                 }
 
 
@@ -514,7 +517,7 @@ body {
                 }
 
                 >#article_span_2 {
-                    height: 500px;
+                    height: 750px;
                     width: 85%;
                     display: grid;
                     place-items: center;
@@ -527,8 +530,8 @@ body {
 
                         align-self: center;
                         justify-self: center;
-                        width: 325px;
-                        height: 325px;
+                        width: 425px;
+                        height: 625px;
 
 
                     }
@@ -699,6 +702,7 @@ body {
                 width: 100%;
 
                 >#instaspan {
+                    padding: 0px;
                     height: 825px;
                     border-radius: 25px;
 
@@ -738,6 +742,7 @@ body {
                 }
 
                 >#article_span_1 {
+                    padding: 0px;
                     width: 95%;
                     display: grid;
                     height: 825px;
@@ -767,7 +772,7 @@ body {
                 }
 
                 >#article_span_2 {
-
+padding: 0px;
                     width: 95%;
                     height: 825px;
 
@@ -782,8 +787,8 @@ body {
 
                         align-self: center;
                         justify-self: center;
-                        width: 300px;
-                        height: 300px;
+                        width: 500px;
+                        height: 700px;
 
                     }
                 }
@@ -796,6 +801,7 @@ body {
 
 
                 >#article_span_3 {
+                    padding: 0px;
                     height: 825px;
                     width: 95%;
                     display: grid;

@@ -13,7 +13,7 @@
   grid-template-columns: 1fr 1fr;
   min-height: 100px;
 }
-#page_header > div > .logo {
+#page_header > div > a > .logo {
   width: 40px;
   margin-right: 50px;
   align-self: center;
@@ -33,23 +33,28 @@
   z-index: -1;
   display: grid;
   place-items: center;
-  grid-template-rows: 20vh;
+  grid-template-rows: 20vh 20vh 20vh 20vh;
   width: 100%;
   height: 100%;
-  background-color: orange;
-  color: white;
+  background-color: #000022;
   visibility: hidden;
   transition: all ease-in-out 0.33s;
   transform: scale(0);
+}
+#page_header > div > #mobile_menu > a {
+  border-radius: 50px;
+  background-color: #FBF5F3;
+  padding: 25px;
+  color: #E28413;
 }
 #page_header > div > #mobile_menu > #menu_header {
   display: grid;
   place-items: center;
   width: 100%;
   grid-auto-flow: column;
-  height: 20vh;
+  height: 100%;
 }
-#page_header > div > #mobile_menu > #menu_header > .logo {
+#page_header > div > #mobile_menu > #menu_header > a > .logo {
   width: 40px;
   margin-right: 50px;
   align-self: center;
@@ -99,8 +104,84 @@
 
 @media only screen and (min-width: 700px) {
   #page_header {
+    width: 100%;
+    place-items: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: #000022;
+  }
+  #page_header > div {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    grid-template-columns: 40vw 80vw;
+    min-height: 100px;
+  }
+  #page_header > div > a > .logo {
+    width: 40px;
+    margin-right: 50px;
+    align-self: center;
+    padding: 10px;
+    background-color: #FBF5F3;
+    border-radius: 50%;
+  }
+  #page_header > div > label > .menu {
+    width: 40px;
+    margin-left: 50px;
+    align-self: center;
+  }
+  #page_header > div > #mobile_menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
+    width: 100%;
+    height: 100%;
+    background-color: #000022;
+    visibility: hidden;
+    transition: all ease-in-out 0.33s;
+    transform: scale(0);
+  }
+  #page_header > div > #mobile_menu > a {
+    border-radius: 50px;
+    background-color: #FBF5F3;
+    padding: 25px;
+    color: #E28413;
+  }
+  #page_header > div > #mobile_menu > #menu_header {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    grid-auto-flow: column;
+    height: 100%;
+  }
+  #page_header > div > #mobile_menu > #menu_header > a > .logo {
+    width: 40px;
+    margin-right: 50px;
+    align-self: center;
+    padding: 10px;
+    background-color: #FBF5F3;
+    border-radius: 50%;
+  }
+  #page_header > div > #menu_open:checked ~ #mobile_menu {
+    visibility: visible;
+    transform: scale(1);
+    z-index: 10;
+  }
+  #page_header > div .hoverable {
+    transition: all 0.3s ease-in-out;
+    filter: drop-shadow(0px 0px 0px black);
+  }
+  #page_header > div .hoverable:hover {
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 6px gray);
+  }
+  .menu_radio_button {
+    display: none;
   }
   #page_header_bread .container_div {
     width: 100%;
@@ -109,8 +190,84 @@
 }
 @media only screen and (min-width: 1080px) {
   #page_header {
+    width: 100%;
+    place-items: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: #000022;
+  }
+  #page_header > div {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    grid-template-columns: 40vw 80vw;
+    min-height: 100px;
+  }
+  #page_header > div > a > .logo {
+    width: 40px;
+    margin-right: 50px;
+    align-self: center;
+    padding: 10px;
+    background-color: #FBF5F3;
+    border-radius: 50%;
+  }
+  #page_header > div > label > .menu {
+    width: 40px;
+    margin-left: 50px;
+    align-self: center;
+  }
+  #page_header > div > #mobile_menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 20vh;
+    width: 100%;
+    height: 100%;
+    background-color: #000022;
+    visibility: hidden;
+    transition: all ease-in-out 0.33s;
+    transform: scale(0);
+  }
+  #page_header > div > #mobile_menu > a {
+    border-radius: 50px;
+    background-color: #FBF5F3;
+    padding: 25px;
+    color: #E28413;
+  }
+  #page_header > div > #mobile_menu > #menu_header {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    grid-auto-flow: column;
+    height: 100%;
+  }
+  #page_header > div > #mobile_menu > #menu_header > a > .logo {
+    width: 40px;
+    margin-right: 50px;
+    align-self: center;
+    padding: 10px;
+    background-color: #FBF5F3;
+    border-radius: 50%;
+  }
+  #page_header > div > #menu_open:checked ~ #mobile_menu {
+    visibility: visible;
+    transform: scale(1);
+    z-index: 10;
+  }
+  #page_header > div .hoverable {
+    transition: all 0.3s ease-in-out;
+    filter: drop-shadow(0px 0px 0px black);
+  }
+  #page_header > div .hoverable:hover {
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 6px gray);
+  }
+  .menu_radio_button {
+    display: none;
   }
   #page_header_bread {
     margin-bottom: 30px;
@@ -145,7 +302,7 @@
 }
 #footer > article > span > div {
   border-radius: 25px;
-  width: 80%;
+  width: 90%;
   background-color: #FBF5F3;
   display: grid;
 }
@@ -158,6 +315,7 @@
   text-align: center;
 }
 #footer > article > span > nav {
+  width: 100%;
   background-color: #FBF5F3;
   border-radius: 25px;
   display: grid;
@@ -316,6 +474,7 @@ body {
   place-items: center;
 }
 #page_main > #hero_section > .article_6 > #instaspan {
+  padding-top: 50px;
   height: 525px;
   border-radius: 25px;
   background-color: #FBF5F3;
@@ -338,8 +497,8 @@ body {
   border-radius: 45%;
 }
 #page_main > #hero_section > .article_6 > #instaspan > img {
-  width: 200px;
-  height: 200px;
+  width: 75%;
+  height: 75%;
   background-color: #E28413;
   padding: 25px;
   object-fit: cover;
@@ -348,6 +507,7 @@ body {
   justify-self: center;
 }
 #page_main > #hero_section > .article_6 > #article_span_1 {
+  padding-top: 50px;
   margin-bottom: 50px;
   height: 525px;
   border-radius: 25px;
@@ -369,33 +529,33 @@ body {
   border-radius: 50%;
   align-self: center;
   justify-self: center;
-  width: 200px;
-  height: 200px;
+  width: 75%;
+  height: 75%;
 }
 #page_main > #hero_section > .article_6 > #article_span_2 {
   margin-bottom: 50px;
   border-radius: 25px;
   background-color: #FBF5F3;
-  height: 350px;
+  height: 450px;
   width: 70%;
   display: grid;
   place-items: center;
 }
 #page_main > #hero_section > .article_6 > #article_span_2 > img {
-  background-color: #E28413;
-  padding: 25px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 25px;
   align-self: center;
   justify-self: center;
-  width: 185px;
-  height: 185px;
+  width: 75%;
+  height: 85%;
 }
 #page_main > #hero_section > .article_6 > #article_span_3 {
+  padding-bottom: 25px;
+  padding-top: 50px;
   margin-bottom: 50px;
   border-radius: 25px;
   background-color: #FBF5F3;
-  height: 650px;
+  height: 700px;
   width: 80%;
   display: grid;
   place-items: center;
@@ -423,8 +583,8 @@ body {
   border-radius: 50%;
   align-self: center;
   justify-self: center;
-  width: 200px;
-  height: 200px;
+  width: 75%;
+  height: 75%;
 }
 
 @media only screen and (min-width: 700px) {
@@ -547,7 +707,7 @@ body {
     height: 300px;
   }
   #page_main > #hero_section > .article_6 > #article_span_2 {
-    height: 500px;
+    height: 750px;
     width: 85%;
     display: grid;
     place-items: center;
@@ -556,8 +716,8 @@ body {
     object-fit: cover;
     align-self: center;
     justify-self: center;
-    width: 325px;
-    height: 325px;
+    width: 425px;
+    height: 625px;
   }
   #page_main > #hero_section > .article_6 > #article_span_3 {
     height: 750px;
@@ -653,6 +813,7 @@ body {
     width: 100%;
   }
   #page_main > #hero_section > .article_6 > #instaspan {
+    padding: 0px;
     height: 825px;
     border-radius: 25px;
     grid-template-rows: 500px 0px 220px;
@@ -680,6 +841,7 @@ body {
     height: 250px;
   }
   #page_main > #hero_section > .article_6 > #article_span_1 {
+    padding: 0px;
     width: 95%;
     display: grid;
     height: 825px;
@@ -697,6 +859,7 @@ body {
     height: 250px;
   }
   #page_main > #hero_section > .article_6 > #article_span_2 {
+    padding: 0px;
     width: 95%;
     height: 825px;
     place-items: center;
@@ -705,10 +868,11 @@ body {
     object-fit: cover;
     align-self: center;
     justify-self: center;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 700px;
   }
   #page_main > #hero_section > .article_6 > #article_span_3 {
+    padding: 0px;
     height: 825px;
     width: 95%;
     display: grid;

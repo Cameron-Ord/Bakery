@@ -1,4 +1,4 @@
-@use "header_about";
+@use "header";
 @use "footer";
 
 
@@ -58,7 +58,7 @@ body {
             >span {
                 border-radius: 25px;
                 height: 500px;
-                grid-template-rows: 50px 125px 225px;
+                grid-template-rows: 80px 125px 225px;
                 width: 80%;
                 background-color: #FBF5F3;
                 display: grid;
@@ -67,7 +67,7 @@ body {
                 text-align: start;
 
                 >h3 {
-
+font-size: 2em;
                     color: #000022;
                     margin-left: 25px;
                 }
@@ -80,7 +80,7 @@ body {
 
                 >h2 {
                     width: 90%;
-                    color: #000022;
+                    color:#E28413;
                     margin-left: 25px;
                 }
 
