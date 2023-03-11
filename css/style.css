@@ -582,6 +582,8 @@ body {
   background-color: #000022;
 }
 #page_main > #hero_section > .article_6 > #instaspan > img {
+  max-height: 260px;
+  max-width: 260px;
   width: 75%;
   height: 75%;
   background-color: #E28413;
@@ -619,6 +621,8 @@ body {
   justify-self: center;
   width: 75%;
   height: 75%;
+  max-height: 260px;
+  max-width: 260px;
 }
 #page_main > #hero_section > .article_6 > #article_span_2 {
   margin-bottom: 50px;
@@ -638,12 +642,11 @@ body {
 #page_main > #hero_section > .article_6 > #article_span_2 > .hover_image {
   object-fit: cover;
   border-radius: 25px;
-  position: absolute;
   align-self: center;
   justify-self: center;
   display: none;
-  width: 14.25%;
-  height: 73.3%;
+  width: 75%;
+  height: 85%;
 }
 #page_main > #hero_section > .article_6 > #article_span_2 > img {
   object-fit: cover;
@@ -696,6 +699,8 @@ body {
   justify-self: center;
   width: 75%;
   height: 75%;
+  max-height: 280px;
+  max-width: 280px;
 }
 
 @media only screen and (min-width: 800px) {
@@ -797,8 +802,10 @@ body {
     border-radius: 50%;
     align-self: center;
     justify-self: center;
-    width: 300px;
-    height: 300px;
+    width: 75%;
+    height: 75%;
+    max-height: 320px;
+    max-width: 320px;
   }
   #page_main > #hero_section > .article_6 > #article_span_1 {
     width: 95%;
@@ -814,8 +821,10 @@ body {
     border-radius: 50%;
     align-self: center;
     justify-self: center;
-    width: 300px;
-    height: 300px;
+    width: 75%;
+    height: 75%;
+    max-height: 320px;
+    max-width: 320px;
   }
   #page_main > #hero_section > .article_6 > #article_span_2 {
     height: 750px;
@@ -823,12 +832,22 @@ body {
     display: grid;
     place-items: center;
   }
+  #page_main > #hero_section > .article_6 > #article_span_2:hover > .hover_image {
+    display: inline;
+  }
+  #page_main > #hero_section > .article_6 > #article_span_2:hover > img {
+    display: none;
+  }
+  #page_main > #hero_section > .article_6 > #article_span_2 > .hover_image {
+    width: 70.5%;
+    height: 83.25%;
+  }
   #page_main > #hero_section > .article_6 > #article_span_2 > img {
     object-fit: cover;
     align-self: center;
     justify-self: center;
-    width: 425px;
-    height: 625px;
+    width: 70.5%;
+    height: 83.25%;
   }
   #page_main > #hero_section > .article_6 > #article_span_3 {
     height: 750px;
@@ -844,8 +863,10 @@ body {
     font-size: 1.25em;
   }
   #page_main > #hero_section > .article_6 > #article_span_3 > img {
-    width: 300px;
-    height: 300px;
+    width: 75%;
+    height: 75%;
+    max-height: 340px;
+    max-width: 340px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -948,8 +969,10 @@ body {
     border-radius: 50%;
     align-self: center;
     justify-self: center;
-    width: 150px;
-    height: 150px;
+    width: 75%;
+    height: 75%;
+    max-height: 180px;
+    max-width: 180px;
   }
   #page_main > #hero_section > .article_6 > #article_span_1 {
     padding: 0px;
@@ -966,8 +989,10 @@ body {
     width: 25px;
   }
   #page_main > #hero_section > .article_6 > #article_span_1 > img {
-    width: 150px;
-    height: 150px;
+    width: 75%;
+    height: 75%;
+    max-height: 180px;
+    max-width: 180px;
   }
   #page_main > #hero_section > .article_6 > #article_span_2 {
     padding: 0px;
@@ -975,12 +1000,22 @@ body {
     height: 825px;
     place-items: center;
   }
+  #page_main > #hero_section > .article_6 > #article_span_2:hover > .hover_image {
+    display: inline;
+  }
+  #page_main > #hero_section > .article_6 > #article_span_2:hover > img {
+    display: none;
+  }
+  #page_main > #hero_section > .article_6 > #article_span_2 > .hover_image {
+    width: 80%;
+    height: 84.75%;
+  }
   #page_main > #hero_section > .article_6 > #article_span_2 > img {
     object-fit: cover;
     align-self: center;
     justify-self: center;
     width: 80%;
-    height: 700px;
+    height: 84.75%;
   }
   #page_main > #hero_section > .article_6 > #article_span_3 {
     padding: 0px;
@@ -1001,8 +1036,10 @@ body {
     object-fit: cover;
     align-self: center;
     justify-self: center;
-    width: 70%;
-    height: 70%;
+    width: 75%;
+    height: 75%;
+    max-height: 200px;
+    max-width: 200px;
   }
 }
 

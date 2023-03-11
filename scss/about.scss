@@ -59,7 +59,7 @@ body {
                 place-items: center;
                 border-radius: 25px;
                 height: 650px;
-grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
                 width: 80%;
                 background-color: #FBF5F3;
                 display: grid;
@@ -86,10 +86,10 @@ grid-template-rows: 1fr 1fr 1fr 1fr;
                 }
 
 
-                &:hover{
+                &:hover {
 
 
-                    >a{
+                    >a {
 
                         background-color: #E28413;
                         color: #000022;
