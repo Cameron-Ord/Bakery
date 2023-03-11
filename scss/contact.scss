@@ -169,6 +169,27 @@ body {
             place-items: center;
             align-items: center;
 
+            &:hover{
+
+
+                >span{
+
+
+                    background-color:#E28413 ;
+
+                    >a{
+                        color:#FBF5F3 ;
+                        
+                                        }
+
+                }
+
+
+   
+
+
+            }
+
             >span {
                 margin-bottom: 20px;
                 display: grid;
@@ -179,6 +200,10 @@ body {
                 text-align: center;
                 align-content: center;
                 height: 50px;
+
+
+                
+
 
                 >a {
 

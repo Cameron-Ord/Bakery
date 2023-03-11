@@ -232,7 +232,14 @@ body {
   background-position: 50% 50%;
   object-fit: cover;
 }
+#page_header_bread > span .container_div:hover > .text {
+  opacity: 100%;
+}
 #page_header_bread > span .container_div > .text {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  opacity: 0%;
   align-self: center;
   justify-self: center;
   color: #FBF5F3;
@@ -468,6 +475,12 @@ body {
   background-color: #FBF5F3;
   color: #000022;
 }
+#page_main > #hero_section > .sweets_article > #span_1:hover > p {
+  color: #E28413;
+}
+#page_main > #hero_section > .sweets_article > #span_1:hover > h1 {
+  color: #000022;
+}
 #page_main > #hero_section > .sweets_article > #span_1 > h1 {
   color: #E28413;
   margin-left: 25px;
@@ -490,6 +503,12 @@ body {
   background-color: #FBF5F3;
   color: #000022;
 }
+#page_main > #hero_section > .sweets_article > #span_2:hover > p {
+  color: #E28413;
+}
+#page_main > #hero_section > .sweets_article > #span_2:hover > h1 {
+  color: #000022;
+}
 #page_main > #hero_section > .sweets_article > #span_2 > h1 {
   color: #E28413;
   margin-left: 25px;
@@ -510,6 +529,12 @@ body {
   width: 80%;
   display: grid;
   background-color: #FBF5F3;
+  color: #000022;
+}
+#page_main > #hero_section > .sweets_article > #span_3:hover > p {
+  color: #E28413;
+}
+#page_main > #hero_section > .sweets_article > #span_3:hover > h1 {
   color: #000022;
 }
 #page_main > #hero_section > .sweets_article > #span_3 > h1 {
@@ -550,6 +575,15 @@ body {
   margin-top: 25px;
   height: 350px;
 }
+#page_main > #hero_section > .breads_article > .span_bread1:hover > div {
+  background-color: #E28413;
+}
+#page_main > #hero_section > .breads_article > .span_bread1:hover > div > p {
+  color: #000022;
+}
+#page_main > #hero_section > .breads_article > .span_bread1:hover > div > h3 {
+  color: #FBF5F3;
+}
 #page_main > #hero_section > .breads_article > .span_bread1 > div {
   align-content: center;
   height: 90%;
@@ -564,7 +598,11 @@ body {
   align-self: center;
 }
 #page_main > #hero_section > .breads_article > .span_bread1 > div > p {
+  color: #FBF5F3;
   align-self: center;
+}
+#page_main > #hero_section > .breads_article > .span_bread1:hover > img {
+  background-color: #E28413;
 }
 #page_main > #hero_section > .breads_article > .span_bread1 > img {
   background-color: #000022;
@@ -585,6 +623,15 @@ body {
   margin-top: 25px;
   height: 350px;
 }
+#page_main > #hero_section > .breads_article > .span_bread2:hover > div {
+  background-color: #E28413;
+}
+#page_main > #hero_section > .breads_article > .span_bread2:hover > div > p {
+  color: #000022;
+}
+#page_main > #hero_section > .breads_article > .span_bread2:hover > div > h3 {
+  color: #FBF5F3;
+}
 #page_main > #hero_section > .breads_article > .span_bread2 > div {
   align-content: center;
   height: 90%;
@@ -599,7 +646,11 @@ body {
   align-self: center;
 }
 #page_main > #hero_section > .breads_article > .span_bread2 > div > p {
+  color: #FBF5F3;
   align-self: center;
+}
+#page_main > #hero_section > .breads_article > .span_bread2:hover > img {
+  background-color: #E28413;
 }
 #page_main > #hero_section > .breads_article > .span_bread2 > img {
   background-color: #000022;
@@ -625,6 +676,10 @@ body {
   display: grid;
   grid-template-rows: 75px 125px 75px;
   width: 60%;
+}
+#page_main > #hero_section > .custom_orders > span:hover > a {
+  background-color: #E28413;
+  color: #000022;
 }
 #page_main > #hero_section > .custom_orders > span > p {
   color: #000022;

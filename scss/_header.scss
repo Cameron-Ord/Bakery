@@ -234,7 +234,23 @@ color: #FBF5F3;
             background-position: 50% 50%;
             object-fit: cover;
 
+
+            &:hover{
+
+                >.text{
+
+                    opacity: 100%;
+
+            
+
+                }
+            }
+
             >.text {
+                transition-property: all;
+                transition-duration: 1s;
+                transition-timing-function: ease-in-out;
+                opacity: 0%;
                 align-self: center;
                 justify-self: center;
                 color: #FBF5F3;

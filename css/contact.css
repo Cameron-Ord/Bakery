@@ -136,7 +136,14 @@ body {
   background-position: 50% 50%;
   object-fit: cover;
 }
+#page_header_bread > span .container_div:hover > .text {
+  opacity: 100%;
+}
 #page_header_bread > span .container_div > .text {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  opacity: 0%;
   align-self: center;
   justify-self: center;
   color: #FBF5F3;
@@ -548,6 +555,12 @@ body {
   display: grid;
   place-items: center;
   align-items: center;
+}
+#page_main > #hero_section > #submit:hover > span {
+  background-color: #E28413;
+}
+#page_main > #hero_section > #submit:hover > span > a {
+  color: #FBF5F3;
 }
 #page_main > #hero_section > #submit > span {
   margin-bottom: 20px;
