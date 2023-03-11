@@ -140,6 +140,10 @@ body {
             width: 100%;
             grid-template-rows: 1fr 1fr;
 
+
+
+
+
             >span {
                 border-radius: 25px;
                 align-content: center;
@@ -163,6 +167,48 @@ body {
 
 
         }
+
+        >#dialoguebox{
+
+height: 300px;
+display: grid;
+place-items: center;
+
+
+            >.dialog{
+                height: 180px;
+                width: 90%;
+margin-bottom: 25px;
+justify-self: center;
+align-self: center;
+display: grid;
+background-color: #FBF5F3;
+padding: 20px;
+border-radius: 25px;
+>p{
+
+align-self: center;
+justify-self: center;
+
+}
+                >.boxsize{
+                    justify-self: center;
+                    align-self: center;
+width: 190px;
+height: 125px;
+                }
+            }
+
+        }
+
+
+
+
+
+
+
+
+
 
         >#submit {
             width: 90%;
@@ -369,6 +415,31 @@ body {
 
                 }
             }
+
+            >#dialoguebox{
+width: 90%;
+     
+                
+                
+                            >.dialog{
+
+                                width: 90%;
+
+
+
+                >p{
+
+                
+                }
+                                >.boxsize{
+width: 80%;
+height: 125px;
+                                }
+                            }
+                
+                        }
+
+
 
             >#submit {
                 width: 90%;
@@ -606,9 +677,35 @@ body {
                 }
             }
 
+
+            >#dialoguebox{
+                width: 75%;
+                     
+                                
+                                
+                                            >.dialog{
+                
+                                                width: 70%;
+                margin-bottom: 0px;
+                
+                
+                                >p{
+                
+                                
+                                }
+                                                >.boxsize{
+                width: 80%;
+                height: 125px;
+                                                }
+                                            }
+                                
+                                        }
+
+
+
             >#submit {
                 width: 60%;
-                height: 150px;
+            height: 100px;
                 display: grid;
                 place-items: center;
 

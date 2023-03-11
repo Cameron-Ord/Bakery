@@ -613,6 +613,7 @@ body {
   color: #FBF5F3;
 }
 #page_main > #hero_section > .breads_article > .span_bread1 > div {
+  place-items: center;
   align-content: center;
   height: 90%;
   width: 90%;
@@ -626,6 +627,7 @@ body {
   align-self: center;
 }
 #page_main > #hero_section > .breads_article > .span_bread1 > div > p {
+  width: 80%;
   color: #FBF5F3;
   align-self: center;
 }

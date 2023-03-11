@@ -263,7 +263,7 @@ body {
 
 
                 >div {
-
+place-items: center;
                     align-content: center;
                     height: 90%;
                     width: 90%;
@@ -280,6 +280,7 @@ body {
 
 
                     >p {
+                        width: 80%;
                         color: #FBF5F3;
                         align-self: center;
 
