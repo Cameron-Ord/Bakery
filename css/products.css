@@ -95,6 +95,10 @@
   grid-template-columns: 1fr 1fr;
   height: 100px;
 }
+#page_header > div > a:hover > .logo {
+  background-color: #E28413;
+  color: #FBF5F3;
+}
 #page_header > div > a > .logo {
   width: 40px;
   margin-right: 50px;
@@ -103,7 +107,11 @@
   background-color: #FBF5F3;
   border-radius: 50%;
 }
+#page_header > div > label:hover > .menu {
+  color: #E28413;
+}
 #page_header > div > label > .menu {
+  color: #FBF5F3;
   width: 40px;
   margin-left: 50px;
   align-self: center;
@@ -138,6 +146,16 @@
   width: 100%;
   grid-auto-flow: column;
   height: 100%;
+}
+#page_header > div > #mobile_menu > #menu_header > label:hover > .hoverable {
+  color: #E28413;
+}
+#page_header > div > #mobile_menu > #menu_header > label > .hoverable {
+  color: white;
+}
+#page_header > div > #mobile_menu > #menu_header > a:hover > .logo {
+  background-color: #E28413;
+  color: #FBF5F3;
 }
 #page_header > div > #mobile_menu > #menu_header > a > .logo {
   width: 40px;

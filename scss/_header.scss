@@ -15,7 +15,16 @@
         grid-template-columns: 1fr 1fr;
         height: 100px;
 
+
         >a {
+
+            &:hover>.logo{
+
+                background-color: #E28413;
+                color:#FBF5F3;
+                            }
+    
+
 
 
             >.logo {
@@ -34,8 +43,14 @@
         >label {
 
 
-            >.menu {
+            &:hover>.menu{
 
+       
+                color:#E28413;
+                            }
+
+            >.menu {
+color: #FBF5F3;
                 width: 40px;
                 margin-left: 50px;
                 align-self: center;
@@ -62,6 +77,9 @@
             transform: scale(0);
 
             >a {
+
+
+                
                 text-align: center;
                 display: grid;
                 align-self: center;
@@ -82,7 +100,43 @@
                 height: 100%;
 
 
+                >label{
+
+
+
+
+
+                    &:hover>.hoverable{
+
+
+                        color: #E28413;
+                    }
+
+
+
+
+
+                    >.hoverable{
+
+
+                        color: white;
+
+
+                    }
+
+
+                }
+
                 >a {
+
+
+                    &:hover>.logo{
+
+                        background-color: #E28413;
+                        color:#FBF5F3;
+                                    }
+    
+                                    
                     >.logo {
 
                         width: 40px;
