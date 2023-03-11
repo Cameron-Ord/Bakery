@@ -591,15 +591,19 @@ body {
 }
 #page_main > #hero_section > .breads_article {
   display: grid;
-  margin-bottom: 25px;
+  width: 100%;
+  margin: 0px;
   place-items: center;
 }
 #page_main > #hero_section > .breads_article > #the_great_divider {
+  width: 95%;
   display: grid;
   place-items: center;
-  grid-template-rows: 400px 400px 400px 400px;
+  grid-template-columns: 1fr;
 }
 #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread1 {
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
   color: #FBF5F3;
   border-radius: 25px;
   text-align: center;
@@ -649,6 +653,8 @@ body {
   height: 150px;
 }
 #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread2 {
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
   color: #FBF5F3;
   border-radius: 25px;
   text-align: center;
@@ -792,19 +798,19 @@ body {
     display: grid;
     width: 100%;
     place-items: center;
-    grid-template-columns: 1fr 1fr;
   }
   #page_main > #hero_section > .breads_article > #the_great_divider {
+    width: 90%;
     display: grid;
-    grid-template-rows: 500px 500px 500px 500px;
+    grid-template-columns: 1fr 1fr;
   }
   #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread1 {
     display: grid;
     height: 450px;
-    width: 90%;
+    width: 95%;
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 20.5px;
+    margin-bottom: 20.5px;
   }
   #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread1 > div {
     display: grid;
@@ -813,8 +819,8 @@ body {
   #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread1 > img {
     object-fit: cover;
     border-radius: 50%;
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
   }
   #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread1 > h3 {
     justify-self: start;
@@ -828,11 +834,11 @@ body {
     width: 80%;
   }
   #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread2 {
+    margin-top: 20.5px;
+    margin-bottom: 20.5px;
     height: 450px;
-    width: 90%;
+    width: 95%;
     display: grid;
-    margin-top: 0px;
-    margin-bottom: 25px;
     text-align: center;
   }
   #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread2 > div {
@@ -842,8 +848,8 @@ body {
   #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread2 > img {
     object-fit: cover;
     border-radius: 50%;
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
   }
   #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread2 > h3 {
     justify-self: start;
@@ -864,8 +870,8 @@ body {
     align-content: center;
     display: grid;
     place-items: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 75px;
+    margin-bottom: 75px;
     background-image: url(/images/1\ \(19\).avif);
     background-position: 50% 50%;
     height: 600px;
@@ -925,13 +931,13 @@ body {
     width: 95%;
   }
   #page_main > #hero_section > .breads_article > #the_great_divider {
-    grid-template-rows: 400px 400px 400px 400px;
+    grid-template-columns: 1fr 1fr;
     display: grid;
   }
   #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread1 {
     grid-template-columns: 1fr 1fr;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     height: 350px;
     display: grid;
     width: 95%;
@@ -985,6 +991,7 @@ body {
     border-width: 25px;
     width: 80%;
     margin-bottom: 150px;
+    margin-top: 150px;
   }
   #page_main > #hero_section > .custom_orders > span {
     margin-left: 100px;
