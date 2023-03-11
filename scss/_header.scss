@@ -36,11 +36,14 @@ body {
         display: grid;
         place-items: center;
         align-content: center;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
         height: 100px;
 
 
+
         >a {
+            display: grid;
+            grid-template-columns: 75px 1fr;
 
             &:hover>.logo {
 
@@ -48,6 +51,28 @@ body {
                 color: #FBF5F3;
             }
 
+
+
+            &:hover>#logotext {
+
+
+                background-color: #E28413;
+                color: #FBF5F3;
+
+
+            }
+
+            >#logotext {
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                align-self: center;
+                justify-self: start;
+                background-color: #FBF5F3;
+                color: #000022;
+                padding: 10px;
+                border-radius: 25px;
+                font-size: 1em;
+            }
 
 
 
@@ -95,7 +120,6 @@ body {
             width: 100%;
             height: 100%;
             background-color: #000022;
-
             visibility: hidden;
             transition: all ease-in-out 0.33s;
             transform: scale(0);
@@ -289,6 +313,10 @@ body {
 
             >a {
 
+                >#logotext {
+    
+                    font-size: 1.2em;
+                }
 
                 >.logo {
                     width: 40px;
@@ -448,6 +476,10 @@ body {
             min-height: 100px;
 
             >a {
+                >#logotext {
+
+                    font-size: 1.3em;
+                }
 
 
                 >.logo {
