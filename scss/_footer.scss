@@ -20,6 +20,7 @@
 
 
             >div {
+       
                 border-radius: 25px;
                 width: 90%;
                 background-color: #FBF5F3;
@@ -83,25 +84,32 @@
             width: 90%;
 
             >span {
-
+                grid-template-columns: 1fr 1fr; 
                 width: 90%;
 
                 >div {
                     width: 90%;
-
+            
                     >p,
                     h4,
-                    a {}
+                    a {
+justify-self: center;
+align-self:center ;
+                    }
 
                 }
 
                 >nav {
 
-
+                 
 
                     >p,
                     h4,
-                    a {}
+                    a {
+justify-self: center;
+align-self: center;
+
+                    }
 
 
                     .text {}
@@ -122,29 +130,36 @@
         margin: 0;
 
         >article {
-
+  
             >span {
 
 
 
                 >div {
-                    display: grid;
+                    align-content: center;
+                    justify-content: start;
                     grid-template-rows: 75px 75px 75px 75px 75px;
 
                     >p,
                     h4,
-                    a {}
+                    a {
+                        
+               
+                    }
 
                 }
 
                 >nav {
-                    margin-top: 50px;
-                    display: grid;
+                  align-content: center;
+                 justify-content: end;
                     grid-template-rows: 75px 75px 75px 75px;
 
                     >p,
                     h4,
-                    a {}
+                    a {
+                        
+                   
+                    }
 
 
                     .text {}

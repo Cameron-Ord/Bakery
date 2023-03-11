@@ -1,3 +1,27 @@
+svg{
+
+    color:#000022;
+    
+    
+    
+    }
+
+
+    body {
+
+
+        font-family: sans-serif;
+        background-color: #000022;
+    
+    
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    
+    }
+    
 #page_header {
 
     width: 100%;
@@ -75,6 +99,10 @@ color: #FBF5F3;
             visibility: hidden;
             transition: all ease-in-out 0.33s;
             transform: scale(0);
+
+
+
+
 
             >a {
 
