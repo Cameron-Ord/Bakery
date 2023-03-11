@@ -90,6 +90,17 @@ body {
                     font-size: 1.25em;
                 }
 
+
+                &:hover>#atag{
+
+color: #000022;
+background-color: #E28413;
+
+                }
+
+
+
+
                 >#atag {
                     border-radius: 50px;
                     background-color: #000022;
@@ -219,6 +230,14 @@ body {
 
                 }
 
+
+                &:hover>img{
+
+
+
+                    background-color: #000022;
+                }
+
                 >img {
                     width: 75%;
                     height: 75%;
@@ -253,6 +272,12 @@ body {
 
                 }
 
+                &:hover>img{
+
+
+
+                    background-color: #000022;
+                }
                 >img {
 
                     background-color: #E28413;
@@ -310,6 +335,21 @@ body {
                     letter-spacing: 1.5px;
                 }
 
+
+                &:hover>a{
+
+
+                    
+
+                    color: #000022;
+
+                    background-color: #E28413;
+
+          
+
+                }
+
+
                 >a {
                     color: #E28413;
                     font-size: 1em;
@@ -319,6 +359,13 @@ body {
                     border-radius: 30px;
                     color: #E28413;
 
+                }
+
+                &:hover>img{
+
+
+
+                    background-color: #000022;
                 }
 
                 >img {

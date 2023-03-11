@@ -11,7 +11,7 @@
   place-items: center;
   align-content: center;
   grid-template-columns: 1fr 1fr;
-  min-height: 100px;
+  height: 100px;
 }
 #page_header > div > a > .logo {
   width: 40px;
@@ -450,6 +450,10 @@ body {
   color: #E28413;
   font-size: 1.25em;
 }
+#page_main > #hero_section > .article_1 > #article_1_span_1:hover > #atag {
+  color: #000022;
+  background-color: #E28413;
+}
 #page_main > #hero_section > .article_1 > #article_1_span_1 > #atag {
   border-radius: 50px;
   background-color: #000022;
@@ -525,6 +529,9 @@ body {
   background-color: #000022;
   border-radius: 45%;
 }
+#page_main > #hero_section > .article_6 > #instaspan:hover > img {
+  background-color: #000022;
+}
 #page_main > #hero_section > .article_6 > #instaspan > img {
   width: 75%;
   height: 75%;
@@ -550,6 +557,9 @@ body {
   color: #000022;
   width: 80%;
   font-size: 2em;
+}
+#page_main > #hero_section > .article_6 > #article_span_1:hover > img {
+  background-color: #000022;
 }
 #page_main > #hero_section > .article_6 > #article_span_1 > img {
   background-color: #E28413;
@@ -596,6 +606,10 @@ body {
   width: 80%;
   letter-spacing: 1.5px;
 }
+#page_main > #hero_section > .article_6 > #article_span_3:hover > a {
+  color: #000022;
+  background-color: #E28413;
+}
 #page_main > #hero_section > .article_6 > #article_span_3 > a {
   color: #E28413;
   font-size: 1em;
@@ -604,6 +618,9 @@ body {
   background-color: #000022;
   border-radius: 30px;
   color: #E28413;
+}
+#page_main > #hero_section > .article_6 > #article_span_3:hover > img {
+  background-color: #000022;
 }
 #page_main > #hero_section > .article_6 > #article_span_3 > img {
   background-color: #E28413;
