@@ -478,6 +478,7 @@ body {
 #page_main > #hero_section > .about_article > #span_image > img {
   border-radius: 10%;
   width: 75%;
+  height: 80%;
   object-fit: cover;
 }
 #page_main > #hero_section > .about_article > span {

@@ -488,8 +488,8 @@ body {
 }
 #page_main > #hero_section > .images_article > span > .image1 {
   border-radius: 50%;
-  width: 275px;
-  height: 275px;
+  width: 225px;
+  height: 225px;
   padding: 25px;
   background-color: #FBF5F3;
 }
@@ -497,8 +497,8 @@ body {
   padding: 25px;
   background-color: #FBF5F3;
   border-radius: 50%;
-  width: 225px;
-  height: 225px;
+  width: 200px;
+  height: 200px;
   transform: translateY(-80px) translateX(0px);
 }
 #page_main > #hero_section > .images_article > span > .image3 {
@@ -506,8 +506,8 @@ body {
   padding: 25px;
   transform: translateY(-30px) translateX(-30px);
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 #page_main > #hero_section #map_article {
   margin-bottom: 25px;
