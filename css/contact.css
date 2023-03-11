@@ -734,6 +734,7 @@ body {
     width: 90%;
     display: grid;
     place-items: center;
+    margin-bottom: 25px;
   }
   #page_main > #hero_section > #submit > span {
     display: grid;
