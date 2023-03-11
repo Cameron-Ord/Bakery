@@ -56,9 +56,10 @@ body {
 
 
             >span {
+                place-items: center;
                 border-radius: 25px;
-                height: 500px;
-                grid-template-rows: 80px 125px 225px;
+                height: 650px;
+grid-template-rows: 1fr 1fr 1fr 1fr;
                 width: 80%;
                 background-color: #FBF5F3;
                 display: grid;
@@ -79,12 +80,13 @@ body {
                 }
 
                 >h2 {
-                    width: 90%;
+                    width: 80%;
                     color: #E28413;
                     margin-left: 25px;
                 }
 
                 >a {
+                    align-self: center;
                     border-radius: 25px;
                     background-color: #000022;
                     padding: 15px;
@@ -139,13 +141,13 @@ body {
 
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
 
 
     #page_main {
 
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
         width: 100%;
         place-items: center;
 
@@ -233,11 +235,11 @@ body {
 
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1200px) {
     #page_main {
 
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(1150px, 1fr));
         place-items: center;
 
         >#hero_section {

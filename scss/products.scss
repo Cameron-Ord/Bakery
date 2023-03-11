@@ -286,14 +286,14 @@ body {
 }
 
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
 
 
 
 
     #page_main {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
         place-items: center;
 
         >#hero_section {
@@ -510,14 +510,14 @@ body {
 
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1200px) {
 
 
 
 
     #page_main {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(1150px, 1fr));
         place-items: center;
 
         >#hero_section {

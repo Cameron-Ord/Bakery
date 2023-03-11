@@ -19,9 +19,22 @@ h4 {
 
 }
 
+svg{
+
+color:#000022;
+
+
+
+}
+
+
+
 body {
+
+
     font-family: sans-serif;
     background-color: #000022;
+
 
 }
 
@@ -113,7 +126,10 @@ body {
 
 
 
+
             >span {
+
+
                 background-color: #FBF5F3;
                 margin-bottom: 50px;
                 border-radius: 25px;
@@ -125,12 +141,23 @@ body {
                 display: grid;
                 place-items: center;
 
-                >img {
+                &:hover>.transition{
+        color: #FBF5F3;
+                background-color: #000022;
+                }
+
+                >.transition {
                     width: 100px;
                     border-radius: 50%;
                     padding: 5px;
                     background-color: #E28413;
+
+
+            
                 }
+
+             
+
 
                 >h4 {
 
@@ -326,11 +353,11 @@ body {
 }
 
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
 
     #page_main {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
         place-items: center;
         width: 100%;
 
@@ -417,7 +444,7 @@ body {
                     display: grid;
                     place-items: center;
 
-                    >img {
+                    >.transition {
                         width: 100px;
                         border-radius: 50%;
                         padding: 5px;
@@ -585,11 +612,11 @@ body {
 
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1200px) {
 
     #page_main {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(1150px, 1fr));
         place-items: center;
 
         >#hero_section {
@@ -674,12 +701,14 @@ body {
                     display: grid;
                     place-items: center;
 
-                    >img {
+                    >.transition {
                         width: 100px;
                         border-radius: 50%;
                         padding: 5px;
 
+
                     }
+
 
 
 
@@ -698,7 +727,7 @@ body {
             >.article_6 {
                 display: grid;
                 place-items: center;
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
                 width: 100%;
 
                 >#instaspan {
@@ -717,7 +746,7 @@ body {
                         width: 90%;
                         text-align: center;
 
-                        font-size: 2.1em;
+                        font-size: 1.7em;
                     }
 
                     .insta {
@@ -735,8 +764,8 @@ body {
                         border-radius: 50%;
                         align-self: center;
                         justify-self: center;
-                        width: 250px;
-                        height: 250px;
+                        width: 150px;
+                        height: 150px;
                     }
 
                 }
@@ -765,8 +794,8 @@ body {
 
                     >img {
 
-                        width: 250px;
-                        height: 250px;
+                        width: 150px;
+                        height: 150px;
 
                     }
                 }
@@ -787,7 +816,7 @@ body {
 
                         align-self: center;
                         justify-self: center;
-                        width: 500px;
+                        width: 80%;
                         height: 700px;
 
                     }
@@ -807,7 +836,18 @@ body {
                     display: grid;
                     place-items: center;
 
+>a{
+
+
+align-self:center ;
+width: 75%;
+
+
+}
+
+
                     >p {
+                        font-size: 1.2em;
                         width: 75%;
                     }
 
@@ -817,8 +857,8 @@ body {
 
                         align-self: center;
                         justify-self: center;
-                        width: 350px;
-                        height: 350px;
+                        width: 70%;
+                        height: 70%;
 
 
                     }

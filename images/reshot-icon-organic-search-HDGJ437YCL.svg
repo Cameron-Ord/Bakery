@@ -8,8 +8,8 @@ viewBox="0 0 2048 2048"
   <style type="text/css">
    <![CDATA[
     .fil2 {fill:none}
-    .fil0 {fill:#000022}
-    .fil1 {fill:#000022;fill-rule:nonzero}
+    .fil0 {fill:currentcolor}
+    .fil1 {fill:currentcolor;fill-rule:nonzero}
    ]]>
   </style>
  </defs>
