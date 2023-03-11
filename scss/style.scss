@@ -297,6 +297,38 @@ background-color: #E28413;
                 display: grid;
                 place-items: center;
 
+
+
+                &:hover{
+
+
+                    >.hover_image{
+
+                        display: inline;
+
+
+                    }
+
+                    >img{
+
+                        display: none;
+                    }
+
+                }
+
+
+                >.hover_image{
+                    object-fit: cover;
+                    border-radius: 25px;
+                    position: absolute;
+                    align-self: center;
+                    justify-self: center;
+           display: none;
+                    width: 14.25%;
+                    height: 73.30%;
+                }
+
+
                 >img {
 
                     object-fit: cover;

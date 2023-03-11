@@ -629,6 +629,22 @@ body {
   display: grid;
   place-items: center;
 }
+#page_main > #hero_section > .article_6 > #article_span_2:hover > .hover_image {
+  display: inline;
+}
+#page_main > #hero_section > .article_6 > #article_span_2:hover > img {
+  display: none;
+}
+#page_main > #hero_section > .article_6 > #article_span_2 > .hover_image {
+  object-fit: cover;
+  border-radius: 25px;
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  display: none;
+  width: 14.25%;
+  height: 73.3%;
+}
 #page_main > #hero_section > .article_6 > #article_span_2 > img {
   object-fit: cover;
   border-radius: 25px;
