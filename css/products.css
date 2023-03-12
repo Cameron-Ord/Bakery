@@ -674,6 +674,7 @@ body {
   color: #FBF5F3;
 }
 #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread2 > div {
+  place-items: center;
   align-content: center;
   height: 90%;
   width: 90%;
@@ -687,6 +688,7 @@ body {
   align-self: center;
 }
 #page_main > #hero_section > .breads_article > #the_great_divider > .span_bread2 > div > p {
+  width: 80%;
   color: #FBF5F3;
   align-self: center;
 }
@@ -704,8 +706,8 @@ body {
 #page_main > #hero_section > .custom_orders {
   display: grid;
   place-items: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 75px;
+  margin-bottom: 75px;
   background-image: url(/images/1\ \(19\).avif);
   background-position: 50% 50%;
   height: 600px;
